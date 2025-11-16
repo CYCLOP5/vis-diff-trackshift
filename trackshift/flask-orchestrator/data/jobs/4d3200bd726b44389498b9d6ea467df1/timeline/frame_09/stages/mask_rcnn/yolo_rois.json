@@ -1,0 +1,52 @@
+{
+  "rois": [
+    {
+      "box": [
+        330,
+        1083,
+        404,
+        1180
+      ],
+      "class_name": "tire",
+      "confidence": 0.8214,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        116,
+        1046,
+        408,
+        1182
+      ],
+      "class_name": "rear-wing",
+      "confidence": 0.6439,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        112,
+        1087,
+        183,
+        1180
+      ],
+      "class_name": "tire",
+      "confidence": 0.5801,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        181,
+        1039,
+        327,
+        1099
+      ],
+      "class_name": "rear-wing",
+      "confidence": 0.4278,
+      "changed": true,
+      "source": "object_diff"
+    }
+  ]
+}

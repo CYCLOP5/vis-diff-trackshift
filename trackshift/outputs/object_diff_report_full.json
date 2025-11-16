@@ -1,0 +1,75 @@
+{
+  "model": "yolov8x.pt",
+  "alignment_method": "ecc",
+  "color_normalization": "none",
+  "ssim_threshold": 0.9,
+  "min_iou": 0.3,
+  "confidence": 0.05,
+  "focus_classes": null,
+  "counts": {
+    "paired": 0,
+    "changed": 0,
+    "stable": 0,
+    "new": 1,
+    "missing": 2
+  },
+  "components": {
+    "f1_chassis": {
+      "changed": 0,
+      "stable": 0,
+      "new": 1
+    },
+    "handbag": {
+      "changed": 0,
+      "stable": 0,
+      "missing": 2
+    }
+  },
+  "paired": [],
+  "new_objects": [
+    {
+      "class_id": 3,
+      "class_name": "f1_chassis",
+      "raw_name": "motorcycle",
+      "box_after": [
+        22,
+        57,
+        288,
+        718
+      ],
+      "conf": 0.7417
+    }
+  ],
+  "missing_objects": [
+    {
+      "class_id": 26,
+      "class_name": "handbag",
+      "raw_name": "handbag",
+      "box_before": [
+        33,
+        503,
+        271,
+        692
+      ],
+      "conf": 0.2782
+    },
+    {
+      "class_id": 26,
+      "class_name": "handbag",
+      "raw_name": "handbag",
+      "box_before": [
+        36,
+        60,
+        277,
+        690
+      ],
+      "conf": 0.1758
+    }
+  ],
+  "artifacts": {
+    "overlay": "/home/cyclops/Documents/trackshift/outputs/object_diff_overlay.png",
+    "roi_dir": null
+  },
+  "before": "/home/cyclops/Documents/trackshift/object-diff-yolo/af.png",
+  "after": "/home/cyclops/Documents/trackshift/object-diff-yolo/vf.png"
+}

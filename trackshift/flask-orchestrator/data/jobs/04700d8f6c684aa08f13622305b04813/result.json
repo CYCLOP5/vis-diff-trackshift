@@ -1,0 +1,1151 @@
+{
+  "jobId": "04700d8f6c684aa08f13622305b04813",
+  "status": "completed",
+  "startedAt": "2025-11-15T19:48:56.945024+00:00",
+  "completedAt": "2025-11-15T19:50:46.757467+00:00",
+  "durationMs": 109812,
+  "comparisonMode": "baseline",
+  "baselineIndex": 0,
+  "frames": [
+    {
+      "index": 0,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/inputs/frame_00.jpg",
+      "originalName": "01_mouse_bite_01.jpg"
+    },
+    {
+      "index": 1,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/inputs/frame_01.jpg",
+      "originalName": "01_mouse_bite_02.jpg"
+    },
+    {
+      "index": 2,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/inputs/frame_02.jpg",
+      "originalName": "01_mouse_bite_03.jpg"
+    },
+    {
+      "index": 3,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/inputs/frame_03.jpg",
+      "originalName": "01_mouse_bite_04.jpg"
+    },
+    {
+      "index": 4,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/inputs/frame_04.jpg",
+      "originalName": "01_mouse_bite_05.jpg"
+    },
+    {
+      "index": 5,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/inputs/frame_05.jpg",
+      "originalName": "01_mouse_bite_06.jpg"
+    },
+    {
+      "index": 6,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/inputs/frame_06.jpg",
+      "originalName": "01_mouse_bite_07.jpg"
+    },
+    {
+      "index": 7,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/inputs/frame_07.jpg",
+      "originalName": "01_mouse_bite_08.jpg"
+    }
+  ],
+  "timeline": [
+    {
+      "beforeIndex": 0,
+      "afterIndex": 1,
+      "beforePath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/inputs/frame_00.jpg",
+      "afterPath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/inputs/frame_01.jpg",
+      "comparisonRoot": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_01",
+      "pipeline": {
+        "alignment": {
+          "summary": {
+            "alignment_method": "skipped",
+            "reason": "Alignment disabled for manufacturing domain.",
+            "ssim": null
+          },
+          "report": {
+            "status": "skipped",
+            "reason": "Alignment disabled for manufacturing domain."
+          },
+          "artifacts": null,
+          "skipped": true
+        },
+        "pcb_cd": {
+          "summary": {
+            "status": "completed",
+            "model": "base_transformer_pos_s4_dd8_dedim8",
+            "checkpoint": "/home/cyclops/Documents/hckthon/BIT_CD/checkpoints/BIT_LEVIR/best_ckpt.pt",
+            "imgSize": 256,
+            "coverage": 0.0,
+            "pixelsChanged": 0,
+            "regionCount": 0,
+            "regions": [],
+            "imageSize": {
+              "width": 3034,
+              "height": 1586
+            }
+          },
+          "artifacts": {
+            "mask": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_01/stages/pcb_cd/mask.png",
+            "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_01/stages/pcb_cd/overlay.png",
+            "heatmap": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_01/stages/pcb_cd/heatmap.png",
+            "report": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_01/stages/pcb_cd/report.json"
+          },
+          "imageSize": {
+            "width": 3034,
+            "height": 1586
+          }
+        },
+        "mask_rcnn": {
+          "summary": {
+            "detections": [
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  605,
+                  473,
+                  685,
+                  567
+                ],
+                "score": 0.5897428393363953,
+                "mask_area": 4063
+              },
+              {
+                "class_id": 4,
+                "class_name": "glass_shatter",
+                "legacy_class_name": "glass_shatter",
+                "bbox": [
+                  43,
+                  0,
+                  1538,
+                  2076
+                ],
+                "score": 0.5684173107147217,
+                "mask_area": 2864260
+              },
+              {
+                "class_id": 4,
+                "class_name": "glass_shatter",
+                "legacy_class_name": "glass_shatter",
+                "bbox": [
+                  216,
+                  1402,
+                  1586,
+                  2923
+                ],
+                "score": 0.5479339361190796,
+                "mask_area": 1942393
+              },
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  286,
+                  271,
+                  364,
+                  367
+                ],
+                "score": 0.5325268507003784,
+                "mask_area": 3775
+              },
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  931,
+                  374,
+                  986,
+                  462
+                ],
+                "score": 0.5100042223930359,
+                "mask_area": 2779
+              },
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  1378,
+                  58,
+                  1497,
+                  187
+                ],
+                "score": 0.3112947344779968,
+                "mask_area": 9666
+              }
+            ]
+          },
+          "imageSize": {
+            "width": 3034,
+            "height": 1586
+          },
+          "artifacts": {
+            "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_01/stages/mask_rcnn/overlay.png",
+            "raw": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_01/stages/mask_rcnn/detections.json"
+          },
+          "logs": "Configurations:\nBACKBONE                       resnet50\nBACKBONE_STRIDES               [4, 8, 16, 32, 64]\nBATCH_SIZE                     1\nBBOX_STD_DEV                   [0.1 0.1 0.2 0.2]\nCOMPUTE_BACKBONE_SHAPE         None\nDETECTION_MAX_INSTANCES        150\nDETECTION_MIN_CONFIDENCE       0.27\nDETECTION_NMS_THRESHOLD        0.3\nFPN_CLASSIF_FC_LAYERS_SIZE     1024\nGPU_COUNT                      1\nGRADIENT_CLIP_NORM             5.0\nIMAGES_PER_GPU                 1\nIMAGE_CHANNEL_COUNT            3\nIMAGE_MAX_DIM                  1024\nIMAGE_META_SIZE                22\nIMAGE_MIN_DIM                  832\nIMAGE_MIN_SCALE                0\nIMAGE_RESIZE_MODE              square\nIMAGE_SHAPE                    [1024 1024    3]\nLEARNING_MOMENTUM              0.9\nLEARNING_RATE                  0.001\nLOSS_WEIGHTS                   {'rpn_class_loss': 1.0, 'rpn_bbox_loss': 1.0, 'mrcnn_class_loss': 1.0, 'mrcnn_bbox_loss': 1.0, 'mrcnn_mask_loss': 1.0}\nMASK_POOL_SIZE                 14\nMASK_SHAPE                     [28, 28]\nMAX_GT_INSTANCES               128\nMEAN_PIXEL                     [123.7 116.8 103.9]\nMINI_MASK_SHAPE                (112, 112)\nNAME                           f1_damage\nNUM_CLASSES                    10\nPOOL_SIZE                      7\nPOST_NMS_ROIS_INFERENCE        600\nPOST_NMS_ROIS_TRAINING         2000\nPRE_NMS_LIMIT                  6000\nROI_POSITIVE_RATIO             0.33\nRPN_ANCHOR_RATIOS              [0.5, 1.0, 2.0]\nRPN_ANCHOR_SCALES              (16, 32, 64, 128, 256)\nRPN_ANCHOR_STRIDE              1\nRPN_BBOX_STD_DEV               [0.1 0.1 0.2 0.2]\nRPN_NMS_THRESHOLD              0.7\nRPN_TRAIN_ANCHORS_PER_IMAGE    256\nSTEPS_PER_EPOCH                500\nTOP_DOWN_PYRAMID_SIZE          256\nTRAIN_BN                       False\nTRAIN_ROIS_PER_IMAGE           128\nUSE_MINI_MASK                  True\nUSE_RPN_ROIS                   True\nVALIDATION_STEPS               50\nWEIGHT_DECAY                   0.0001\n\n\nRe-starting from epoch 12\nSaved overlay to /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_01/stages/mask_rcnn/overlay.png\nSaved detections to /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_01/stages/mask_rcnn/detections.json"
+        }
+      }
+    },
+    {
+      "beforeIndex": 0,
+      "afterIndex": 2,
+      "beforePath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/inputs/frame_00.jpg",
+      "afterPath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/inputs/frame_02.jpg",
+      "comparisonRoot": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_02",
+      "pipeline": {
+        "alignment": {
+          "summary": {
+            "alignment_method": "skipped",
+            "reason": "Alignment disabled for manufacturing domain.",
+            "ssim": null
+          },
+          "report": {
+            "status": "skipped",
+            "reason": "Alignment disabled for manufacturing domain."
+          },
+          "artifacts": null,
+          "skipped": true
+        },
+        "pcb_cd": {
+          "summary": {
+            "status": "completed",
+            "model": "base_transformer_pos_s4_dd8_dedim8",
+            "checkpoint": "/home/cyclops/Documents/hckthon/BIT_CD/checkpoints/BIT_LEVIR/best_ckpt.pt",
+            "imgSize": 256,
+            "coverage": 0.0,
+            "pixelsChanged": 0,
+            "regionCount": 0,
+            "regions": [],
+            "imageSize": {
+              "width": 3034,
+              "height": 1586
+            }
+          },
+          "artifacts": {
+            "mask": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_02/stages/pcb_cd/mask.png",
+            "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_02/stages/pcb_cd/overlay.png",
+            "heatmap": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_02/stages/pcb_cd/heatmap.png",
+            "report": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_02/stages/pcb_cd/report.json"
+          },
+          "imageSize": {
+            "width": 3034,
+            "height": 1586
+          }
+        },
+        "mask_rcnn": {
+          "summary": {
+            "detections": [
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  605,
+                  473,
+                  685,
+                  567
+                ],
+                "score": 0.589743435382843,
+                "mask_area": 4063
+              },
+              {
+                "class_id": 4,
+                "class_name": "glass_shatter",
+                "legacy_class_name": "glass_shatter",
+                "bbox": [
+                  42,
+                  0,
+                  1538,
+                  2075
+                ],
+                "score": 0.5688568949699402,
+                "mask_area": 2866218
+              },
+              {
+                "class_id": 4,
+                "class_name": "glass_shatter",
+                "legacy_class_name": "glass_shatter",
+                "bbox": [
+                  216,
+                  1402,
+                  1586,
+                  2922
+                ],
+                "score": 0.5479418039321899,
+                "mask_area": 1941981
+              },
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  286,
+                  271,
+                  364,
+                  367
+                ],
+                "score": 0.5325268507003784,
+                "mask_area": 3775
+              },
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  931,
+                  374,
+                  986,
+                  462
+                ],
+                "score": 0.5099809765815735,
+                "mask_area": 2779
+              },
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  1378,
+                  58,
+                  1497,
+                  187
+                ],
+                "score": 0.3112945854663849,
+                "mask_area": 9666
+              }
+            ]
+          },
+          "imageSize": {
+            "width": 3034,
+            "height": 1586
+          },
+          "artifacts": {
+            "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_02/stages/mask_rcnn/overlay.png",
+            "raw": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_02/stages/mask_rcnn/detections.json"
+          },
+          "logs": "Configurations:\nBACKBONE                       resnet50\nBACKBONE_STRIDES               [4, 8, 16, 32, 64]\nBATCH_SIZE                     1\nBBOX_STD_DEV                   [0.1 0.1 0.2 0.2]\nCOMPUTE_BACKBONE_SHAPE         None\nDETECTION_MAX_INSTANCES        150\nDETECTION_MIN_CONFIDENCE       0.27\nDETECTION_NMS_THRESHOLD        0.3\nFPN_CLASSIF_FC_LAYERS_SIZE     1024\nGPU_COUNT                      1\nGRADIENT_CLIP_NORM             5.0\nIMAGES_PER_GPU                 1\nIMAGE_CHANNEL_COUNT            3\nIMAGE_MAX_DIM                  1024\nIMAGE_META_SIZE                22\nIMAGE_MIN_DIM                  832\nIMAGE_MIN_SCALE                0\nIMAGE_RESIZE_MODE              square\nIMAGE_SHAPE                    [1024 1024    3]\nLEARNING_MOMENTUM              0.9\nLEARNING_RATE                  0.001\nLOSS_WEIGHTS                   {'rpn_class_loss': 1.0, 'rpn_bbox_loss': 1.0, 'mrcnn_class_loss': 1.0, 'mrcnn_bbox_loss': 1.0, 'mrcnn_mask_loss': 1.0}\nMASK_POOL_SIZE                 14\nMASK_SHAPE                     [28, 28]\nMAX_GT_INSTANCES               128\nMEAN_PIXEL                     [123.7 116.8 103.9]\nMINI_MASK_SHAPE                (112, 112)\nNAME                           f1_damage\nNUM_CLASSES                    10\nPOOL_SIZE                      7\nPOST_NMS_ROIS_INFERENCE        600\nPOST_NMS_ROIS_TRAINING         2000\nPRE_NMS_LIMIT                  6000\nROI_POSITIVE_RATIO             0.33\nRPN_ANCHOR_RATIOS              [0.5, 1.0, 2.0]\nRPN_ANCHOR_SCALES              (16, 32, 64, 128, 256)\nRPN_ANCHOR_STRIDE              1\nRPN_BBOX_STD_DEV               [0.1 0.1 0.2 0.2]\nRPN_NMS_THRESHOLD              0.7\nRPN_TRAIN_ANCHORS_PER_IMAGE    256\nSTEPS_PER_EPOCH                500\nTOP_DOWN_PYRAMID_SIZE          256\nTRAIN_BN                       False\nTRAIN_ROIS_PER_IMAGE           128\nUSE_MINI_MASK                  True\nUSE_RPN_ROIS                   True\nVALIDATION_STEPS               50\nWEIGHT_DECAY                   0.0001\n\n\nRe-starting from epoch 12\nSaved overlay to /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_02/stages/mask_rcnn/overlay.png\nSaved detections to /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_02/stages/mask_rcnn/detections.json"
+        }
+      }
+    },
+    {
+      "beforeIndex": 0,
+      "afterIndex": 3,
+      "beforePath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/inputs/frame_00.jpg",
+      "afterPath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/inputs/frame_03.jpg",
+      "comparisonRoot": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_03",
+      "pipeline": {
+        "alignment": {
+          "summary": {
+            "alignment_method": "skipped",
+            "reason": "Alignment disabled for manufacturing domain.",
+            "ssim": null
+          },
+          "report": {
+            "status": "skipped",
+            "reason": "Alignment disabled for manufacturing domain."
+          },
+          "artifacts": null,
+          "skipped": true
+        },
+        "pcb_cd": {
+          "summary": {
+            "status": "completed",
+            "model": "base_transformer_pos_s4_dd8_dedim8",
+            "checkpoint": "/home/cyclops/Documents/hckthon/BIT_CD/checkpoints/BIT_LEVIR/best_ckpt.pt",
+            "imgSize": 256,
+            "coverage": 0.0,
+            "pixelsChanged": 0,
+            "regionCount": 0,
+            "regions": [],
+            "imageSize": {
+              "width": 3034,
+              "height": 1586
+            }
+          },
+          "artifacts": {
+            "mask": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_03/stages/pcb_cd/mask.png",
+            "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_03/stages/pcb_cd/overlay.png",
+            "heatmap": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_03/stages/pcb_cd/heatmap.png",
+            "report": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_03/stages/pcb_cd/report.json"
+          },
+          "imageSize": {
+            "width": 3034,
+            "height": 1586
+          }
+        },
+        "mask_rcnn": {
+          "summary": {
+            "detections": [
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  605,
+                  473,
+                  685,
+                  567
+                ],
+                "score": 0.5897440910339355,
+                "mask_area": 4063
+              },
+              {
+                "class_id": 4,
+                "class_name": "glass_shatter",
+                "legacy_class_name": "glass_shatter",
+                "bbox": [
+                  43,
+                  0,
+                  1538,
+                  2079
+                ],
+                "score": 0.5675451755523682,
+                "mask_area": 2867569
+              },
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  286,
+                  271,
+                  364,
+                  367
+                ],
+                "score": 0.5325268507003784,
+                "mask_area": 3775
+              },
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  931,
+                  374,
+                  986,
+                  462
+                ],
+                "score": 0.5099809765815735,
+                "mask_area": 2779
+              },
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  1378,
+                  58,
+                  1497,
+                  187
+                ],
+                "score": 0.3112945854663849,
+                "mask_area": 9666
+              }
+            ]
+          },
+          "imageSize": {
+            "width": 3034,
+            "height": 1586
+          },
+          "artifacts": {
+            "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_03/stages/mask_rcnn/overlay.png",
+            "raw": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_03/stages/mask_rcnn/detections.json"
+          },
+          "logs": "Configurations:\nBACKBONE                       resnet50\nBACKBONE_STRIDES               [4, 8, 16, 32, 64]\nBATCH_SIZE                     1\nBBOX_STD_DEV                   [0.1 0.1 0.2 0.2]\nCOMPUTE_BACKBONE_SHAPE         None\nDETECTION_MAX_INSTANCES        150\nDETECTION_MIN_CONFIDENCE       0.27\nDETECTION_NMS_THRESHOLD        0.3\nFPN_CLASSIF_FC_LAYERS_SIZE     1024\nGPU_COUNT                      1\nGRADIENT_CLIP_NORM             5.0\nIMAGES_PER_GPU                 1\nIMAGE_CHANNEL_COUNT            3\nIMAGE_MAX_DIM                  1024\nIMAGE_META_SIZE                22\nIMAGE_MIN_DIM                  832\nIMAGE_MIN_SCALE                0\nIMAGE_RESIZE_MODE              square\nIMAGE_SHAPE                    [1024 1024    3]\nLEARNING_MOMENTUM              0.9\nLEARNING_RATE                  0.001\nLOSS_WEIGHTS                   {'rpn_class_loss': 1.0, 'rpn_bbox_loss': 1.0, 'mrcnn_class_loss': 1.0, 'mrcnn_bbox_loss': 1.0, 'mrcnn_mask_loss': 1.0}\nMASK_POOL_SIZE                 14\nMASK_SHAPE                     [28, 28]\nMAX_GT_INSTANCES               128\nMEAN_PIXEL                     [123.7 116.8 103.9]\nMINI_MASK_SHAPE                (112, 112)\nNAME                           f1_damage\nNUM_CLASSES                    10\nPOOL_SIZE                      7\nPOST_NMS_ROIS_INFERENCE        600\nPOST_NMS_ROIS_TRAINING         2000\nPRE_NMS_LIMIT                  6000\nROI_POSITIVE_RATIO             0.33\nRPN_ANCHOR_RATIOS              [0.5, 1.0, 2.0]\nRPN_ANCHOR_SCALES              (16, 32, 64, 128, 256)\nRPN_ANCHOR_STRIDE              1\nRPN_BBOX_STD_DEV               [0.1 0.1 0.2 0.2]\nRPN_NMS_THRESHOLD              0.7\nRPN_TRAIN_ANCHORS_PER_IMAGE    256\nSTEPS_PER_EPOCH                500\nTOP_DOWN_PYRAMID_SIZE          256\nTRAIN_BN                       False\nTRAIN_ROIS_PER_IMAGE           128\nUSE_MINI_MASK                  True\nUSE_RPN_ROIS                   True\nVALIDATION_STEPS               50\nWEIGHT_DECAY                   0.0001\n\n\nRe-starting from epoch 12\nSaved overlay to /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_03/stages/mask_rcnn/overlay.png\nSaved detections to /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_03/stages/mask_rcnn/detections.json"
+        }
+      }
+    },
+    {
+      "beforeIndex": 0,
+      "afterIndex": 4,
+      "beforePath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/inputs/frame_00.jpg",
+      "afterPath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/inputs/frame_04.jpg",
+      "comparisonRoot": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_04",
+      "pipeline": {
+        "alignment": {
+          "summary": {
+            "alignment_method": "skipped",
+            "reason": "Alignment disabled for manufacturing domain.",
+            "ssim": null
+          },
+          "report": {
+            "status": "skipped",
+            "reason": "Alignment disabled for manufacturing domain."
+          },
+          "artifacts": null,
+          "skipped": true
+        },
+        "pcb_cd": {
+          "summary": {
+            "status": "completed",
+            "model": "base_transformer_pos_s4_dd8_dedim8",
+            "checkpoint": "/home/cyclops/Documents/hckthon/BIT_CD/checkpoints/BIT_LEVIR/best_ckpt.pt",
+            "imgSize": 256,
+            "coverage": 0.0,
+            "pixelsChanged": 0,
+            "regionCount": 0,
+            "regions": [],
+            "imageSize": {
+              "width": 3034,
+              "height": 1586
+            }
+          },
+          "artifacts": {
+            "mask": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_04/stages/pcb_cd/mask.png",
+            "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_04/stages/pcb_cd/overlay.png",
+            "heatmap": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_04/stages/pcb_cd/heatmap.png",
+            "report": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_04/stages/pcb_cd/report.json"
+          },
+          "imageSize": {
+            "width": 3034,
+            "height": 1586
+          }
+        },
+        "mask_rcnn": {
+          "summary": {
+            "detections": [
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  605,
+                  473,
+                  685,
+                  567
+                ],
+                "score": 0.5897440910339355,
+                "mask_area": 4063
+              },
+              {
+                "class_id": 4,
+                "class_name": "glass_shatter",
+                "legacy_class_name": "glass_shatter",
+                "bbox": [
+                  43,
+                  0,
+                  1539,
+                  2078
+                ],
+                "score": 0.5676920413970947,
+                "mask_area": 2868264
+              },
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  286,
+                  271,
+                  364,
+                  367
+                ],
+                "score": 0.5325268507003784,
+                "mask_area": 3775
+              },
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  931,
+                  374,
+                  986,
+                  462
+                ],
+                "score": 0.5099809765815735,
+                "mask_area": 2779
+              },
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  1378,
+                  58,
+                  1497,
+                  187
+                ],
+                "score": 0.3112945854663849,
+                "mask_area": 9666
+              }
+            ]
+          },
+          "imageSize": {
+            "width": 3034,
+            "height": 1586
+          },
+          "artifacts": {
+            "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_04/stages/mask_rcnn/overlay.png",
+            "raw": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_04/stages/mask_rcnn/detections.json"
+          },
+          "logs": "Configurations:\nBACKBONE                       resnet50\nBACKBONE_STRIDES               [4, 8, 16, 32, 64]\nBATCH_SIZE                     1\nBBOX_STD_DEV                   [0.1 0.1 0.2 0.2]\nCOMPUTE_BACKBONE_SHAPE         None\nDETECTION_MAX_INSTANCES        150\nDETECTION_MIN_CONFIDENCE       0.27\nDETECTION_NMS_THRESHOLD        0.3\nFPN_CLASSIF_FC_LAYERS_SIZE     1024\nGPU_COUNT                      1\nGRADIENT_CLIP_NORM             5.0\nIMAGES_PER_GPU                 1\nIMAGE_CHANNEL_COUNT            3\nIMAGE_MAX_DIM                  1024\nIMAGE_META_SIZE                22\nIMAGE_MIN_DIM                  832\nIMAGE_MIN_SCALE                0\nIMAGE_RESIZE_MODE              square\nIMAGE_SHAPE                    [1024 1024    3]\nLEARNING_MOMENTUM              0.9\nLEARNING_RATE                  0.001\nLOSS_WEIGHTS                   {'rpn_class_loss': 1.0, 'rpn_bbox_loss': 1.0, 'mrcnn_class_loss': 1.0, 'mrcnn_bbox_loss': 1.0, 'mrcnn_mask_loss': 1.0}\nMASK_POOL_SIZE                 14\nMASK_SHAPE                     [28, 28]\nMAX_GT_INSTANCES               128\nMEAN_PIXEL                     [123.7 116.8 103.9]\nMINI_MASK_SHAPE                (112, 112)\nNAME                           f1_damage\nNUM_CLASSES                    10\nPOOL_SIZE                      7\nPOST_NMS_ROIS_INFERENCE        600\nPOST_NMS_ROIS_TRAINING         2000\nPRE_NMS_LIMIT                  6000\nROI_POSITIVE_RATIO             0.33\nRPN_ANCHOR_RATIOS              [0.5, 1.0, 2.0]\nRPN_ANCHOR_SCALES              (16, 32, 64, 128, 256)\nRPN_ANCHOR_STRIDE              1\nRPN_BBOX_STD_DEV               [0.1 0.1 0.2 0.2]\nRPN_NMS_THRESHOLD              0.7\nRPN_TRAIN_ANCHORS_PER_IMAGE    256\nSTEPS_PER_EPOCH                500\nTOP_DOWN_PYRAMID_SIZE          256\nTRAIN_BN                       False\nTRAIN_ROIS_PER_IMAGE           128\nUSE_MINI_MASK                  True\nUSE_RPN_ROIS                   True\nVALIDATION_STEPS               50\nWEIGHT_DECAY                   0.0001\n\n\nRe-starting from epoch 12\nSaved overlay to /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_04/stages/mask_rcnn/overlay.png\nSaved detections to /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_04/stages/mask_rcnn/detections.json"
+        }
+      }
+    },
+    {
+      "beforeIndex": 0,
+      "afterIndex": 5,
+      "beforePath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/inputs/frame_00.jpg",
+      "afterPath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/inputs/frame_05.jpg",
+      "comparisonRoot": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_05",
+      "pipeline": {
+        "alignment": {
+          "summary": {
+            "alignment_method": "skipped",
+            "reason": "Alignment disabled for manufacturing domain.",
+            "ssim": null
+          },
+          "report": {
+            "status": "skipped",
+            "reason": "Alignment disabled for manufacturing domain."
+          },
+          "artifacts": null,
+          "skipped": true
+        },
+        "pcb_cd": {
+          "summary": {
+            "status": "completed",
+            "model": "base_transformer_pos_s4_dd8_dedim8",
+            "checkpoint": "/home/cyclops/Documents/hckthon/BIT_CD/checkpoints/BIT_LEVIR/best_ckpt.pt",
+            "imgSize": 256,
+            "coverage": 0.0,
+            "pixelsChanged": 0,
+            "regionCount": 0,
+            "regions": [],
+            "imageSize": {
+              "width": 3034,
+              "height": 1586
+            }
+          },
+          "artifacts": {
+            "mask": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_05/stages/pcb_cd/mask.png",
+            "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_05/stages/pcb_cd/overlay.png",
+            "heatmap": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_05/stages/pcb_cd/heatmap.png",
+            "report": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_05/stages/pcb_cd/report.json"
+          },
+          "imageSize": {
+            "width": 3034,
+            "height": 1586
+          }
+        },
+        "mask_rcnn": {
+          "summary": {
+            "detections": [
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  605,
+                  473,
+                  685,
+                  567
+                ],
+                "score": 0.589743971824646,
+                "mask_area": 4063
+              },
+              {
+                "class_id": 4,
+                "class_name": "glass_shatter",
+                "legacy_class_name": "glass_shatter",
+                "bbox": [
+                  42,
+                  0,
+                  1539,
+                  2080
+                ],
+                "score": 0.569313645362854,
+                "mask_area": 2869330
+              },
+              {
+                "class_id": 4,
+                "class_name": "glass_shatter",
+                "legacy_class_name": "glass_shatter",
+                "bbox": [
+                  216,
+                  1388,
+                  1586,
+                  2920
+                ],
+                "score": 0.5475527048110962,
+                "mask_area": 1956878
+              },
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  286,
+                  271,
+                  364,
+                  367
+                ],
+                "score": 0.5325268507003784,
+                "mask_area": 3775
+              },
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  931,
+                  374,
+                  986,
+                  462
+                ],
+                "score": 0.5099809765815735,
+                "mask_area": 2779
+              },
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  1378,
+                  58,
+                  1497,
+                  187
+                ],
+                "score": 0.3112945854663849,
+                "mask_area": 9666
+              }
+            ]
+          },
+          "imageSize": {
+            "width": 3034,
+            "height": 1586
+          },
+          "artifacts": {
+            "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_05/stages/mask_rcnn/overlay.png",
+            "raw": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_05/stages/mask_rcnn/detections.json"
+          },
+          "logs": "Configurations:\nBACKBONE                       resnet50\nBACKBONE_STRIDES               [4, 8, 16, 32, 64]\nBATCH_SIZE                     1\nBBOX_STD_DEV                   [0.1 0.1 0.2 0.2]\nCOMPUTE_BACKBONE_SHAPE         None\nDETECTION_MAX_INSTANCES        150\nDETECTION_MIN_CONFIDENCE       0.27\nDETECTION_NMS_THRESHOLD        0.3\nFPN_CLASSIF_FC_LAYERS_SIZE     1024\nGPU_COUNT                      1\nGRADIENT_CLIP_NORM             5.0\nIMAGES_PER_GPU                 1\nIMAGE_CHANNEL_COUNT            3\nIMAGE_MAX_DIM                  1024\nIMAGE_META_SIZE                22\nIMAGE_MIN_DIM                  832\nIMAGE_MIN_SCALE                0\nIMAGE_RESIZE_MODE              square\nIMAGE_SHAPE                    [1024 1024    3]\nLEARNING_MOMENTUM              0.9\nLEARNING_RATE                  0.001\nLOSS_WEIGHTS                   {'rpn_class_loss': 1.0, 'rpn_bbox_loss': 1.0, 'mrcnn_class_loss': 1.0, 'mrcnn_bbox_loss': 1.0, 'mrcnn_mask_loss': 1.0}\nMASK_POOL_SIZE                 14\nMASK_SHAPE                     [28, 28]\nMAX_GT_INSTANCES               128\nMEAN_PIXEL                     [123.7 116.8 103.9]\nMINI_MASK_SHAPE                (112, 112)\nNAME                           f1_damage\nNUM_CLASSES                    10\nPOOL_SIZE                      7\nPOST_NMS_ROIS_INFERENCE        600\nPOST_NMS_ROIS_TRAINING         2000\nPRE_NMS_LIMIT                  6000\nROI_POSITIVE_RATIO             0.33\nRPN_ANCHOR_RATIOS              [0.5, 1.0, 2.0]\nRPN_ANCHOR_SCALES              (16, 32, 64, 128, 256)\nRPN_ANCHOR_STRIDE              1\nRPN_BBOX_STD_DEV               [0.1 0.1 0.2 0.2]\nRPN_NMS_THRESHOLD              0.7\nRPN_TRAIN_ANCHORS_PER_IMAGE    256\nSTEPS_PER_EPOCH                500\nTOP_DOWN_PYRAMID_SIZE          256\nTRAIN_BN                       False\nTRAIN_ROIS_PER_IMAGE           128\nUSE_MINI_MASK                  True\nUSE_RPN_ROIS                   True\nVALIDATION_STEPS               50\nWEIGHT_DECAY                   0.0001\n\n\nRe-starting from epoch 12\nSaved overlay to /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_05/stages/mask_rcnn/overlay.png\nSaved detections to /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_05/stages/mask_rcnn/detections.json"
+        }
+      }
+    },
+    {
+      "beforeIndex": 0,
+      "afterIndex": 6,
+      "beforePath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/inputs/frame_00.jpg",
+      "afterPath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/inputs/frame_06.jpg",
+      "comparisonRoot": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_06",
+      "pipeline": {
+        "alignment": {
+          "summary": {
+            "alignment_method": "skipped",
+            "reason": "Alignment disabled for manufacturing domain.",
+            "ssim": null
+          },
+          "report": {
+            "status": "skipped",
+            "reason": "Alignment disabled for manufacturing domain."
+          },
+          "artifacts": null,
+          "skipped": true
+        },
+        "pcb_cd": {
+          "summary": {
+            "status": "completed",
+            "model": "base_transformer_pos_s4_dd8_dedim8",
+            "checkpoint": "/home/cyclops/Documents/hckthon/BIT_CD/checkpoints/BIT_LEVIR/best_ckpt.pt",
+            "imgSize": 256,
+            "coverage": 0.0,
+            "pixelsChanged": 0,
+            "regionCount": 0,
+            "regions": [],
+            "imageSize": {
+              "width": 3034,
+              "height": 1586
+            }
+          },
+          "artifacts": {
+            "mask": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_06/stages/pcb_cd/mask.png",
+            "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_06/stages/pcb_cd/overlay.png",
+            "heatmap": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_06/stages/pcb_cd/heatmap.png",
+            "report": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_06/stages/pcb_cd/report.json"
+          },
+          "imageSize": {
+            "width": 3034,
+            "height": 1586
+          }
+        },
+        "mask_rcnn": {
+          "summary": {
+            "detections": [
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  605,
+                  473,
+                  685,
+                  567
+                ],
+                "score": 0.5897589325904846,
+                "mask_area": 4063
+              },
+              {
+                "class_id": 4,
+                "class_name": "glass_shatter",
+                "legacy_class_name": "glass_shatter",
+                "bbox": [
+                  44,
+                  0,
+                  1539,
+                  2077
+                ],
+                "score": 0.5683858394622803,
+                "mask_area": 2866024
+              },
+              {
+                "class_id": 4,
+                "class_name": "glass_shatter",
+                "legacy_class_name": "glass_shatter",
+                "bbox": [
+                  216,
+                  1402,
+                  1586,
+                  2922
+                ],
+                "score": 0.5476850867271423,
+                "mask_area": 1941757
+              },
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  286,
+                  271,
+                  364,
+                  367
+                ],
+                "score": 0.532527506351471,
+                "mask_area": 3775
+              },
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  931,
+                  373,
+                  986,
+                  462
+                ],
+                "score": 0.5110657215118408,
+                "mask_area": 2815
+              },
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  1378,
+                  58,
+                  1497,
+                  187
+                ],
+                "score": 0.31129366159439087,
+                "mask_area": 9666
+              }
+            ]
+          },
+          "imageSize": {
+            "width": 3034,
+            "height": 1586
+          },
+          "artifacts": {
+            "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_06/stages/mask_rcnn/overlay.png",
+            "raw": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_06/stages/mask_rcnn/detections.json"
+          },
+          "logs": "Configurations:\nBACKBONE                       resnet50\nBACKBONE_STRIDES               [4, 8, 16, 32, 64]\nBATCH_SIZE                     1\nBBOX_STD_DEV                   [0.1 0.1 0.2 0.2]\nCOMPUTE_BACKBONE_SHAPE         None\nDETECTION_MAX_INSTANCES        150\nDETECTION_MIN_CONFIDENCE       0.27\nDETECTION_NMS_THRESHOLD        0.3\nFPN_CLASSIF_FC_LAYERS_SIZE     1024\nGPU_COUNT                      1\nGRADIENT_CLIP_NORM             5.0\nIMAGES_PER_GPU                 1\nIMAGE_CHANNEL_COUNT            3\nIMAGE_MAX_DIM                  1024\nIMAGE_META_SIZE                22\nIMAGE_MIN_DIM                  832\nIMAGE_MIN_SCALE                0\nIMAGE_RESIZE_MODE              square\nIMAGE_SHAPE                    [1024 1024    3]\nLEARNING_MOMENTUM              0.9\nLEARNING_RATE                  0.001\nLOSS_WEIGHTS                   {'rpn_class_loss': 1.0, 'rpn_bbox_loss': 1.0, 'mrcnn_class_loss': 1.0, 'mrcnn_bbox_loss': 1.0, 'mrcnn_mask_loss': 1.0}\nMASK_POOL_SIZE                 14\nMASK_SHAPE                     [28, 28]\nMAX_GT_INSTANCES               128\nMEAN_PIXEL                     [123.7 116.8 103.9]\nMINI_MASK_SHAPE                (112, 112)\nNAME                           f1_damage\nNUM_CLASSES                    10\nPOOL_SIZE                      7\nPOST_NMS_ROIS_INFERENCE        600\nPOST_NMS_ROIS_TRAINING         2000\nPRE_NMS_LIMIT                  6000\nROI_POSITIVE_RATIO             0.33\nRPN_ANCHOR_RATIOS              [0.5, 1.0, 2.0]\nRPN_ANCHOR_SCALES              (16, 32, 64, 128, 256)\nRPN_ANCHOR_STRIDE              1\nRPN_BBOX_STD_DEV               [0.1 0.1 0.2 0.2]\nRPN_NMS_THRESHOLD              0.7\nRPN_TRAIN_ANCHORS_PER_IMAGE    256\nSTEPS_PER_EPOCH                500\nTOP_DOWN_PYRAMID_SIZE          256\nTRAIN_BN                       False\nTRAIN_ROIS_PER_IMAGE           128\nUSE_MINI_MASK                  True\nUSE_RPN_ROIS                   True\nVALIDATION_STEPS               50\nWEIGHT_DECAY                   0.0001\n\n\nRe-starting from epoch 12\nSaved overlay to /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_06/stages/mask_rcnn/overlay.png\nSaved detections to /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_06/stages/mask_rcnn/detections.json"
+        }
+      }
+    },
+    {
+      "beforeIndex": 0,
+      "afterIndex": 7,
+      "beforePath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/inputs/frame_00.jpg",
+      "afterPath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/inputs/frame_07.jpg",
+      "comparisonRoot": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_07",
+      "pipeline": {
+        "alignment": {
+          "summary": {
+            "alignment_method": "skipped",
+            "reason": "Alignment disabled for manufacturing domain.",
+            "ssim": null
+          },
+          "report": {
+            "status": "skipped",
+            "reason": "Alignment disabled for manufacturing domain."
+          },
+          "artifacts": null,
+          "skipped": true
+        },
+        "pcb_cd": {
+          "summary": {
+            "status": "completed",
+            "model": "base_transformer_pos_s4_dd8_dedim8",
+            "checkpoint": "/home/cyclops/Documents/hckthon/BIT_CD/checkpoints/BIT_LEVIR/best_ckpt.pt",
+            "imgSize": 256,
+            "coverage": 0.0,
+            "pixelsChanged": 0,
+            "regionCount": 0,
+            "regions": [],
+            "imageSize": {
+              "width": 3034,
+              "height": 1586
+            }
+          },
+          "artifacts": {
+            "mask": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_07/stages/pcb_cd/mask.png",
+            "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_07/stages/pcb_cd/overlay.png",
+            "heatmap": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_07/stages/pcb_cd/heatmap.png",
+            "report": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_07/stages/pcb_cd/report.json"
+          },
+          "imageSize": {
+            "width": 3034,
+            "height": 1586
+          }
+        },
+        "mask_rcnn": {
+          "summary": {
+            "detections": [
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  605,
+                  473,
+                  685,
+                  567
+                ],
+                "score": 0.5895892381668091,
+                "mask_area": 4063
+              },
+              {
+                "class_id": 4,
+                "class_name": "glass_shatter",
+                "legacy_class_name": "glass_shatter",
+                "bbox": [
+                  42,
+                  0,
+                  1536,
+                  2081
+                ],
+                "score": 0.5674294233322144,
+                "mask_area": 2867712
+              },
+              {
+                "class_id": 4,
+                "class_name": "glass_shatter",
+                "legacy_class_name": "glass_shatter",
+                "bbox": [
+                  216,
+                  1402,
+                  1586,
+                  2922
+                ],
+                "score": 0.5477540493011475,
+                "mask_area": 1941885
+              },
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  286,
+                  271,
+                  364,
+                  367
+                ],
+                "score": 0.5325269103050232,
+                "mask_area": 3775
+              },
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  931,
+                  374,
+                  986,
+                  462
+                ],
+                "score": 0.5099673271179199,
+                "mask_area": 2779
+              },
+              {
+                "class_id": 8,
+                "class_name": "paint_peel",
+                "legacy_class_name": "paint_peel",
+                "bbox": [
+                  1378,
+                  58,
+                  1497,
+                  187
+                ],
+                "score": 0.31129467487335205,
+                "mask_area": 9666
+              }
+            ]
+          },
+          "imageSize": {
+            "width": 3034,
+            "height": 1586
+          },
+          "artifacts": {
+            "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_07/stages/mask_rcnn/overlay.png",
+            "raw": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_07/stages/mask_rcnn/detections.json"
+          },
+          "logs": "Configurations:\nBACKBONE                       resnet50\nBACKBONE_STRIDES               [4, 8, 16, 32, 64]\nBATCH_SIZE                     1\nBBOX_STD_DEV                   [0.1 0.1 0.2 0.2]\nCOMPUTE_BACKBONE_SHAPE         None\nDETECTION_MAX_INSTANCES        150\nDETECTION_MIN_CONFIDENCE       0.27\nDETECTION_NMS_THRESHOLD        0.3\nFPN_CLASSIF_FC_LAYERS_SIZE     1024\nGPU_COUNT                      1\nGRADIENT_CLIP_NORM             5.0\nIMAGES_PER_GPU                 1\nIMAGE_CHANNEL_COUNT            3\nIMAGE_MAX_DIM                  1024\nIMAGE_META_SIZE                22\nIMAGE_MIN_DIM                  832\nIMAGE_MIN_SCALE                0\nIMAGE_RESIZE_MODE              square\nIMAGE_SHAPE                    [1024 1024    3]\nLEARNING_MOMENTUM              0.9\nLEARNING_RATE                  0.001\nLOSS_WEIGHTS                   {'rpn_class_loss': 1.0, 'rpn_bbox_loss': 1.0, 'mrcnn_class_loss': 1.0, 'mrcnn_bbox_loss': 1.0, 'mrcnn_mask_loss': 1.0}\nMASK_POOL_SIZE                 14\nMASK_SHAPE                     [28, 28]\nMAX_GT_INSTANCES               128\nMEAN_PIXEL                     [123.7 116.8 103.9]\nMINI_MASK_SHAPE                (112, 112)\nNAME                           f1_damage\nNUM_CLASSES                    10\nPOOL_SIZE                      7\nPOST_NMS_ROIS_INFERENCE        600\nPOST_NMS_ROIS_TRAINING         2000\nPRE_NMS_LIMIT                  6000\nROI_POSITIVE_RATIO             0.33\nRPN_ANCHOR_RATIOS              [0.5, 1.0, 2.0]\nRPN_ANCHOR_SCALES              (16, 32, 64, 128, 256)\nRPN_ANCHOR_STRIDE              1\nRPN_BBOX_STD_DEV               [0.1 0.1 0.2 0.2]\nRPN_NMS_THRESHOLD              0.7\nRPN_TRAIN_ANCHORS_PER_IMAGE    256\nSTEPS_PER_EPOCH                500\nTOP_DOWN_PYRAMID_SIZE          256\nTRAIN_BN                       False\nTRAIN_ROIS_PER_IMAGE           128\nUSE_MINI_MASK                  True\nUSE_RPN_ROIS                   True\nVALIDATION_STEPS               50\nWEIGHT_DECAY                   0.0001\n\n\nRe-starting from epoch 12\nSaved overlay to /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_07/stages/mask_rcnn/overlay.png\nSaved detections to /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_07/stages/mask_rcnn/detections.json"
+        }
+      }
+    }
+  ],
+  "pipeline": {
+    "alignment": {
+      "summary": {
+        "alignment_method": "skipped",
+        "reason": "Alignment disabled for manufacturing domain.",
+        "ssim": null
+      },
+      "report": {
+        "status": "skipped",
+        "reason": "Alignment disabled for manufacturing domain."
+      },
+      "artifacts": null,
+      "skipped": true
+    },
+    "pcb_cd": {
+      "summary": {
+        "status": "completed",
+        "model": "base_transformer_pos_s4_dd8_dedim8",
+        "checkpoint": "/home/cyclops/Documents/hckthon/BIT_CD/checkpoints/BIT_LEVIR/best_ckpt.pt",
+        "imgSize": 256,
+        "coverage": 0.0,
+        "pixelsChanged": 0,
+        "regionCount": 0,
+        "regions": [],
+        "imageSize": {
+          "width": 3034,
+          "height": 1586
+        }
+      },
+      "artifacts": {
+        "mask": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_07/stages/pcb_cd/mask.png",
+        "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_07/stages/pcb_cd/overlay.png",
+        "heatmap": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_07/stages/pcb_cd/heatmap.png",
+        "report": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_07/stages/pcb_cd/report.json"
+      },
+      "imageSize": {
+        "width": 3034,
+        "height": 1586
+      }
+    },
+    "mask_rcnn": {
+      "summary": {
+        "detections": [
+          {
+            "class_id": 8,
+            "class_name": "paint_peel",
+            "legacy_class_name": "paint_peel",
+            "bbox": [
+              605,
+              473,
+              685,
+              567
+            ],
+            "score": 0.5895892381668091,
+            "mask_area": 4063
+          },
+          {
+            "class_id": 4,
+            "class_name": "glass_shatter",
+            "legacy_class_name": "glass_shatter",
+            "bbox": [
+              42,
+              0,
+              1536,
+              2081
+            ],
+            "score": 0.5674294233322144,
+            "mask_area": 2867712
+          },
+          {
+            "class_id": 4,
+            "class_name": "glass_shatter",
+            "legacy_class_name": "glass_shatter",
+            "bbox": [
+              216,
+              1402,
+              1586,
+              2922
+            ],
+            "score": 0.5477540493011475,
+            "mask_area": 1941885
+          },
+          {
+            "class_id": 8,
+            "class_name": "paint_peel",
+            "legacy_class_name": "paint_peel",
+            "bbox": [
+              286,
+              271,
+              364,
+              367
+            ],
+            "score": 0.5325269103050232,
+            "mask_area": 3775
+          },
+          {
+            "class_id": 8,
+            "class_name": "paint_peel",
+            "legacy_class_name": "paint_peel",
+            "bbox": [
+              931,
+              374,
+              986,
+              462
+            ],
+            "score": 0.5099673271179199,
+            "mask_area": 2779
+          },
+          {
+            "class_id": 8,
+            "class_name": "paint_peel",
+            "legacy_class_name": "paint_peel",
+            "bbox": [
+              1378,
+              58,
+              1497,
+              187
+            ],
+            "score": 0.31129467487335205,
+            "mask_area": 9666
+          }
+        ]
+      },
+      "imageSize": {
+        "width": 3034,
+        "height": 1586
+      },
+      "artifacts": {
+        "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_07/stages/mask_rcnn/overlay.png",
+        "raw": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_07/stages/mask_rcnn/detections.json"
+      },
+      "logs": "Configurations:\nBACKBONE                       resnet50\nBACKBONE_STRIDES               [4, 8, 16, 32, 64]\nBATCH_SIZE                     1\nBBOX_STD_DEV                   [0.1 0.1 0.2 0.2]\nCOMPUTE_BACKBONE_SHAPE         None\nDETECTION_MAX_INSTANCES        150\nDETECTION_MIN_CONFIDENCE       0.27\nDETECTION_NMS_THRESHOLD        0.3\nFPN_CLASSIF_FC_LAYERS_SIZE     1024\nGPU_COUNT                      1\nGRADIENT_CLIP_NORM             5.0\nIMAGES_PER_GPU                 1\nIMAGE_CHANNEL_COUNT            3\nIMAGE_MAX_DIM                  1024\nIMAGE_META_SIZE                22\nIMAGE_MIN_DIM                  832\nIMAGE_MIN_SCALE                0\nIMAGE_RESIZE_MODE              square\nIMAGE_SHAPE                    [1024 1024    3]\nLEARNING_MOMENTUM              0.9\nLEARNING_RATE                  0.001\nLOSS_WEIGHTS                   {'rpn_class_loss': 1.0, 'rpn_bbox_loss': 1.0, 'mrcnn_class_loss': 1.0, 'mrcnn_bbox_loss': 1.0, 'mrcnn_mask_loss': 1.0}\nMASK_POOL_SIZE                 14\nMASK_SHAPE                     [28, 28]\nMAX_GT_INSTANCES               128\nMEAN_PIXEL                     [123.7 116.8 103.9]\nMINI_MASK_SHAPE                (112, 112)\nNAME                           f1_damage\nNUM_CLASSES                    10\nPOOL_SIZE                      7\nPOST_NMS_ROIS_INFERENCE        600\nPOST_NMS_ROIS_TRAINING         2000\nPRE_NMS_LIMIT                  6000\nROI_POSITIVE_RATIO             0.33\nRPN_ANCHOR_RATIOS              [0.5, 1.0, 2.0]\nRPN_ANCHOR_SCALES              (16, 32, 64, 128, 256)\nRPN_ANCHOR_STRIDE              1\nRPN_BBOX_STD_DEV               [0.1 0.1 0.2 0.2]\nRPN_NMS_THRESHOLD              0.7\nRPN_TRAIN_ANCHORS_PER_IMAGE    256\nSTEPS_PER_EPOCH                500\nTOP_DOWN_PYRAMID_SIZE          256\nTRAIN_BN                       False\nTRAIN_ROIS_PER_IMAGE           128\nUSE_MINI_MASK                  True\nUSE_RPN_ROIS                   True\nVALIDATION_STEPS               50\nWEIGHT_DECAY                   0.0001\n\n\nRe-starting from epoch 12\nSaved overlay to /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_07/stages/mask_rcnn/overlay.png\nSaved detections to /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/04700d8f6c684aa08f13622305b04813/timeline/frame_07/stages/mask_rcnn/detections.json"
+    }
+  },
+  "metadata": {
+    "domain": "Manufacturing"
+  }
+}

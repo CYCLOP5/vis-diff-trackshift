@@ -1,0 +1,8 @@
+{
+  "name": "Visionary AI - AeroSpotter 2.0",
+  "description": "A general-purpose visual difference engine. Upload 2-5 time-series images to detect, classify, and understand visual changes with AI-powered analysis and reporting.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

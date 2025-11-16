@@ -1,0 +1,136 @@
+{
+  "rois": [
+    {
+      "box": [
+        1253,
+        235,
+        1560,
+        505
+      ],
+      "class_name": "tire",
+      "confidence": 0.953,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        1,
+        353,
+        291,
+        724
+      ],
+      "class_name": "tire",
+      "confidence": 0.9513,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        460,
+        228,
+        1106,
+        622
+      ],
+      "class_name": "monocoque",
+      "confidence": 0.9493,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        302,
+        385,
+        611,
+        761
+      ],
+      "class_name": "tire",
+      "confidence": 0.9436,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        160,
+        61,
+        626,
+        324
+      ],
+      "class_name": "rear-wing",
+      "confidence": 0.907,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        600,
+        400,
+        867,
+        572
+      ],
+      "class_name": "suspension",
+      "confidence": 0.893,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        1004,
+        361,
+        1309,
+        551
+      ],
+      "class_name": "suspension",
+      "confidence": 0.8119,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        451,
+        470,
+        1592,
+        740
+      ],
+      "class_name": "front-wing",
+      "confidence": 0.7621,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        991,
+        308,
+        1215,
+        375
+      ],
+      "class_name": "suspension",
+      "confidence": 0.5909,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        574,
+        10,
+        769,
+        93
+      ],
+      "class_name": "rear-wing",
+      "confidence": 0.5852,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        521,
+        155,
+        914,
+        284
+      ],
+      "class_name": "halo",
+      "confidence": 0.4501,
+      "changed": true,
+      "source": "object_diff"
+    }
+  ]
+}

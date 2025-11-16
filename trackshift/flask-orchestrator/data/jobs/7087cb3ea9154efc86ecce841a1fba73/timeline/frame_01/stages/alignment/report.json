@@ -1,0 +1,91 @@
+{
+  "alignment_method": "resize",
+  "color_normalization": "histogram",
+  "ssim": 0.2762,
+  "roi_count": 9,
+  "rois": [
+    {
+      "bbox": [
+        0,
+        428,
+        49,
+        58
+      ],
+      "area": 604.5
+    },
+    {
+      "bbox": [
+        0,
+        369,
+        25,
+        62
+      ],
+      "area": 460.5
+    },
+    {
+      "bbox": [
+        359,
+        20,
+        30,
+        36
+      ],
+      "area": 217.0
+    },
+    {
+      "bbox": [
+        559,
+        0,
+        43,
+        25
+      ],
+      "area": 260.5
+    },
+    {
+      "bbox": [
+        337,
+        0,
+        34,
+        13
+      ],
+      "area": 269.0
+    },
+    {
+      "bbox": [
+        275,
+        0,
+        46,
+        38
+      ],
+      "area": 422.5
+    },
+    {
+      "bbox": [
+        0,
+        0,
+        1024,
+        627
+      ],
+      "area": 523949.5
+    },
+    {
+      "bbox": [
+        43,
+        0,
+        169,
+        164
+      ],
+      "area": 15010.0
+    },
+    {
+      "bbox": [
+        0,
+        0,
+        36,
+        99
+      ],
+      "area": 1765.0
+    }
+  ],
+  "before": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/7087cb3ea9154efc86ecce841a1fba73/inputs/frame_00.jpg",
+  "after": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/7087cb3ea9154efc86ecce841a1fba73/inputs/frame_01.jpg"
+}

@@ -1,0 +1,79 @@
+{
+  "detections": [
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        322,
+        460,
+        475,
+        565
+      ],
+      "score": 0.371957391500473,
+      "mask_area": 9671,
+      "source_roi": {
+        "roi_index": 0,
+        "box": [
+          476,
+          334,
+          711,
+          461
+        ],
+        "class_name": "tire",
+        "confidence": 0.8634,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        390,
+        516,
+        475,
+        643
+      ],
+      "score": 0.31361281871795654,
+      "mask_area": 6085,
+      "source_roi": {
+        "roi_index": 0,
+        "box": [
+          476,
+          334,
+          711,
+          461
+        ],
+        "class_name": "tire",
+        "confidence": 0.8634,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 8,
+      "class_name": "paint_peel",
+      "legacy_class_name": "paint_peel",
+      "bbox": [
+        394,
+        536,
+        473,
+        672
+      ],
+      "score": 0.306018590927124,
+      "mask_area": 2210,
+      "source_roi": {
+        "roi_index": 0,
+        "box": [
+          476,
+          334,
+          711,
+          461
+        ],
+        "class_name": "tire",
+        "confidence": 0.8634,
+        "changed": true
+      }
+    }
+  ]
+}

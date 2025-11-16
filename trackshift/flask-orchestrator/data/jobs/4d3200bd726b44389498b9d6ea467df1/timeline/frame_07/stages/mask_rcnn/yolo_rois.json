@@ -1,0 +1,52 @@
+{
+  "rois": [
+    {
+      "box": [
+        6,
+        1035,
+        152,
+        1178
+      ],
+      "class_name": "tire",
+      "confidence": 0.944,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        328,
+        1035,
+        465,
+        1186
+      ],
+      "class_name": "tire",
+      "confidence": 0.8825,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        183,
+        981,
+        405,
+        1063
+      ],
+      "class_name": "rear-wing",
+      "confidence": 0.7451,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        2,
+        932,
+        165,
+        1056
+      ],
+      "class_name": "engine-intake",
+      "confidence": 0.4171,
+      "changed": true,
+      "source": "object_diff"
+    }
+  ]
+}

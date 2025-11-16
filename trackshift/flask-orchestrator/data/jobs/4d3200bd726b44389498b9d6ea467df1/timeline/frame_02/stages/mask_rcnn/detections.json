@@ -1,0 +1,54 @@
+{
+  "detections": [
+    {
+      "class_id": 8,
+      "class_name": "paint_peel",
+      "legacy_class_name": "paint_peel",
+      "bbox": [
+        1197,
+        925,
+        1394,
+        1058
+      ],
+      "score": 0.3110503852367401,
+      "mask_area": 3596,
+      "source_roi": {
+        "roi_index": 0,
+        "box": [
+          721,
+          1041,
+          1077,
+          1478
+        ],
+        "class_name": "tire",
+        "confidence": 0.9375,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 8,
+      "class_name": "paint_peel",
+      "legacy_class_name": "paint_peel",
+      "bbox": [
+        1036,
+        150,
+        1158,
+        276
+      ],
+      "score": 0.48000118136405945,
+      "mask_area": 6160,
+      "source_roi": {
+        "roi_index": 1,
+        "box": [
+          1,
+          1005,
+          891,
+          1413
+        ],
+        "class_name": "monocoque",
+        "confidence": 0.8319,
+        "changed": true
+      }
+    }
+  ]
+}

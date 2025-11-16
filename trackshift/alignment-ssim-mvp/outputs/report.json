@@ -1,0 +1,37 @@
+{
+  "alignment_method": "orb",
+  "color_normalization": "none",
+  "ssim": 0.4016,
+  "roi_count": 3,
+  "rois": [
+    {
+      "bbox": [
+        47,
+        308,
+        21,
+        43
+      ],
+      "area": 303.0
+    },
+    {
+      "bbox": [
+        263,
+        116,
+        37,
+        87
+      ],
+      "area": 1627.5
+    },
+    {
+      "bbox": [
+        0,
+        0,
+        316,
+        723
+      ],
+      "area": 149113.0
+    }
+  ],
+  "before": "/home/cyclops/Documents/trackshift/object-diff-yolo/af.png",
+  "after": "/home/cyclops/Documents/trackshift/object-diff-yolo/vf.png"
+}

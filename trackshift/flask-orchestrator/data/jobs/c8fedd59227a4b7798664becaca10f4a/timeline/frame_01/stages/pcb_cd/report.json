@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "model": "pcb-defect-detection-9ewqw/1",
+  "apiBase": "https://serverless.roboflow.com",
+  "coverage": 0.001173,
+  "pixelsChanged": 8835,
+  "regionCount": 1,
+  "regions": [
+    {
+      "id": "rf-region-1",
+      "label": "short",
+      "confidence": 0.497677,
+      "bbox": [
+        2020,
+        1581,
+        2112,
+        1675
+      ],
+      "bboxNormalized": [
+        0.660995,
+        0.64164,
+        0.691099,
+        0.679789
+      ],
+      "areaRatio": 0.001148,
+      "source": "roboflow"
+    }
+  ],
+  "imageSize": {
+    "width": 3056,
+    "height": 2464
+  },
+  "confidence": 0.45,
+  "overlap": 0.2,
+  "rawResponse": {
+    "inference_id": "afa0a3eb-e343-4980-a4f7-ae310987bc45",
+    "time": 0.12365992400009418,
+    "image": {
+      "width": 3056,
+      "height": 2464
+    },
+    "predictions": [
+      {
+        "x": 2066.0,
+        "y": 1628.0,
+        "width": 92.0,
+        "height": 94.0,
+        "confidence": 0.497677206993103,
+        "class": "short",
+        "class_id": 3,
+        "detection_id": "050c49a9-0b44-463e-a40d-e629382cb94f"
+      }
+    ]
+  }
+}

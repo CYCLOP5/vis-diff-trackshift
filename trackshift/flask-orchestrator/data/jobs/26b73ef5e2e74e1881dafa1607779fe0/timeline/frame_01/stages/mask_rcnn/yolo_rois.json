@@ -1,0 +1,136 @@
+{
+  "rois": [
+    {
+      "box": [
+        64,
+        344,
+        270,
+        594
+      ],
+      "class_name": "tire",
+      "confidence": 0.9488,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        953,
+        363,
+        1162,
+        542
+      ],
+      "class_name": "tire",
+      "confidence": 0.9415,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        403,
+        523,
+        1210,
+        652
+      ],
+      "class_name": "front-wing",
+      "confidence": 0.9288,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        290,
+        386,
+        493,
+        640
+      ],
+      "class_name": "tire",
+      "confidence": 0.9236,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        206,
+        181,
+        500,
+        335
+      ],
+      "class_name": "rear-wing",
+      "confidence": 0.9033,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        528,
+        197,
+        620,
+        270
+      ],
+      "class_name": "engine-intake",
+      "confidence": 0.8156,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        794,
+        422,
+        979,
+        535
+      ],
+      "class_name": "suspension",
+      "confidence": 0.793,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        496,
+        411,
+        688,
+        519
+      ],
+      "class_name": "suspension",
+      "confidence": 0.7136,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        409,
+        354,
+        839,
+        592
+      ],
+      "class_name": "monocoque",
+      "confidence": 0.6474,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        700,
+        466,
+        840,
+        602
+      ],
+      "class_name": "monocoque",
+      "confidence": 0.4923,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        455,
+        269,
+        646,
+        326
+      ],
+      "class_name": "halo",
+      "confidence": 0.4849,
+      "changed": true,
+      "source": "object_diff"
+    }
+  ]
+}

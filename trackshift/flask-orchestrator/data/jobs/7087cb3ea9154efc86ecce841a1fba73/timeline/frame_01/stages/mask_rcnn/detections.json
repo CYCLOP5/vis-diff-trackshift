@@ -1,0 +1,54 @@
+{
+  "detections": [
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        320,
+        476,
+        406,
+        654
+      ],
+      "score": 0.2928335964679718,
+      "mask_area": 12400,
+      "source_roi": {
+        "roi_index": 2,
+        "box": [
+          464,
+          306,
+          811,
+          390
+        ],
+        "class_name": "halo",
+        "confidence": 0.8051,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "legacy_class_name": "missing_part",
+      "bbox": [
+        316,
+        444,
+        410,
+        662
+      ],
+      "score": 0.27794381976127625,
+      "mask_area": 13233,
+      "source_roi": {
+        "roi_index": 2,
+        "box": [
+          464,
+          306,
+          811,
+          390
+        ],
+        "class_name": "halo",
+        "confidence": 0.8051,
+        "changed": true
+      }
+    }
+  ]
+}

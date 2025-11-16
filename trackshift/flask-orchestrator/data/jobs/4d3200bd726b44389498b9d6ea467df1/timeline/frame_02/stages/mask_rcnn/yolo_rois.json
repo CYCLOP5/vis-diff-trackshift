@@ -1,0 +1,64 @@
+{
+  "rois": [
+    {
+      "box": [
+        721,
+        1041,
+        1077,
+        1478
+      ],
+      "class_name": "tire",
+      "confidence": 0.9375,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        1,
+        1005,
+        891,
+        1413
+      ],
+      "class_name": "monocoque",
+      "confidence": 0.8319,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        1,
+        870,
+        163,
+        1011
+      ],
+      "class_name": "halo",
+      "confidence": 0.7182,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        133,
+        882,
+        424,
+        1036
+      ],
+      "class_name": "halo",
+      "confidence": 0.6572,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        0,
+        868,
+        419,
+        1033
+      ],
+      "class_name": "halo",
+      "confidence": 0.4673,
+      "changed": true,
+      "source": "object_diff"
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "jobId": "88816eec271948f389790a0e5e1e212d",
+  "status": "completed",
+  "startedAt": "2025-11-15T19:56:27.448066+00:00",
+  "completedAt": "2025-11-15T19:57:11.354721+00:00",
+  "durationMs": 43906,
+  "comparisonMode": "consecutive",
+  "baselineIndex": 0,
+  "frames": [
+    {
+      "index": 0,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/inputs/frame_00.jpg",
+      "originalName": "01_missing_hole_01.jpg"
+    },
+    {
+      "index": 1,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/inputs/frame_01.jpg",
+      "originalName": "01_missing_hole_02.jpg"
+    },
+    {
+      "index": 2,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/inputs/frame_02.jpg",
+      "originalName": "01_missing_hole_03.jpg"
+    },
+    {
+      "index": 3,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/inputs/frame_03.jpg",
+      "originalName": "01_missing_hole_04.jpg"
+    },
+    {
+      "index": 4,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/inputs/frame_04.jpg",
+      "originalName": "01_missing_hole_05.jpg"
+    },
+    {
+      "index": 5,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/inputs/frame_05.jpg",
+      "originalName": "01_missing_hole_06.jpg"
+    },
+    {
+      "index": 6,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/inputs/frame_06.jpg",
+      "originalName": "01_missing_hole_07.jpg"
+    },
+    {
+      "index": 7,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/inputs/frame_07.jpg",
+      "originalName": "01_missing_hole_08.jpg"
+    }
+  ],
+  "timeline": [
+    {
+      "beforeIndex": 0,
+      "afterIndex": 1,
+      "beforePath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/inputs/frame_00.jpg",
+      "afterPath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/inputs/frame_01.jpg",
+      "comparisonRoot": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_01",
+      "pipeline": {
+        "alignment": {
+          "summary": {
+            "alignment_method": "skipped",
+            "reason": "Alignment disabled for manufacturing domain.",
+            "ssim": null
+          },
+          "report": {
+            "status": "skipped",
+            "reason": "Alignment disabled for manufacturing domain."
+          },
+          "artifacts": null,
+          "skipped": true
+        },
+        "pcb_cd": {
+          "summary": {
+            "status": "completed",
+            "model": "base_transformer_pos_s4_dd8_dedim8",
+            "checkpoint": "/home/cyclops/Documents/hckthon/BIT_CD/checkpoints/BIT_LEVIR/best_ckpt.pt",
+            "imgSize": 256,
+            "coverage": 0.0,
+            "pixelsChanged": 0,
+            "regionCount": 0,
+            "regions": [],
+            "imageSize": {
+              "width": 3034,
+              "height": 1586
+            }
+          },
+          "artifacts": {
+            "mask": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_01/stages/pcb_cd/mask.png",
+            "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_01/stages/pcb_cd/overlay.png",
+            "heatmap": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_01/stages/pcb_cd/heatmap.png",
+            "report": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_01/stages/pcb_cd/report.json"
+          },
+          "imageSize": {
+            "width": 3034,
+            "height": 1586
+          }
+        }
+      }
+    },
+    {
+      "beforeIndex": 1,
+      "afterIndex": 2,
+      "beforePath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/inputs/frame_01.jpg",
+      "afterPath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/inputs/frame_02.jpg",
+      "comparisonRoot": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_02",
+      "pipeline": {
+        "alignment": {
+          "summary": {
+            "alignment_method": "skipped",
+            "reason": "Alignment disabled for manufacturing domain.",
+            "ssim": null
+          },
+          "report": {
+            "status": "skipped",
+            "reason": "Alignment disabled for manufacturing domain."
+          },
+          "artifacts": null,
+          "skipped": true
+        },
+        "pcb_cd": {
+          "summary": {
+            "status": "completed",
+            "model": "base_transformer_pos_s4_dd8_dedim8",
+            "checkpoint": "/home/cyclops/Documents/hckthon/BIT_CD/checkpoints/BIT_LEVIR/best_ckpt.pt",
+            "imgSize": 256,
+            "coverage": 0.0,
+            "pixelsChanged": 0,
+            "regionCount": 0,
+            "regions": [],
+            "imageSize": {
+              "width": 3034,
+              "height": 1586
+            }
+          },
+          "artifacts": {
+            "mask": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_02/stages/pcb_cd/mask.png",
+            "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_02/stages/pcb_cd/overlay.png",
+            "heatmap": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_02/stages/pcb_cd/heatmap.png",
+            "report": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_02/stages/pcb_cd/report.json"
+          },
+          "imageSize": {
+            "width": 3034,
+            "height": 1586
+          }
+        }
+      }
+    },
+    {
+      "beforeIndex": 2,
+      "afterIndex": 3,
+      "beforePath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/inputs/frame_02.jpg",
+      "afterPath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/inputs/frame_03.jpg",
+      "comparisonRoot": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_03",
+      "pipeline": {
+        "alignment": {
+          "summary": {
+            "alignment_method": "skipped",
+            "reason": "Alignment disabled for manufacturing domain.",
+            "ssim": null
+          },
+          "report": {
+            "status": "skipped",
+            "reason": "Alignment disabled for manufacturing domain."
+          },
+          "artifacts": null,
+          "skipped": true
+        },
+        "pcb_cd": {
+          "summary": {
+            "status": "completed",
+            "model": "base_transformer_pos_s4_dd8_dedim8",
+            "checkpoint": "/home/cyclops/Documents/hckthon/BIT_CD/checkpoints/BIT_LEVIR/best_ckpt.pt",
+            "imgSize": 256,
+            "coverage": 0.0,
+            "pixelsChanged": 0,
+            "regionCount": 0,
+            "regions": [],
+            "imageSize": {
+              "width": 3034,
+              "height": 1586
+            }
+          },
+          "artifacts": {
+            "mask": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_03/stages/pcb_cd/mask.png",
+            "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_03/stages/pcb_cd/overlay.png",
+            "heatmap": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_03/stages/pcb_cd/heatmap.png",
+            "report": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_03/stages/pcb_cd/report.json"
+          },
+          "imageSize": {
+            "width": 3034,
+            "height": 1586
+          }
+        }
+      }
+    },
+    {
+      "beforeIndex": 3,
+      "afterIndex": 4,
+      "beforePath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/inputs/frame_03.jpg",
+      "afterPath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/inputs/frame_04.jpg",
+      "comparisonRoot": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_04",
+      "pipeline": {
+        "alignment": {
+          "summary": {
+            "alignment_method": "skipped",
+            "reason": "Alignment disabled for manufacturing domain.",
+            "ssim": null
+          },
+          "report": {
+            "status": "skipped",
+            "reason": "Alignment disabled for manufacturing domain."
+          },
+          "artifacts": null,
+          "skipped": true
+        },
+        "pcb_cd": {
+          "summary": {
+            "status": "completed",
+            "model": "base_transformer_pos_s4_dd8_dedim8",
+            "checkpoint": "/home/cyclops/Documents/hckthon/BIT_CD/checkpoints/BIT_LEVIR/best_ckpt.pt",
+            "imgSize": 256,
+            "coverage": 0.0,
+            "pixelsChanged": 0,
+            "regionCount": 0,
+            "regions": [],
+            "imageSize": {
+              "width": 3034,
+              "height": 1586
+            }
+          },
+          "artifacts": {
+            "mask": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_04/stages/pcb_cd/mask.png",
+            "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_04/stages/pcb_cd/overlay.png",
+            "heatmap": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_04/stages/pcb_cd/heatmap.png",
+            "report": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_04/stages/pcb_cd/report.json"
+          },
+          "imageSize": {
+            "width": 3034,
+            "height": 1586
+          }
+        }
+      }
+    },
+    {
+      "beforeIndex": 4,
+      "afterIndex": 5,
+      "beforePath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/inputs/frame_04.jpg",
+      "afterPath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/inputs/frame_05.jpg",
+      "comparisonRoot": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_05",
+      "pipeline": {
+        "alignment": {
+          "summary": {
+            "alignment_method": "skipped",
+            "reason": "Alignment disabled for manufacturing domain.",
+            "ssim": null
+          },
+          "report": {
+            "status": "skipped",
+            "reason": "Alignment disabled for manufacturing domain."
+          },
+          "artifacts": null,
+          "skipped": true
+        },
+        "pcb_cd": {
+          "summary": {
+            "status": "completed",
+            "model": "base_transformer_pos_s4_dd8_dedim8",
+            "checkpoint": "/home/cyclops/Documents/hckthon/BIT_CD/checkpoints/BIT_LEVIR/best_ckpt.pt",
+            "imgSize": 256,
+            "coverage": 0.0,
+            "pixelsChanged": 0,
+            "regionCount": 0,
+            "regions": [],
+            "imageSize": {
+              "width": 3034,
+              "height": 1586
+            }
+          },
+          "artifacts": {
+            "mask": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_05/stages/pcb_cd/mask.png",
+            "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_05/stages/pcb_cd/overlay.png",
+            "heatmap": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_05/stages/pcb_cd/heatmap.png",
+            "report": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_05/stages/pcb_cd/report.json"
+          },
+          "imageSize": {
+            "width": 3034,
+            "height": 1586
+          }
+        }
+      }
+    },
+    {
+      "beforeIndex": 5,
+      "afterIndex": 6,
+      "beforePath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/inputs/frame_05.jpg",
+      "afterPath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/inputs/frame_06.jpg",
+      "comparisonRoot": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_06",
+      "pipeline": {
+        "alignment": {
+          "summary": {
+            "alignment_method": "skipped",
+            "reason": "Alignment disabled for manufacturing domain.",
+            "ssim": null
+          },
+          "report": {
+            "status": "skipped",
+            "reason": "Alignment disabled for manufacturing domain."
+          },
+          "artifacts": null,
+          "skipped": true
+        },
+        "pcb_cd": {
+          "summary": {
+            "status": "completed",
+            "model": "base_transformer_pos_s4_dd8_dedim8",
+            "checkpoint": "/home/cyclops/Documents/hckthon/BIT_CD/checkpoints/BIT_LEVIR/best_ckpt.pt",
+            "imgSize": 256,
+            "coverage": 0.0,
+            "pixelsChanged": 0,
+            "regionCount": 0,
+            "regions": [],
+            "imageSize": {
+              "width": 3034,
+              "height": 1586
+            }
+          },
+          "artifacts": {
+            "mask": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_06/stages/pcb_cd/mask.png",
+            "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_06/stages/pcb_cd/overlay.png",
+            "heatmap": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_06/stages/pcb_cd/heatmap.png",
+            "report": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_06/stages/pcb_cd/report.json"
+          },
+          "imageSize": {
+            "width": 3034,
+            "height": 1586
+          }
+        }
+      }
+    },
+    {
+      "beforeIndex": 6,
+      "afterIndex": 7,
+      "beforePath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/inputs/frame_06.jpg",
+      "afterPath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/inputs/frame_07.jpg",
+      "comparisonRoot": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_07",
+      "pipeline": {
+        "alignment": {
+          "summary": {
+            "alignment_method": "skipped",
+            "reason": "Alignment disabled for manufacturing domain.",
+            "ssim": null
+          },
+          "report": {
+            "status": "skipped",
+            "reason": "Alignment disabled for manufacturing domain."
+          },
+          "artifacts": null,
+          "skipped": true
+        },
+        "pcb_cd": {
+          "summary": {
+            "status": "completed",
+            "model": "base_transformer_pos_s4_dd8_dedim8",
+            "checkpoint": "/home/cyclops/Documents/hckthon/BIT_CD/checkpoints/BIT_LEVIR/best_ckpt.pt",
+            "imgSize": 256,
+            "coverage": 0.0,
+            "pixelsChanged": 0,
+            "regionCount": 0,
+            "regions": [],
+            "imageSize": {
+              "width": 3034,
+              "height": 1586
+            }
+          },
+          "artifacts": {
+            "mask": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_07/stages/pcb_cd/mask.png",
+            "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_07/stages/pcb_cd/overlay.png",
+            "heatmap": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_07/stages/pcb_cd/heatmap.png",
+            "report": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_07/stages/pcb_cd/report.json"
+          },
+          "imageSize": {
+            "width": 3034,
+            "height": 1586
+          }
+        }
+      }
+    }
+  ],
+  "pipeline": {
+    "alignment": {
+      "summary": {
+        "alignment_method": "skipped",
+        "reason": "Alignment disabled for manufacturing domain.",
+        "ssim": null
+      },
+      "report": {
+        "status": "skipped",
+        "reason": "Alignment disabled for manufacturing domain."
+      },
+      "artifacts": null,
+      "skipped": true
+    },
+    "pcb_cd": {
+      "summary": {
+        "status": "completed",
+        "model": "base_transformer_pos_s4_dd8_dedim8",
+        "checkpoint": "/home/cyclops/Documents/hckthon/BIT_CD/checkpoints/BIT_LEVIR/best_ckpt.pt",
+        "imgSize": 256,
+        "coverage": 0.0,
+        "pixelsChanged": 0,
+        "regionCount": 0,
+        "regions": [],
+        "imageSize": {
+          "width": 3034,
+          "height": 1586
+        }
+      },
+      "artifacts": {
+        "mask": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_07/stages/pcb_cd/mask.png",
+        "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_07/stages/pcb_cd/overlay.png",
+        "heatmap": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_07/stages/pcb_cd/heatmap.png",
+        "report": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/88816eec271948f389790a0e5e1e212d/timeline/frame_07/stages/pcb_cd/report.json"
+      },
+      "imageSize": {
+        "width": 3034,
+        "height": 1586
+      }
+    }
+  },
+  "metadata": {
+    "domain": "Manufacturing"
+  }
+}

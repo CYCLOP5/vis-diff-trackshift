@@ -1,0 +1,446 @@
+{
+  "jobId": "0138357ebe204b14b76d21467db0d445",
+  "status": "completed",
+  "startedAt": "2025-11-16T03:52:53.435324+00:00",
+  "completedAt": "2025-11-16T03:53:22.887663+00:00",
+  "durationMs": 29452,
+  "comparisonMode": "consecutive",
+  "baselineIndex": 0,
+  "frames": [
+    {
+      "index": 0,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/0138357ebe204b14b76d21467db0d445/inputs/frame_00.jpg",
+      "originalName": "01_short_01.jpg"
+    },
+    {
+      "index": 1,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/0138357ebe204b14b76d21467db0d445/inputs/frame_01.jpg",
+      "originalName": "01_short_02.jpg"
+    },
+    {
+      "index": 2,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/0138357ebe204b14b76d21467db0d445/inputs/frame_02.jpg",
+      "originalName": "01_short_03.jpg"
+    }
+  ],
+  "timeline": [
+    {
+      "beforeIndex": 0,
+      "afterIndex": 1,
+      "beforePath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/0138357ebe204b14b76d21467db0d445/inputs/frame_00.jpg",
+      "afterPath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/0138357ebe204b14b76d21467db0d445/inputs/frame_01.jpg",
+      "comparisonRoot": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/0138357ebe204b14b76d21467db0d445/timeline/frame_01",
+      "pipeline": {
+        "alignment": {
+          "summary": {
+            "alignment_method": "skipped",
+            "reason": "Alignment disabled for manufacturing domain.",
+            "ssim": null
+          },
+          "report": {
+            "status": "skipped",
+            "reason": "Alignment disabled for manufacturing domain."
+          },
+          "artifacts": null,
+          "skipped": true
+        },
+        "pcb_cd": {
+          "summary": {
+            "status": "completed",
+            "model": "pcb-defect-detection-9ewqw/1",
+            "apiBase": "https://serverless.roboflow.com",
+            "coverage": 0.001879,
+            "pixelsChanged": 9040,
+            "regionCount": 2,
+            "regions": [
+              {
+                "id": "rf-region-1",
+                "label": "short",
+                "confidence": 0.508185,
+                "bbox": [
+                  973,
+                  1381,
+                  1052,
+                  1427
+                ],
+                "bboxNormalized": [
+                  0.320699,
+                  0.870744,
+                  0.346737,
+                  0.899748
+                ],
+                "areaRatio": 0.000755,
+                "source": "roboflow"
+              },
+              {
+                "id": "rf-region-2",
+                "label": "short",
+                "confidence": 0.489598,
+                "bbox": [
+                  2539,
+                  545,
+                  2626,
+                  604
+                ],
+                "bboxNormalized": [
+                  0.836849,
+                  0.343632,
+                  0.865524,
+                  0.380832
+                ],
+                "areaRatio": 0.001067,
+                "source": "roboflow"
+              }
+            ],
+            "imageSize": {
+              "width": 3034,
+              "height": 1586
+            },
+            "confidence": 0.45,
+            "overlap": 0.2,
+            "rawResponse": {
+              "inference_id": "052a12b9-af3f-4a17-a6f8-cacc9ba6b436",
+              "time": 0.10172555100143654,
+              "image": {
+                "width": 3034,
+                "height": 1586
+              },
+              "predictions": [
+                {
+                  "x": 1012.5,
+                  "y": 1404.0,
+                  "width": 79.0,
+                  "height": 46.0,
+                  "confidence": 0.5081849098205566,
+                  "class": "short",
+                  "class_id": 3,
+                  "detection_id": "e8815e6d-7cd3-49b0-9b5c-bdbb426a189b"
+                },
+                {
+                  "x": 2582.5,
+                  "y": 574.5,
+                  "width": 87.0,
+                  "height": 59.0,
+                  "confidence": 0.4895980954170227,
+                  "class": "short",
+                  "class_id": 3,
+                  "detection_id": "c2b894f2-cab7-40ed-a489-978f6f0e6077"
+                },
+                {
+                  "x": 1507.5,
+                  "y": 1351.5,
+                  "width": 93.0,
+                  "height": 57.0,
+                  "confidence": 0.44366610050201416,
+                  "class": "short",
+                  "class_id": 3,
+                  "detection_id": "c5eb00f2-d29b-4826-938b-4cb119482c55"
+                }
+              ]
+            }
+          },
+          "artifacts": {
+            "mask": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/0138357ebe204b14b76d21467db0d445/timeline/frame_01/stages/pcb_cd/mask.png",
+            "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/0138357ebe204b14b76d21467db0d445/timeline/frame_01/stages/pcb_cd/overlay.png",
+            "heatmap": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/0138357ebe204b14b76d21467db0d445/timeline/frame_01/stages/pcb_cd/heatmap.png",
+            "report": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/0138357ebe204b14b76d21467db0d445/timeline/frame_01/stages/pcb_cd/report.json"
+          },
+          "imageSize": {
+            "width": 3034,
+            "height": 1586
+          }
+        }
+      }
+    },
+    {
+      "beforeIndex": 1,
+      "afterIndex": 2,
+      "beforePath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/0138357ebe204b14b76d21467db0d445/inputs/frame_01.jpg",
+      "afterPath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/0138357ebe204b14b76d21467db0d445/inputs/frame_02.jpg",
+      "comparisonRoot": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/0138357ebe204b14b76d21467db0d445/timeline/frame_02",
+      "pipeline": {
+        "alignment": {
+          "summary": {
+            "alignment_method": "skipped",
+            "reason": "Alignment disabled for manufacturing domain.",
+            "ssim": null
+          },
+          "report": {
+            "status": "skipped",
+            "reason": "Alignment disabled for manufacturing domain."
+          },
+          "artifacts": null,
+          "skipped": true
+        },
+        "pcb_cd": {
+          "summary": {
+            "status": "completed",
+            "model": "pcb-defect-detection-9ewqw/1",
+            "apiBase": "https://serverless.roboflow.com",
+            "coverage": 0.002357,
+            "pixelsChanged": 11344,
+            "regionCount": 3,
+            "regions": [
+              {
+                "id": "rf-region-1",
+                "label": "short",
+                "confidence": 0.519612,
+                "bbox": [
+                  772,
+                  1210,
+                  854,
+                  1252
+                ],
+                "bboxNormalized": [
+                  0.25445,
+                  0.762926,
+                  0.281477,
+                  0.789407
+                ],
+                "areaRatio": 0.000716,
+                "source": "roboflow"
+              },
+              {
+                "id": "rf-region-2",
+                "label": "short",
+                "confidence": 0.469894,
+                "bbox": [
+                  1005,
+                  1316,
+                  1081,
+                  1366
+                ],
+                "bboxNormalized": [
+                  0.331246,
+                  0.82976,
+                  0.356295,
+                  0.861286
+                ],
+                "areaRatio": 0.00079,
+                "source": "roboflow"
+              },
+              {
+                "id": "rf-region-3",
+                "label": "short",
+                "confidence": 0.457237,
+                "bbox": [
+                  1315,
+                  1266,
+                  1388,
+                  1317
+                ],
+                "bboxNormalized": [
+                  0.433421,
+                  0.798235,
+                  0.457482,
+                  0.830391
+                ],
+                "areaRatio": 0.000774,
+                "source": "roboflow"
+              }
+            ],
+            "imageSize": {
+              "width": 3034,
+              "height": 1586
+            },
+            "confidence": 0.45,
+            "overlap": 0.2,
+            "rawResponse": {
+              "inference_id": "a9ae0ac8-4770-4c99-8827-358fa56fd02e",
+              "time": 0.10309309800140909,
+              "image": {
+                "width": 3034,
+                "height": 1586
+              },
+              "predictions": [
+                {
+                  "x": 813.0,
+                  "y": 1231.0,
+                  "width": 82.0,
+                  "height": 42.0,
+                  "confidence": 0.5196123719215393,
+                  "class": "short",
+                  "class_id": 3,
+                  "detection_id": "86f4673f-e984-4759-82b6-c07c669b1253"
+                },
+                {
+                  "x": 1043.0,
+                  "y": 1341.0,
+                  "width": 76.0,
+                  "height": 50.0,
+                  "confidence": 0.4698936939239502,
+                  "class": "short",
+                  "class_id": 3,
+                  "detection_id": "525f5c8c-4fc7-49e4-9eca-b3c4881de60e"
+                },
+                {
+                  "x": 1351.5,
+                  "y": 1291.5,
+                  "width": 73.0,
+                  "height": 51.0,
+                  "confidence": 0.45723670721054077,
+                  "class": "short",
+                  "class_id": 3,
+                  "detection_id": "3af3dfd4-552a-406d-a05d-403bd39179c9"
+                }
+              ]
+            }
+          },
+          "artifacts": {
+            "mask": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/0138357ebe204b14b76d21467db0d445/timeline/frame_02/stages/pcb_cd/mask.png",
+            "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/0138357ebe204b14b76d21467db0d445/timeline/frame_02/stages/pcb_cd/overlay.png",
+            "heatmap": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/0138357ebe204b14b76d21467db0d445/timeline/frame_02/stages/pcb_cd/heatmap.png",
+            "report": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/0138357ebe204b14b76d21467db0d445/timeline/frame_02/stages/pcb_cd/report.json"
+          },
+          "imageSize": {
+            "width": 3034,
+            "height": 1586
+          }
+        }
+      }
+    }
+  ],
+  "pipeline": {
+    "alignment": {
+      "summary": {
+        "alignment_method": "skipped",
+        "reason": "Alignment disabled for manufacturing domain.",
+        "ssim": null
+      },
+      "report": {
+        "status": "skipped",
+        "reason": "Alignment disabled for manufacturing domain."
+      },
+      "artifacts": null,
+      "skipped": true
+    },
+    "pcb_cd": {
+      "summary": {
+        "status": "completed",
+        "model": "pcb-defect-detection-9ewqw/1",
+        "apiBase": "https://serverless.roboflow.com",
+        "coverage": 0.002357,
+        "pixelsChanged": 11344,
+        "regionCount": 3,
+        "regions": [
+          {
+            "id": "rf-region-1",
+            "label": "short",
+            "confidence": 0.519612,
+            "bbox": [
+              772,
+              1210,
+              854,
+              1252
+            ],
+            "bboxNormalized": [
+              0.25445,
+              0.762926,
+              0.281477,
+              0.789407
+            ],
+            "areaRatio": 0.000716,
+            "source": "roboflow"
+          },
+          {
+            "id": "rf-region-2",
+            "label": "short",
+            "confidence": 0.469894,
+            "bbox": [
+              1005,
+              1316,
+              1081,
+              1366
+            ],
+            "bboxNormalized": [
+              0.331246,
+              0.82976,
+              0.356295,
+              0.861286
+            ],
+            "areaRatio": 0.00079,
+            "source": "roboflow"
+          },
+          {
+            "id": "rf-region-3",
+            "label": "short",
+            "confidence": 0.457237,
+            "bbox": [
+              1315,
+              1266,
+              1388,
+              1317
+            ],
+            "bboxNormalized": [
+              0.433421,
+              0.798235,
+              0.457482,
+              0.830391
+            ],
+            "areaRatio": 0.000774,
+            "source": "roboflow"
+          }
+        ],
+        "imageSize": {
+          "width": 3034,
+          "height": 1586
+        },
+        "confidence": 0.45,
+        "overlap": 0.2,
+        "rawResponse": {
+          "inference_id": "a9ae0ac8-4770-4c99-8827-358fa56fd02e",
+          "time": 0.10309309800140909,
+          "image": {
+            "width": 3034,
+            "height": 1586
+          },
+          "predictions": [
+            {
+              "x": 813.0,
+              "y": 1231.0,
+              "width": 82.0,
+              "height": 42.0,
+              "confidence": 0.5196123719215393,
+              "class": "short",
+              "class_id": 3,
+              "detection_id": "86f4673f-e984-4759-82b6-c07c669b1253"
+            },
+            {
+              "x": 1043.0,
+              "y": 1341.0,
+              "width": 76.0,
+              "height": 50.0,
+              "confidence": 0.4698936939239502,
+              "class": "short",
+              "class_id": 3,
+              "detection_id": "525f5c8c-4fc7-49e4-9eca-b3c4881de60e"
+            },
+            {
+              "x": 1351.5,
+              "y": 1291.5,
+              "width": 73.0,
+              "height": 51.0,
+              "confidence": 0.45723670721054077,
+              "class": "short",
+              "class_id": 3,
+              "detection_id": "3af3dfd4-552a-406d-a05d-403bd39179c9"
+            }
+          ]
+        }
+      },
+      "artifacts": {
+        "mask": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/0138357ebe204b14b76d21467db0d445/timeline/frame_02/stages/pcb_cd/mask.png",
+        "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/0138357ebe204b14b76d21467db0d445/timeline/frame_02/stages/pcb_cd/overlay.png",
+        "heatmap": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/0138357ebe204b14b76d21467db0d445/timeline/frame_02/stages/pcb_cd/heatmap.png",
+        "report": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/0138357ebe204b14b76d21467db0d445/timeline/frame_02/stages/pcb_cd/report.json"
+      },
+      "imageSize": {
+        "width": 3034,
+        "height": 1586
+      }
+    }
+  },
+  "metadata": {
+    "domain": "Manufacturing"
+  }
+}

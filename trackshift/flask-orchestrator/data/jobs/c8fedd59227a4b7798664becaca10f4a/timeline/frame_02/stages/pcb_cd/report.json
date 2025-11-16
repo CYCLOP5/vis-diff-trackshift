@@ -1,0 +1,84 @@
+{
+  "status": "completed",
+  "model": "pcb-defect-detection-9ewqw/1",
+  "apiBase": "https://serverless.roboflow.com",
+  "coverage": 0.002692,
+  "pixelsChanged": 20271,
+  "regionCount": 2,
+  "regions": [
+    {
+      "id": "rf-region-1",
+      "label": "short",
+      "confidence": 0.589836,
+      "bbox": [
+        2237,
+        1573,
+        2366,
+        1659
+      ],
+      "bboxNormalized": [
+        0.732003,
+        0.638393,
+        0.774215,
+        0.673295
+      ],
+      "areaRatio": 0.001473,
+      "source": "roboflow"
+    },
+    {
+      "id": "rf-region-2",
+      "label": "short",
+      "confidence": 0.581835,
+      "bbox": [
+        1417,
+        1153,
+        1519,
+        1239
+      ],
+      "bboxNormalized": [
+        0.463678,
+        0.467938,
+        0.497055,
+        0.502841
+      ],
+      "areaRatio": 0.001165,
+      "source": "roboflow"
+    }
+  ],
+  "imageSize": {
+    "width": 3056,
+    "height": 2464
+  },
+  "confidence": 0.45,
+  "overlap": 0.2,
+  "rawResponse": {
+    "inference_id": "e2d6810e-6c17-4d11-aeb4-ef4f6b8e30fe",
+    "time": 0.12092243299412075,
+    "image": {
+      "width": 3056,
+      "height": 2464
+    },
+    "predictions": [
+      {
+        "x": 2301.5,
+        "y": 1616.0,
+        "width": 129.0,
+        "height": 86.0,
+        "confidence": 0.5898361206054688,
+        "class": "short",
+        "class_id": 3,
+        "detection_id": "9a0855ac-adf2-4fb0-950d-f028f64defd9"
+      },
+      {
+        "x": 1468.0,
+        "y": 1196.0,
+        "width": 102.0,
+        "height": 86.0,
+        "confidence": 0.5818347334861755,
+        "class": "short",
+        "class_id": 3,
+        "detection_id": "967d9cd7-04d8-4add-aef0-c05d50b1c98e"
+      }
+    ]
+  }
+}

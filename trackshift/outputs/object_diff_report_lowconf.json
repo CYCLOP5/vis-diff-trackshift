@@ -1,0 +1,62 @@
+{
+  "model": "yolov8n.pt",
+  "alignment_method": "ecc",
+  "color_normalization": "none",
+  "ssim_threshold": 0.9,
+  "min_iou": 0.3,
+  "confidence": 0.05,
+  "focus_classes": null,
+  "counts": {
+    "paired": 0,
+    "changed": 0,
+    "stable": 0,
+    "new": 2,
+    "missing": 0
+  },
+  "components": {
+    "motorcycle": {
+      "changed": 0,
+      "stable": 0,
+      "new": 1
+    },
+    "suitcase": {
+      "changed": 0,
+      "stable": 0,
+      "new": 1
+    }
+  },
+  "paired": [],
+  "new_objects": [
+    {
+      "class_id": 3,
+      "class_name": "motorcycle",
+      "raw_name": "motorcycle",
+      "box_after": [
+        64,
+        129,
+        260,
+        716
+      ],
+      "conf": 0.2306
+    },
+    {
+      "class_id": 28,
+      "class_name": "suitcase",
+      "raw_name": "suitcase",
+      "box_after": [
+        225,
+        95,
+        282,
+        183
+      ],
+      "conf": 0.128
+    }
+  ],
+  "missing_objects": [],
+  "artifacts": {
+    "overlay": "/home/cyclops/Documents/trackshift/outputs/object_diff_overlay.png",
+    "roi_dir": null
+  },
+  "before": "/home/cyclops/Documents/trackshift/object-diff-yolo/af.png",
+  "after": "/home/cyclops/Documents/trackshift/object-diff-yolo/vf.png"
+}

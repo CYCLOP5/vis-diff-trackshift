@@ -1,0 +1,40 @@
+{
+  "rois": [
+    {
+      "box": [
+        239,
+        269,
+        333,
+        309
+      ],
+      "class_name": "suspension",
+      "confidence": 0.8759,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        231,
+        306,
+        322,
+        340
+      ],
+      "class_name": "suspension",
+      "confidence": 0.7998,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        284,
+        219,
+        319,
+        234
+      ],
+      "class_name": "mirrors",
+      "confidence": 0.7354,
+      "changed": true,
+      "source": "object_diff"
+    }
+  ]
+}

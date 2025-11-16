@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "model": "pcb-defect-detection-9ewqw/1",
+  "apiBase": "https://serverless.roboflow.com",
+  "coverage": 0.000424,
+  "pixelsChanged": 2040,
+  "regionCount": 1,
+  "regions": [
+    {
+      "id": "rf-region-1",
+      "label": "mouse_bite",
+      "confidence": 0.503555,
+      "bbox": [
+        1167,
+        1318,
+        1234,
+        1347
+      ],
+      "bboxNormalized": [
+        0.384641,
+        0.831021,
+        0.406724,
+        0.849306
+      ],
+      "areaRatio": 0.000404,
+      "source": "roboflow"
+    }
+  ],
+  "imageSize": {
+    "width": 3034,
+    "height": 1586
+  },
+  "confidence": 0.45,
+  "overlap": 0.2,
+  "rawResponse": {
+    "inference_id": "01b0afd6-9195-4c73-a1ca-5b5faf506910",
+    "time": 0.08261270799994236,
+    "image": {
+      "width": 3034,
+      "height": 1586
+    },
+    "predictions": [
+      {
+        "x": 1200.5,
+        "y": 1332.5,
+        "width": 67.0,
+        "height": 29.0,
+        "confidence": 0.50355464220047,
+        "class": "mouse_bite",
+        "class_id": 1,
+        "detection_id": "5051a647-d8b0-42e3-af34-3074b2391253"
+      }
+    ]
+  }
+}

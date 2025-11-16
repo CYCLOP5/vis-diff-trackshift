@@ -1,0 +1,155 @@
+{
+  "jobId": "49174e0ac83d4d0e87eba1484b7e6020",
+  "status": "failed",
+  "startedAt": "2025-11-15T09:04:15.061499+00:00",
+  "completedAt": "2025-11-15T09:04:21.156785+00:00",
+  "durationMs": 6095,
+  "pipeline": {
+    "alignment": {
+      "summary": {
+        "alignment_method": "ecc",
+        "color_normalization": "none",
+        "ssim": 0.3224,
+        "roi_count": 6,
+        "rois": [
+          {
+            "bbox": [
+              924,
+              300,
+              100,
+              8
+            ],
+            "area": 362.0
+          },
+          {
+            "bbox": [
+              756,
+              111,
+              102,
+              22
+            ],
+            "area": 516.0
+          },
+          {
+            "bbox": [
+              878,
+              0,
+              92,
+              28
+            ],
+            "area": 1211.5
+          },
+          {
+            "bbox": [
+              697,
+              0,
+              65,
+              24
+            ],
+            "area": 1129.5
+          },
+          {
+            "bbox": [
+              646,
+              0,
+              21,
+              31
+            ],
+            "area": 349.0
+          },
+          {
+            "bbox": [
+              0,
+              0,
+              1024,
+              671
+            ],
+            "area": 555618.0
+          }
+        ],
+        "before": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/49174e0ac83d4d0e87eba1484b7e6020/inputs/before.jpg",
+        "after": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/49174e0ac83d4d0e87eba1484b7e6020/inputs/after.jpg"
+      },
+      "report": {
+        "alignment_method": "ecc",
+        "color_normalization": "none",
+        "ssim": 0.3224,
+        "roi_count": 6,
+        "rois": [
+          {
+            "bbox": [
+              924,
+              300,
+              100,
+              8
+            ],
+            "area": 362.0
+          },
+          {
+            "bbox": [
+              756,
+              111,
+              102,
+              22
+            ],
+            "area": 516.0
+          },
+          {
+            "bbox": [
+              878,
+              0,
+              92,
+              28
+            ],
+            "area": 1211.5
+          },
+          {
+            "bbox": [
+              697,
+              0,
+              65,
+              24
+            ],
+            "area": 1129.5
+          },
+          {
+            "bbox": [
+              646,
+              0,
+              21,
+              31
+            ],
+            "area": 349.0
+          },
+          {
+            "bbox": [
+              0,
+              0,
+              1024,
+              671
+            ],
+            "area": 555618.0
+          }
+        ],
+        "before": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/49174e0ac83d4d0e87eba1484b7e6020/inputs/before.jpg",
+        "after": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/49174e0ac83d4d0e87eba1484b7e6020/inputs/after.jpg"
+      },
+      "artifacts": {
+        "aligned": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/49174e0ac83d4d0e87eba1484b7e6020/stages/alignment/aligned.png",
+        "diff": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/49174e0ac83d4d0e87eba1484b7e6020/stages/alignment/diff_gray.png",
+        "mask": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/49174e0ac83d4d0e87eba1484b7e6020/stages/alignment/mask.png",
+        "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/49174e0ac83d4d0e87eba1484b7e6020/stages/alignment/overlay.png",
+        "heatmap": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/49174e0ac83d4d0e87eba1484b7e6020/stages/alignment/heatmap.png"
+      }
+    }
+  },
+  "metadata": {
+    "domain": "F1"
+  },
+  "error": {
+    "message": "Stage 'object_diff' failed with exit code 1.",
+    "stage": "object_diff",
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/cyclops/Documents/hckthon/trackshift/object-diff-yolo/object_diff.py\", line 15, in <module>\n    import google.generativeai as genai\nModuleNotFoundError: No module named 'google.generativeai'\n\nERROR conda.cli.main_run:execute(127): `conda run python /home/cyclops/Documents/hckthon/trackshift/object-diff-yolo/object_diff.py --before /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/49174e0ac83d4d0e87eba1484b7e6020/inputs/before.jpg --after /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/49174e0ac83d4d0e87eba1484b7e6020/inputs/after.jpg --output /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/49174e0ac83d4d0e87eba1484b7e6020/stages/object_diff/component_report.json --artifacts-dir /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/49174e0ac83d4d0e87eba1484b7e6020/stages/object_diff/artifacts --save-overlay` failed. (See above for error)"
+  }
+}

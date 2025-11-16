@@ -1,0 +1,436 @@
+{
+  "detections": [
+    {
+      "class_id": 5,
+      "class_name": "lamp_broken",
+      "bbox": [
+        409,
+        557,
+        519,
+        759
+      ],
+      "score": 0.6307830214500427,
+      "mask_area": 15131,
+      "source_roi": {
+        "roi_index": 0,
+        "box": [
+          87,
+          429,
+          798,
+          528
+        ],
+        "class_name": "front-wing",
+        "confidence": 0.9114,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 5,
+      "class_name": "lamp_broken",
+      "bbox": [
+        414,
+        200,
+        528,
+        341
+      ],
+      "score": 0.4323027729988098,
+      "mask_area": 8695,
+      "source_roi": {
+        "roi_index": 0,
+        "box": [
+          87,
+          429,
+          798,
+          528
+        ],
+        "class_name": "front-wing",
+        "confidence": 0.9114,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        463,
+        46,
+        550,
+        220
+      ],
+      "score": 0.49313703179359436,
+      "mask_area": 10108,
+      "source_roi": {
+        "roi_index": 1,
+        "box": [
+          50,
+          268,
+          204,
+          540
+        ],
+        "class_name": "tire",
+        "confidence": 0.9027,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "bbox": [
+        441,
+        50,
+        552,
+        211
+      ],
+      "score": 0.48002758622169495,
+      "mask_area": 13488,
+      "source_roi": {
+        "roi_index": 1,
+        "box": [
+          50,
+          268,
+          204,
+          540
+        ],
+        "class_name": "tire",
+        "confidence": 0.9027,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "bbox": [
+        279,
+        55,
+        489,
+        196
+      ],
+      "score": 0.4205261170864105,
+      "mask_area": 17831,
+      "source_roi": {
+        "roi_index": 1,
+        "box": [
+          50,
+          268,
+          204,
+          540
+        ],
+        "class_name": "tire",
+        "confidence": 0.9027,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 2,
+      "class_name": "scratch",
+      "bbox": [
+        438,
+        62,
+        526,
+        192
+      ],
+      "score": 0.2765958309173584,
+      "mask_area": 31,
+      "source_roi": {
+        "roi_index": 1,
+        "box": [
+          50,
+          268,
+          204,
+          540
+        ],
+        "class_name": "tire",
+        "confidence": 0.9027,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        447,
+        664,
+        536,
+        790
+      ],
+      "score": 0.4614643454551697,
+      "mask_area": 6050,
+      "source_roi": {
+        "roi_index": 2,
+        "box": [
+          684,
+          264,
+          834,
+          531
+        ],
+        "class_name": "tire",
+        "confidence": 0.9027,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "bbox": [
+        269,
+        664,
+        512,
+        809
+      ],
+      "score": 0.4502703547477722,
+      "mask_area": 22879,
+      "source_roi": {
+        "roi_index": 2,
+        "box": [
+          684,
+          264,
+          834,
+          531
+        ],
+        "class_name": "tire",
+        "confidence": 0.9027,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "bbox": [
+        422,
+        676,
+        551,
+        850
+      ],
+      "score": 0.4149537980556488,
+      "mask_area": 13945,
+      "source_roi": {
+        "roi_index": 2,
+        "box": [
+          684,
+          264,
+          834,
+          531
+        ],
+        "class_name": "tire",
+        "confidence": 0.9027,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        89,
+        367,
+        166,
+        540
+      ],
+      "score": 0.3069358468055725,
+      "mask_area": 4488,
+      "source_roi": {
+        "roi_index": 3,
+        "box": [
+          315,
+          59,
+          612,
+          146
+        ],
+        "class_name": "rear-wing",
+        "confidence": 0.8998,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "bbox": [
+        344,
+        214,
+        430,
+        321
+      ],
+      "score": 0.46095117926597595,
+      "mask_area": 6030,
+      "source_roi": {
+        "roi_index": 4,
+        "box": [
+          206,
+          317,
+          373,
+          410
+        ],
+        "class_name": "suspension",
+        "confidence": 0.8562,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "bbox": [
+        297,
+        217,
+        353,
+        316
+      ],
+      "score": 0.34725433588027954,
+      "mask_area": 3895,
+      "source_roi": {
+        "roi_index": 4,
+        "box": [
+          206,
+          317,
+          373,
+          410
+        ],
+        "class_name": "suspension",
+        "confidence": 0.8562,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 8,
+      "class_name": "paint_peel",
+      "bbox": [
+        302,
+        390,
+        373,
+        502
+      ],
+      "score": 0.33151867985725403,
+      "mask_area": 3283,
+      "source_roi": {
+        "roi_index": 6,
+        "box": [
+          361,
+          253,
+          521,
+          493
+        ],
+        "class_name": "monocoque",
+        "confidence": 0.8455,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "bbox": [
+        320,
+        351,
+        504,
+        530
+      ],
+      "score": 0.2896037697792053,
+      "mask_area": 24153,
+      "source_roi": {
+        "roi_index": 6,
+        "box": [
+          361,
+          253,
+          521,
+          493
+        ],
+        "class_name": "monocoque",
+        "confidence": 0.8455,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "bbox": [
+        343,
+        522,
+        422,
+        627
+      ],
+      "score": 0.35399743914604187,
+      "mask_area": 5432,
+      "source_roi": {
+        "roi_index": 7,
+        "box": [
+          513,
+          315,
+          676,
+          411
+        ],
+        "class_name": "suspension",
+        "confidence": 0.8319,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 2,
+      "class_name": "scratch",
+      "bbox": [
+        361,
+        524,
+        405,
+        657
+      ],
+      "score": 0.29956570267677307,
+      "mask_area": 0,
+      "source_roi": {
+        "roi_index": 7,
+        "box": [
+          513,
+          315,
+          676,
+          411
+        ],
+        "class_name": "suspension",
+        "confidence": 0.8319,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "bbox": [
+        94,
+        413,
+        173,
+        489
+      ],
+      "score": 0.6501762270927429,
+      "mask_area": 1647,
+      "source_roi": {
+        "roi_index": 9,
+        "box": [
+          422,
+          102,
+          486,
+          153
+        ],
+        "class_name": "engine-intake",
+        "confidence": 0.7206,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "bbox": [
+        151,
+        420,
+        171,
+        482
+      ],
+      "score": 0.4529343247413635,
+      "mask_area": 801,
+      "source_roi": {
+        "roi_index": 9,
+        "box": [
+          422,
+          102,
+          486,
+          153
+        ],
+        "class_name": "engine-intake",
+        "confidence": 0.7206,
+        "changed": true
+      }
+    }
+  ]
+}

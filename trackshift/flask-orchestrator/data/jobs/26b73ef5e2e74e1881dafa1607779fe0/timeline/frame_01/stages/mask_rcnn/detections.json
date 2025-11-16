@@ -1,0 +1,604 @@
+{
+  "detections": [
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        350,
+        94,
+        614,
+        290
+      ],
+      "score": 0.40940892696380615,
+      "mask_area": 27323,
+      "source_roi": {
+        "roi_index": 0,
+        "box": [
+          64,
+          344,
+          270,
+          594
+        ],
+        "class_name": "tire",
+        "confidence": 0.9488,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        345,
+        943,
+        562,
+        1131
+      ],
+      "score": 0.4395197629928589,
+      "mask_area": 23158,
+      "source_roi": {
+        "roi_index": 1,
+        "box": [
+          953,
+          363,
+          1162,
+          542
+        ],
+        "class_name": "tire",
+        "confidence": 0.9415,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        368,
+        941,
+        456,
+        1011
+      ],
+      "score": 0.34083282947540283,
+      "mask_area": 3117,
+      "source_roi": {
+        "roi_index": 1,
+        "box": [
+          953,
+          363,
+          1162,
+          542
+        ],
+        "class_name": "tire",
+        "confidence": 0.9415,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "legacy_class_name": "missing_part",
+      "bbox": [
+        524,
+        557,
+        624,
+        1230
+      ],
+      "score": 0.3992040753364563,
+      "mask_area": 44392,
+      "source_roi": {
+        "roi_index": 2,
+        "box": [
+          403,
+          523,
+          1210,
+          652
+        ],
+        "class_name": "front-wing",
+        "confidence": 0.9288,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        393,
+        283,
+        504,
+        350
+      ],
+      "score": 0.36778149008750916,
+      "mask_area": 5270,
+      "source_roi": {
+        "roi_index": 3,
+        "box": [
+          290,
+          386,
+          493,
+          640
+        ],
+        "class_name": "tire",
+        "confidence": 0.9236,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        399,
+        296,
+        628,
+        471
+      ],
+      "score": 0.36376693844795227,
+      "mask_area": 19796,
+      "source_roi": {
+        "roi_index": 3,
+        "box": [
+          290,
+          386,
+          493,
+          640
+        ],
+        "class_name": "tire",
+        "confidence": 0.9236,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        456,
+        283,
+        648,
+        349
+      ],
+      "score": 0.35265567898750305,
+      "mask_area": 8706,
+      "source_roi": {
+        "roi_index": 3,
+        "box": [
+          290,
+          386,
+          493,
+          640
+        ],
+        "class_name": "tire",
+        "confidence": 0.9236,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        547,
+        313,
+        659,
+        469
+      ],
+      "score": 0.32071197032928467,
+      "mask_area": 10687,
+      "source_roi": {
+        "roi_index": 3,
+        "box": [
+          290,
+          386,
+          493,
+          640
+        ],
+        "class_name": "tire",
+        "confidence": 0.9236,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        200,
+        232,
+        267,
+        443
+      ],
+      "score": 0.5115129351615906,
+      "mask_area": 11128,
+      "source_roi": {
+        "roi_index": 4,
+        "box": [
+          206,
+          181,
+          500,
+          335
+        ],
+        "class_name": "rear-wing",
+        "confidence": 0.9033,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        170,
+        326,
+        355,
+        479
+      ],
+      "score": 0.29060810804367065,
+      "mask_area": 20716,
+      "source_roi": {
+        "roi_index": 4,
+        "box": [
+          206,
+          181,
+          500,
+          335
+        ],
+        "class_name": "rear-wing",
+        "confidence": 0.9033,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        185,
+        518,
+        290,
+        612
+      ],
+      "score": 0.4371374249458313,
+      "mask_area": 672,
+      "source_roi": {
+        "roi_index": 5,
+        "box": [
+          528,
+          197,
+          620,
+          270
+        ],
+        "class_name": "engine-intake",
+        "confidence": 0.8156,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        181,
+        529,
+        226,
+        603
+      ],
+      "score": 0.38818997144699097,
+      "mask_area": 1630,
+      "source_roi": {
+        "roi_index": 5,
+        "box": [
+          528,
+          197,
+          620,
+          270
+        ],
+        "class_name": "engine-intake",
+        "confidence": 0.8156,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        419,
+        788,
+        555,
+        932
+      ],
+      "score": 0.3612118363380432,
+      "mask_area": 12925,
+      "source_roi": {
+        "roi_index": 6,
+        "box": [
+          794,
+          422,
+          979,
+          535
+        ],
+        "class_name": "suspension",
+        "confidence": 0.793,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        495,
+        856,
+        551,
+        934
+      ],
+      "score": 0.29697859287261963,
+      "mask_area": 2482,
+      "source_roi": {
+        "roi_index": 6,
+        "box": [
+          794,
+          422,
+          979,
+          535
+        ],
+        "class_name": "suspension",
+        "confidence": 0.793,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        463,
+        499,
+        539,
+        575
+      ],
+      "score": 0.4300692081451416,
+      "mask_area": 4637,
+      "source_roi": {
+        "roi_index": 7,
+        "box": [
+          496,
+          411,
+          688,
+          519
+        ],
+        "class_name": "suspension",
+        "confidence": 0.7136,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        391,
+        498,
+        539,
+        675
+      ],
+      "score": 0.3808562159538269,
+      "mask_area": 19621,
+      "source_roi": {
+        "roi_index": 7,
+        "box": [
+          496,
+          411,
+          688,
+          519
+        ],
+        "class_name": "suspension",
+        "confidence": 0.7136,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        349,
+        407,
+        612,
+        789
+      ],
+      "score": 0.43951666355133057,
+      "mask_area": 72942,
+      "source_roi": {
+        "roi_index": 8,
+        "box": [
+          409,
+          354,
+          839,
+          592
+        ],
+        "class_name": "monocoque",
+        "confidence": 0.6474,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        416,
+        659,
+        607,
+        844
+      ],
+      "score": 0.3076476752758026,
+      "mask_area": 23412,
+      "source_roi": {
+        "roi_index": 8,
+        "box": [
+          409,
+          354,
+          839,
+          592
+        ],
+        "class_name": "monocoque",
+        "confidence": 0.6474,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 8,
+      "class_name": "paint_peel",
+      "legacy_class_name": "paint_peel",
+      "bbox": [
+        334,
+        436,
+        460,
+        714
+      ],
+      "score": 0.28599146008491516,
+      "mask_area": 14982,
+      "source_roi": {
+        "roi_index": 8,
+        "box": [
+          409,
+          354,
+          839,
+          592
+        ],
+        "class_name": "monocoque",
+        "confidence": 0.6474,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "legacy_class_name": "missing_part",
+      "bbox": [
+        455,
+        415,
+        600,
+        834
+      ],
+      "score": 0.27496007084846497,
+      "mask_area": 34181,
+      "source_roi": {
+        "roi_index": 8,
+        "box": [
+          409,
+          354,
+          839,
+          592
+        ],
+        "class_name": "monocoque",
+        "confidence": 0.6474,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 8,
+      "class_name": "paint_peel",
+      "legacy_class_name": "paint_peel",
+      "bbox": [
+        406,
+        427,
+        590,
+        630
+      ],
+      "score": 0.27302736043930054,
+      "mask_area": 9831,
+      "source_roi": {
+        "roi_index": 8,
+        "box": [
+          409,
+          354,
+          839,
+          592
+        ],
+        "class_name": "monocoque",
+        "confidence": 0.6474,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        449,
+        697,
+        486,
+        790
+      ],
+      "score": 0.4449806213378906,
+      "mask_area": 2333,
+      "source_roi": {
+        "roi_index": 9,
+        "box": [
+          700,
+          466,
+          840,
+          602
+        ],
+        "class_name": "monocoque",
+        "confidence": 0.4923,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        452,
+        697,
+        590,
+        853
+      ],
+      "score": 0.36405760049819946,
+      "mask_area": 15161,
+      "source_roi": {
+        "roi_index": 9,
+        "box": [
+          700,
+          466,
+          840,
+          602
+        ],
+        "class_name": "monocoque",
+        "confidence": 0.4923,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        271,
+        465,
+        346,
+        620
+      ],
+      "score": 0.3764113187789917,
+      "mask_area": 7916,
+      "source_roi": {
+        "roi_index": 10,
+        "box": [
+          455,
+          269,
+          646,
+          326
+        ],
+        "class_name": "halo",
+        "confidence": 0.4849,
+        "changed": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "jobId": "6206315a84654a2296aeb4d7b46a5a39",
+  "status": "completed",
+  "startedAt": "2025-11-15T22:10:47.045755+00:00",
+  "completedAt": "2025-11-15T22:10:55.159114+00:00",
+  "durationMs": 8113,
+  "comparisonMode": "baseline",
+  "baselineIndex": 0,
+  "frames": [
+    {
+      "index": 0,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/6206315a84654a2296aeb4d7b46a5a39/inputs/frame_00.png",
+      "originalName": "train_386_0512_0768.png"
+    },
+    {
+      "index": 1,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/6206315a84654a2296aeb4d7b46a5a39/inputs/frame_01.png",
+      "originalName": "train_386_0512_0768 (copy 1).png"
+    }
+  ],
+  "timeline": [
+    {
+      "beforeIndex": 0,
+      "afterIndex": 1,
+      "beforePath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/6206315a84654a2296aeb4d7b46a5a39/inputs/frame_00.png",
+      "afterPath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/6206315a84654a2296aeb4d7b46a5a39/inputs/frame_01.png",
+      "comparisonRoot": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/6206315a84654a2296aeb4d7b46a5a39/timeline/frame_01",
+      "pipeline": {
+        "alignment": {
+          "summary": {
+            "alignment_method": "skipped",
+            "reason": "Alignment disabled for infrastructure domain.",
+            "ssim": null
+          },
+          "report": {
+            "status": "skipped",
+            "reason": "Alignment disabled for infrastructure domain."
+          },
+          "artifacts": null,
+          "skipped": true
+        },
+        "changeformer_cd": {
+          "summary": {
+            "status": "completed",
+            "model": {
+              "net": "ChangeFormerV6",
+              "embedDim": 256,
+              "checkpoint": "/home/cyclops/Documents/hckthon/ChangeFormer/checkpoints/ChangeFormer_LEVIR/best_ckpt.pt"
+            },
+            "imageSize": {
+              "width": 256,
+              "height": 256
+            },
+            "inferenceSize": {
+              "width": 256,
+              "height": 256
+            },
+            "threshold": 0.35,
+            "minRegionPixels": 300,
+            "coverage": 0.000275,
+            "pixelsChanged": 18,
+            "regionCount": 0,
+            "regions": [],
+            "globalMeanProbability": 0.426648,
+            "globalMaxProbability": 0.563497,
+            "artifacts": {
+              "mask": "mask.png",
+              "overlay": "overlay.png",
+              "heatmap": "heatmap.png"
+            }
+          },
+          "artifacts": {
+            "mask": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/6206315a84654a2296aeb4d7b46a5a39/timeline/frame_01/stages/changeformer_cd/mask.png",
+            "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/6206315a84654a2296aeb4d7b46a5a39/timeline/frame_01/stages/changeformer_cd/overlay.png",
+            "heatmap": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/6206315a84654a2296aeb4d7b46a5a39/timeline/frame_01/stages/changeformer_cd/heatmap.png",
+            "report": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/6206315a84654a2296aeb4d7b46a5a39/timeline/frame_01/stages/changeformer_cd/report.json"
+          },
+          "imageSize": {
+            "width": 256,
+            "height": 256
+          }
+        }
+      }
+    }
+  ],
+  "pipeline": {
+    "alignment": {
+      "summary": {
+        "alignment_method": "skipped",
+        "reason": "Alignment disabled for infrastructure domain.",
+        "ssim": null
+      },
+      "report": {
+        "status": "skipped",
+        "reason": "Alignment disabled for infrastructure domain."
+      },
+      "artifacts": null,
+      "skipped": true
+    },
+    "changeformer_cd": {
+      "summary": {
+        "status": "completed",
+        "model": {
+          "net": "ChangeFormerV6",
+          "embedDim": 256,
+          "checkpoint": "/home/cyclops/Documents/hckthon/ChangeFormer/checkpoints/ChangeFormer_LEVIR/best_ckpt.pt"
+        },
+        "imageSize": {
+          "width": 256,
+          "height": 256
+        },
+        "inferenceSize": {
+          "width": 256,
+          "height": 256
+        },
+        "threshold": 0.35,
+        "minRegionPixels": 300,
+        "coverage": 0.000275,
+        "pixelsChanged": 18,
+        "regionCount": 0,
+        "regions": [],
+        "globalMeanProbability": 0.426648,
+        "globalMaxProbability": 0.563497,
+        "artifacts": {
+          "mask": "mask.png",
+          "overlay": "overlay.png",
+          "heatmap": "heatmap.png"
+        }
+      },
+      "artifacts": {
+        "mask": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/6206315a84654a2296aeb4d7b46a5a39/timeline/frame_01/stages/changeformer_cd/mask.png",
+        "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/6206315a84654a2296aeb4d7b46a5a39/timeline/frame_01/stages/changeformer_cd/overlay.png",
+        "heatmap": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/6206315a84654a2296aeb4d7b46a5a39/timeline/frame_01/stages/changeformer_cd/heatmap.png",
+        "report": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/6206315a84654a2296aeb4d7b46a5a39/timeline/frame_01/stages/changeformer_cd/report.json"
+      },
+      "imageSize": {
+        "width": 256,
+        "height": 256
+      }
+    }
+  },
+  "metadata": {
+    "domain": "Infrastructure"
+  }
+}

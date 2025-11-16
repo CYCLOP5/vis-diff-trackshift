@@ -1,0 +1,88 @@
+{
+  "rois": [
+    {
+      "box": [
+        324,
+        284,
+        589,
+        352
+      ],
+      "class_name": "rear-wing",
+      "confidence": 0.8209,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        591,
+        247,
+        660,
+        307
+      ],
+      "class_name": "engine-intake",
+      "confidence": 0.8141,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        464,
+        306,
+        811,
+        390
+      ],
+      "class_name": "halo",
+      "confidence": 0.8051,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        768,
+        507,
+        986,
+        632
+      ],
+      "class_name": "suspension",
+      "confidence": 0.7023,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        351,
+        505,
+        568,
+        582
+      ],
+      "class_name": "suspension",
+      "confidence": 0.6235,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        663,
+        290,
+        861,
+        359
+      ],
+      "class_name": "rear-wing",
+      "confidence": 0.5959,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        561,
+        188,
+        697,
+        221
+      ],
+      "class_name": "rear-wing",
+      "confidence": 0.5888,
+      "changed": true,
+      "source": "object_diff"
+    }
+  ]
+}

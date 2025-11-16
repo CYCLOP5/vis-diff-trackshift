@@ -1,0 +1,927 @@
+{
+  "jobId": "b4c2047e90304adea1f698ab1212991e",
+  "status": "completed",
+  "startedAt": "2025-11-16T04:09:33.222551+00:00",
+  "completedAt": "2025-11-16T04:09:43.177685+00:00",
+  "durationMs": 9955,
+  "comparisonMode": "consecutive",
+  "baselineIndex": 0,
+  "frames": [
+    {
+      "index": 0,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/b4c2047e90304adea1f698ab1212991e/inputs/frame_00.png",
+      "originalName": "test_2_0000_0000.png"
+    },
+    {
+      "index": 1,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/b4c2047e90304adea1f698ab1212991e/inputs/frame_01.png",
+      "originalName": "test_2_0000_0000 (copy 1).png"
+    }
+  ],
+  "timeline": [
+    {
+      "beforeIndex": 0,
+      "afterIndex": 1,
+      "beforePath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/b4c2047e90304adea1f698ab1212991e/inputs/frame_00.png",
+      "afterPath": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/b4c2047e90304adea1f698ab1212991e/inputs/frame_01.png",
+      "comparisonRoot": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/b4c2047e90304adea1f698ab1212991e/timeline/frame_01",
+      "pipeline": {
+        "alignment": {
+          "summary": {
+            "alignment_method": "skipped",
+            "reason": "Alignment disabled for infrastructure domain.",
+            "ssim": null
+          },
+          "report": {
+            "status": "skipped",
+            "reason": "Alignment disabled for infrastructure domain."
+          },
+          "artifacts": null,
+          "skipped": true
+        },
+        "changeformer_cd": {
+          "summary": {
+            "status": "completed",
+            "model": {
+              "net": "ChangeFormerV6",
+              "embedDim": 256,
+              "checkpoint": "/home/cyclops/Documents/hckthon/ChangeFormer/checkpoints/ChangeFormer_LEVIR/best_ckpt.pt"
+            },
+            "imageSize": {
+              "width": 256,
+              "height": 256
+            },
+            "inferenceSize": {
+              "width": 256,
+              "height": 256
+            },
+            "threshold": 0.35,
+            "minRegionPixels": 300,
+            "coverage": 0.25708,
+            "pixelsChanged": 16848,
+            "regionCount": 15,
+            "regions": [
+              {
+                "id": "cf-region-1",
+                "label": "ChangeFormer region 1",
+                "bbox": [
+                  198,
+                  0,
+                  241,
+                  28
+                ],
+                "bboxNormalized": [
+                  0.773438,
+                  0.0,
+                  0.941406,
+                  0.109375
+                ],
+                "centroidNormalized": [
+                  0.857492,
+                  0.04685
+                ],
+                "pixelCount": 952,
+                "areaRatio": 0.014526,
+                "meanProbability": 0.943811,
+                "maxProbability": 0.999998,
+                "confidence": 0.999998,
+                "source": "changeformer"
+              },
+              {
+                "id": "cf-region-2",
+                "label": "ChangeFormer region 2",
+                "bbox": [
+                  0,
+                  21,
+                  26,
+                  65
+                ],
+                "bboxNormalized": [
+                  0.0,
+                  0.082031,
+                  0.101562,
+                  0.253906
+                ],
+                "centroidNormalized": [
+                  0.036414,
+                  0.168805
+                ],
+                "pixelCount": 649,
+                "areaRatio": 0.009903,
+                "meanProbability": 0.926591,
+                "maxProbability": 0.999995,
+                "confidence": 0.999995,
+                "source": "changeformer"
+              },
+              {
+                "id": "cf-region-3",
+                "label": "ChangeFormer region 3",
+                "bbox": [
+                  187,
+                  34,
+                  233,
+                  65
+                ],
+                "bboxNormalized": [
+                  0.730469,
+                  0.132812,
+                  0.910156,
+                  0.253906
+                ],
+                "centroidNormalized": [
+                  0.827324,
+                  0.192899
+                ],
+                "pixelCount": 1102,
+                "areaRatio": 0.016815,
+                "meanProbability": 0.947899,
+                "maxProbability": 1.0,
+                "confidence": 1.0,
+                "source": "changeformer"
+              },
+              {
+                "id": "cf-region-4",
+                "label": "ChangeFormer region 4",
+                "bbox": [
+                  36,
+                  45,
+                  80,
+                  96
+                ],
+                "bboxNormalized": [
+                  0.140625,
+                  0.175781,
+                  0.3125,
+                  0.375
+                ],
+                "centroidNormalized": [
+                  0.23038,
+                  0.273773
+                ],
+                "pixelCount": 1721,
+                "areaRatio": 0.02626,
+                "meanProbability": 0.947292,
+                "maxProbability": 1.0,
+                "confidence": 1.0,
+                "source": "changeformer"
+              },
+              {
+                "id": "cf-region-5",
+                "label": "ChangeFormer region 5",
+                "bbox": [
+                  185,
+                  71,
+                  228,
+                  105
+                ],
+                "bboxNormalized": [
+                  0.722656,
+                  0.277344,
+                  0.890625,
+                  0.410156
+                ],
+                "centroidNormalized": [
+                  0.806095,
+                  0.33776
+                ],
+                "pixelCount": 1207,
+                "areaRatio": 0.018417,
+                "meanProbability": 0.939338,
+                "maxProbability": 0.999995,
+                "confidence": 0.999995,
+                "source": "changeformer"
+              },
+              {
+                "id": "cf-region-6",
+                "label": "ChangeFormer region 6",
+                "bbox": [
+                  193,
+                  118,
+                  225,
+                  164
+                ],
+                "bboxNormalized": [
+                  0.753906,
+                  0.460938,
+                  0.878906,
+                  0.640625
+                ],
+                "centroidNormalized": [
+                  0.815179,
+                  0.552397
+                ],
+                "pixelCount": 1286,
+                "areaRatio": 0.019623,
+                "meanProbability": 0.933887,
+                "maxProbability": 0.999987,
+                "confidence": 0.999987,
+                "source": "changeformer"
+              },
+              {
+                "id": "cf-region-7",
+                "label": "ChangeFormer region 7",
+                "bbox": [
+                  86,
+                  124,
+                  130,
+                  166
+                ],
+                "bboxNormalized": [
+                  0.335938,
+                  0.484375,
+                  0.507812,
+                  0.648438
+                ],
+                "centroidNormalized": [
+                  0.412131,
+                  0.564249
+                ],
+                "pixelCount": 1260,
+                "areaRatio": 0.019226,
+                "meanProbability": 0.926332,
+                "maxProbability": 1.0,
+                "confidence": 1.0,
+                "source": "changeformer"
+              },
+              {
+                "id": "cf-region-8",
+                "label": "ChangeFormer region 8",
+                "bbox": [
+                  141,
+                  124,
+                  173,
+                  165
+                ],
+                "bboxNormalized": [
+                  0.550781,
+                  0.484375,
+                  0.675781,
+                  0.644531
+                ],
+                "centroidNormalized": [
+                  0.613023,
+                  0.561247
+                ],
+                "pixelCount": 1088,
+                "areaRatio": 0.016602,
+                "meanProbability": 0.887038,
+                "maxProbability": 0.999988,
+                "confidence": 0.999988,
+                "source": "changeformer"
+              },
+              {
+                "id": "cf-region-9",
+                "label": "ChangeFormer region 9",
+                "bbox": [
+                  38,
+                  125,
+                  74,
+                  165
+                ],
+                "bboxNormalized": [
+                  0.148438,
+                  0.488281,
+                  0.289062,
+                  0.644531
+                ],
+                "centroidNormalized": [
+                  0.217777,
+                  0.567781
+                ],
+                "pixelCount": 1293,
+                "areaRatio": 0.01973,
+                "meanProbability": 0.933487,
+                "maxProbability": 1.0,
+                "confidence": 1.0,
+                "source": "changeformer"
+              },
+              {
+                "id": "cf-region-10",
+                "label": "ChangeFormer region 10",
+                "bbox": [
+                  209,
+                  206,
+                  248,
+                  245
+                ],
+                "bboxNormalized": [
+                  0.816406,
+                  0.804688,
+                  0.96875,
+                  0.957031
+                ],
+                "centroidNormalized": [
+                  0.891327,
+                  0.884488
+                ],
+                "pixelCount": 1140,
+                "areaRatio": 0.017395,
+                "meanProbability": 0.939205,
+                "maxProbability": 0.999999,
+                "confidence": 0.999999,
+                "source": "changeformer"
+              },
+              {
+                "id": "cf-region-11",
+                "label": "ChangeFormer region 11",
+                "bbox": [
+                  29,
+                  208,
+                  61,
+                  248
+                ],
+                "bboxNormalized": [
+                  0.113281,
+                  0.8125,
+                  0.238281,
+                  0.96875
+                ],
+                "centroidNormalized": [
+                  0.173352,
+                  0.891284
+                ],
+                "pixelCount": 1026,
+                "areaRatio": 0.015656,
+                "meanProbability": 0.896748,
+                "maxProbability": 0.999999,
+                "confidence": 0.999999,
+                "source": "changeformer"
+              },
+              {
+                "id": "cf-region-12",
+                "label": "ChangeFormer region 12",
+                "bbox": [
+                  164,
+                  210,
+                  201,
+                  253
+                ],
+                "bboxNormalized": [
+                  0.640625,
+                  0.820312,
+                  0.785156,
+                  0.988281
+                ],
+                "centroidNormalized": [
+                  0.714214,
+                  0.898632
+                ],
+                "pixelCount": 1285,
+                "areaRatio": 0.019608,
+                "meanProbability": 0.935222,
+                "maxProbability": 1.0,
+                "confidence": 1.0,
+                "source": "changeformer"
+              },
+              {
+                "id": "cf-region-13",
+                "label": "ChangeFormer region 13",
+                "bbox": [
+                  0,
+                  211,
+                  19,
+                  253
+                ],
+                "bboxNormalized": [
+                  0.0,
+                  0.824219,
+                  0.074219,
+                  0.988281
+                ],
+                "centroidNormalized": [
+                  0.027573,
+                  0.89354
+                ],
+                "pixelCount": 579,
+                "areaRatio": 0.008835,
+                "meanProbability": 0.932814,
+                "maxProbability": 0.999985,
+                "confidence": 0.999985,
+                "source": "changeformer"
+              },
+              {
+                "id": "cf-region-14",
+                "label": "ChangeFormer region 14",
+                "bbox": [
+                  73,
+                  211,
+                  111,
+                  245
+                ],
+                "bboxNormalized": [
+                  0.285156,
+                  0.824219,
+                  0.433594,
+                  0.957031
+                ],
+                "centroidNormalized": [
+                  0.362599,
+                  0.889975
+                ],
+                "pixelCount": 968,
+                "areaRatio": 0.014771,
+                "meanProbability": 0.925325,
+                "maxProbability": 0.999999,
+                "confidence": 0.999999,
+                "source": "changeformer"
+              },
+              {
+                "id": "cf-region-15",
+                "label": "ChangeFormer region 15",
+                "bbox": [
+                  118,
+                  213,
+                  150,
+                  241
+                ],
+                "bboxNormalized": [
+                  0.460938,
+                  0.832031,
+                  0.585938,
+                  0.941406
+                ],
+                "centroidNormalized": [
+                  0.521078,
+                  0.885715
+                ],
+                "pixelCount": 778,
+                "areaRatio": 0.011871,
+                "meanProbability": 0.902767,
+                "maxProbability": 0.999716,
+                "confidence": 0.999716,
+                "source": "changeformer"
+              }
+            ],
+            "globalMeanProbability": 0.92503,
+            "globalMaxProbability": 1.0,
+            "artifacts": {
+              "mask": "mask.png",
+              "overlay": "overlay.png",
+              "heatmap": "heatmap.png"
+            }
+          },
+          "artifacts": {
+            "mask": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/b4c2047e90304adea1f698ab1212991e/timeline/frame_01/stages/changeformer_cd/mask.png",
+            "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/b4c2047e90304adea1f698ab1212991e/timeline/frame_01/stages/changeformer_cd/overlay.png",
+            "heatmap": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/b4c2047e90304adea1f698ab1212991e/timeline/frame_01/stages/changeformer_cd/heatmap.png",
+            "report": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/b4c2047e90304adea1f698ab1212991e/timeline/frame_01/stages/changeformer_cd/report.json"
+          },
+          "imageSize": {
+            "width": 256,
+            "height": 256
+          }
+        }
+      }
+    }
+  ],
+  "pipeline": {
+    "alignment": {
+      "summary": {
+        "alignment_method": "skipped",
+        "reason": "Alignment disabled for infrastructure domain.",
+        "ssim": null
+      },
+      "report": {
+        "status": "skipped",
+        "reason": "Alignment disabled for infrastructure domain."
+      },
+      "artifacts": null,
+      "skipped": true
+    },
+    "changeformer_cd": {
+      "summary": {
+        "status": "completed",
+        "model": {
+          "net": "ChangeFormerV6",
+          "embedDim": 256,
+          "checkpoint": "/home/cyclops/Documents/hckthon/ChangeFormer/checkpoints/ChangeFormer_LEVIR/best_ckpt.pt"
+        },
+        "imageSize": {
+          "width": 256,
+          "height": 256
+        },
+        "inferenceSize": {
+          "width": 256,
+          "height": 256
+        },
+        "threshold": 0.35,
+        "minRegionPixels": 300,
+        "coverage": 0.25708,
+        "pixelsChanged": 16848,
+        "regionCount": 15,
+        "regions": [
+          {
+            "id": "cf-region-1",
+            "label": "ChangeFormer region 1",
+            "bbox": [
+              198,
+              0,
+              241,
+              28
+            ],
+            "bboxNormalized": [
+              0.773438,
+              0.0,
+              0.941406,
+              0.109375
+            ],
+            "centroidNormalized": [
+              0.857492,
+              0.04685
+            ],
+            "pixelCount": 952,
+            "areaRatio": 0.014526,
+            "meanProbability": 0.943811,
+            "maxProbability": 0.999998,
+            "confidence": 0.999998,
+            "source": "changeformer"
+          },
+          {
+            "id": "cf-region-2",
+            "label": "ChangeFormer region 2",
+            "bbox": [
+              0,
+              21,
+              26,
+              65
+            ],
+            "bboxNormalized": [
+              0.0,
+              0.082031,
+              0.101562,
+              0.253906
+            ],
+            "centroidNormalized": [
+              0.036414,
+              0.168805
+            ],
+            "pixelCount": 649,
+            "areaRatio": 0.009903,
+            "meanProbability": 0.926591,
+            "maxProbability": 0.999995,
+            "confidence": 0.999995,
+            "source": "changeformer"
+          },
+          {
+            "id": "cf-region-3",
+            "label": "ChangeFormer region 3",
+            "bbox": [
+              187,
+              34,
+              233,
+              65
+            ],
+            "bboxNormalized": [
+              0.730469,
+              0.132812,
+              0.910156,
+              0.253906
+            ],
+            "centroidNormalized": [
+              0.827324,
+              0.192899
+            ],
+            "pixelCount": 1102,
+            "areaRatio": 0.016815,
+            "meanProbability": 0.947899,
+            "maxProbability": 1.0,
+            "confidence": 1.0,
+            "source": "changeformer"
+          },
+          {
+            "id": "cf-region-4",
+            "label": "ChangeFormer region 4",
+            "bbox": [
+              36,
+              45,
+              80,
+              96
+            ],
+            "bboxNormalized": [
+              0.140625,
+              0.175781,
+              0.3125,
+              0.375
+            ],
+            "centroidNormalized": [
+              0.23038,
+              0.273773
+            ],
+            "pixelCount": 1721,
+            "areaRatio": 0.02626,
+            "meanProbability": 0.947292,
+            "maxProbability": 1.0,
+            "confidence": 1.0,
+            "source": "changeformer"
+          },
+          {
+            "id": "cf-region-5",
+            "label": "ChangeFormer region 5",
+            "bbox": [
+              185,
+              71,
+              228,
+              105
+            ],
+            "bboxNormalized": [
+              0.722656,
+              0.277344,
+              0.890625,
+              0.410156
+            ],
+            "centroidNormalized": [
+              0.806095,
+              0.33776
+            ],
+            "pixelCount": 1207,
+            "areaRatio": 0.018417,
+            "meanProbability": 0.939338,
+            "maxProbability": 0.999995,
+            "confidence": 0.999995,
+            "source": "changeformer"
+          },
+          {
+            "id": "cf-region-6",
+            "label": "ChangeFormer region 6",
+            "bbox": [
+              193,
+              118,
+              225,
+              164
+            ],
+            "bboxNormalized": [
+              0.753906,
+              0.460938,
+              0.878906,
+              0.640625
+            ],
+            "centroidNormalized": [
+              0.815179,
+              0.552397
+            ],
+            "pixelCount": 1286,
+            "areaRatio": 0.019623,
+            "meanProbability": 0.933887,
+            "maxProbability": 0.999987,
+            "confidence": 0.999987,
+            "source": "changeformer"
+          },
+          {
+            "id": "cf-region-7",
+            "label": "ChangeFormer region 7",
+            "bbox": [
+              86,
+              124,
+              130,
+              166
+            ],
+            "bboxNormalized": [
+              0.335938,
+              0.484375,
+              0.507812,
+              0.648438
+            ],
+            "centroidNormalized": [
+              0.412131,
+              0.564249
+            ],
+            "pixelCount": 1260,
+            "areaRatio": 0.019226,
+            "meanProbability": 0.926332,
+            "maxProbability": 1.0,
+            "confidence": 1.0,
+            "source": "changeformer"
+          },
+          {
+            "id": "cf-region-8",
+            "label": "ChangeFormer region 8",
+            "bbox": [
+              141,
+              124,
+              173,
+              165
+            ],
+            "bboxNormalized": [
+              0.550781,
+              0.484375,
+              0.675781,
+              0.644531
+            ],
+            "centroidNormalized": [
+              0.613023,
+              0.561247
+            ],
+            "pixelCount": 1088,
+            "areaRatio": 0.016602,
+            "meanProbability": 0.887038,
+            "maxProbability": 0.999988,
+            "confidence": 0.999988,
+            "source": "changeformer"
+          },
+          {
+            "id": "cf-region-9",
+            "label": "ChangeFormer region 9",
+            "bbox": [
+              38,
+              125,
+              74,
+              165
+            ],
+            "bboxNormalized": [
+              0.148438,
+              0.488281,
+              0.289062,
+              0.644531
+            ],
+            "centroidNormalized": [
+              0.217777,
+              0.567781
+            ],
+            "pixelCount": 1293,
+            "areaRatio": 0.01973,
+            "meanProbability": 0.933487,
+            "maxProbability": 1.0,
+            "confidence": 1.0,
+            "source": "changeformer"
+          },
+          {
+            "id": "cf-region-10",
+            "label": "ChangeFormer region 10",
+            "bbox": [
+              209,
+              206,
+              248,
+              245
+            ],
+            "bboxNormalized": [
+              0.816406,
+              0.804688,
+              0.96875,
+              0.957031
+            ],
+            "centroidNormalized": [
+              0.891327,
+              0.884488
+            ],
+            "pixelCount": 1140,
+            "areaRatio": 0.017395,
+            "meanProbability": 0.939205,
+            "maxProbability": 0.999999,
+            "confidence": 0.999999,
+            "source": "changeformer"
+          },
+          {
+            "id": "cf-region-11",
+            "label": "ChangeFormer region 11",
+            "bbox": [
+              29,
+              208,
+              61,
+              248
+            ],
+            "bboxNormalized": [
+              0.113281,
+              0.8125,
+              0.238281,
+              0.96875
+            ],
+            "centroidNormalized": [
+              0.173352,
+              0.891284
+            ],
+            "pixelCount": 1026,
+            "areaRatio": 0.015656,
+            "meanProbability": 0.896748,
+            "maxProbability": 0.999999,
+            "confidence": 0.999999,
+            "source": "changeformer"
+          },
+          {
+            "id": "cf-region-12",
+            "label": "ChangeFormer region 12",
+            "bbox": [
+              164,
+              210,
+              201,
+              253
+            ],
+            "bboxNormalized": [
+              0.640625,
+              0.820312,
+              0.785156,
+              0.988281
+            ],
+            "centroidNormalized": [
+              0.714214,
+              0.898632
+            ],
+            "pixelCount": 1285,
+            "areaRatio": 0.019608,
+            "meanProbability": 0.935222,
+            "maxProbability": 1.0,
+            "confidence": 1.0,
+            "source": "changeformer"
+          },
+          {
+            "id": "cf-region-13",
+            "label": "ChangeFormer region 13",
+            "bbox": [
+              0,
+              211,
+              19,
+              253
+            ],
+            "bboxNormalized": [
+              0.0,
+              0.824219,
+              0.074219,
+              0.988281
+            ],
+            "centroidNormalized": [
+              0.027573,
+              0.89354
+            ],
+            "pixelCount": 579,
+            "areaRatio": 0.008835,
+            "meanProbability": 0.932814,
+            "maxProbability": 0.999985,
+            "confidence": 0.999985,
+            "source": "changeformer"
+          },
+          {
+            "id": "cf-region-14",
+            "label": "ChangeFormer region 14",
+            "bbox": [
+              73,
+              211,
+              111,
+              245
+            ],
+            "bboxNormalized": [
+              0.285156,
+              0.824219,
+              0.433594,
+              0.957031
+            ],
+            "centroidNormalized": [
+              0.362599,
+              0.889975
+            ],
+            "pixelCount": 968,
+            "areaRatio": 0.014771,
+            "meanProbability": 0.925325,
+            "maxProbability": 0.999999,
+            "confidence": 0.999999,
+            "source": "changeformer"
+          },
+          {
+            "id": "cf-region-15",
+            "label": "ChangeFormer region 15",
+            "bbox": [
+              118,
+              213,
+              150,
+              241
+            ],
+            "bboxNormalized": [
+              0.460938,
+              0.832031,
+              0.585938,
+              0.941406
+            ],
+            "centroidNormalized": [
+              0.521078,
+              0.885715
+            ],
+            "pixelCount": 778,
+            "areaRatio": 0.011871,
+            "meanProbability": 0.902767,
+            "maxProbability": 0.999716,
+            "confidence": 0.999716,
+            "source": "changeformer"
+          }
+        ],
+        "globalMeanProbability": 0.92503,
+        "globalMaxProbability": 1.0,
+        "artifacts": {
+          "mask": "mask.png",
+          "overlay": "overlay.png",
+          "heatmap": "heatmap.png"
+        }
+      },
+      "artifacts": {
+        "mask": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/b4c2047e90304adea1f698ab1212991e/timeline/frame_01/stages/changeformer_cd/mask.png",
+        "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/b4c2047e90304adea1f698ab1212991e/timeline/frame_01/stages/changeformer_cd/overlay.png",
+        "heatmap": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/b4c2047e90304adea1f698ab1212991e/timeline/frame_01/stages/changeformer_cd/heatmap.png",
+        "report": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/b4c2047e90304adea1f698ab1212991e/timeline/frame_01/stages/changeformer_cd/report.json"
+      },
+      "imageSize": {
+        "width": 256,
+        "height": 256
+      }
+    }
+  },
+  "metadata": {
+    "domain": "Infrastructure"
+  }
+}

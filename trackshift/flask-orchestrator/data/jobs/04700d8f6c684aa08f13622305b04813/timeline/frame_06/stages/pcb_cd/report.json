@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "model": "base_transformer_pos_s4_dd8_dedim8",
+  "checkpoint": "/home/cyclops/Documents/hckthon/BIT_CD/checkpoints/BIT_LEVIR/best_ckpt.pt",
+  "imgSize": 256,
+  "coverage": 0.0,
+  "pixelsChanged": 0,
+  "regionCount": 0,
+  "regions": [],
+  "imageSize": {
+    "width": 3034,
+    "height": 1586
+  }
+}

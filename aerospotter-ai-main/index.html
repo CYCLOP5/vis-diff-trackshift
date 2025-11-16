@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/jpeg" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wAARCAEAAQADAREAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAr/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AJVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//2Q==" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visionary AI - AeroSpotter </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'f1-dark': '#101010',
+              'f1-light-dark': '#1a1a1a',
+              'f1-accent-cyan': '#00f5d4',
+              'f1-accent-magenta': '#ff00ff',
+              'f1-text': '#e0e0e0',
+              'f1-text-darker': '#a0a0a0',
+              // Light Mode Colors
+              'f1-light': '#f9fafb', // gray-50
+              'f1-light-brighter': '#ffffff',
+              'f1-text-light': '#111827', // gray-900
+              'f1-text-darker-light': '#6b7280', // gray-500
+            },
+            fontFamily: {
+              'sans': ['"Inter"', 'system-ui', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', '"Noto Sans"', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      :root {
+        --grid-color-dark: rgba(0, 245, 212, 0.05);
+        --glow-color-cyan: rgba(0, 245, 212, 0.7);
+        --glow-color-magenta: rgba(255, 0, 255, 0.6);
+        font-size: clamp(15px, 0.95rem + 0.25vw, 18px);
+      }
+
+      @media (max-width: 640px) {
+        :root {
+          font-size: clamp(14px, 0.85rem + 0.45vw, 17px);
+        }
+      }
+
+      /* --- GLOBAL STYLES & ANIMATIONS --- */
+      body {
+        /* Base colors are set on the main app div in App.tsx */
+      }
+      .dark body {
+        background-color: #101010;
+        background-image:
+          linear-gradient(var(--grid-color-dark) 1px, transparent 1px),
+          linear-gradient(90deg, var(--grid-color-dark) 1px, transparent 1px);
+        background-size: 40px 40px;
+        background-position: -1px -1px;
+      }
+
+      @keyframes scanline {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(200%); }
+      }
+      .scanline-button::before {
+        content: ''; position: absolute; top: 0; left: 0;
+        width: 30%; height: 100%;
+        background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.25), transparent);
+        pointer-events: none; opacity: 0; transition: opacity 0.3s ease-in-out;
+      }
+      .scanline-button:hover::before {
+          opacity: 1;
+          animation: scanline 1.5s infinite linear;
+      }
+
+      @keyframes pulse-border {
+        0%, 100% {
+          border-color: rgba(0, 245, 212, 0.4);
+          box-shadow: 0 0 10px rgba(0, 245, 212, 0.1), inset 0 0 10px rgba(0, 245, 212, 0.1);
+        }
+        50% {
+          border-color: rgba(0, 245, 212, 1);
+          box-shadow: 0 0 20px rgba(0, 245, 212, 0.4), inset 0 0 15px rgba(0, 245, 212, 0.2);
+        }
+      }
+      .analyze-button-pulse { animation: pulse-border 2s infinite; }
+      .processing-pulse { animation: pulse-border 2s infinite; }
+
+      @keyframes ellipsis-anim { 0% { content: '.'; } 33% { content: '..'; } 66% { content: '...'; } }
+      .loading-ellipsis::after {
+          content: '.'; display: inline-block; width: 1em; text-align: left;
+          vertical-align: bottom; animation: ellipsis-anim 1.5s infinite steps(1, end);
+      }
+      
+      /* --- SCROLLBAR --- */
+      .custom-scrollbar {
+        scrollbar-width: none;
+      }
+      .custom-scrollbar::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+      }
+
+      /* --- GRADIENTS --- */
+      .text-gradient-cyan { background: linear-gradient(90deg, #00f5d4, #9afff2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+      .text-gradient-magenta { background: linear-gradient(90deg, #ff00ff, #ff99ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+
+      /* --- NEW UI/UX ENHANCEMENT STYLES V2 --- */
+      @keyframes subtle-pulse { 0%, 100% { transform: scale(1); opacity: 0.3; } 50% { transform: scale(1.03); opacity: 0.4; } }
+      .subtle-pulse { animation: subtle-pulse 4s infinite ease-in-out; }
+
+      .glassmorphism {
+        background: rgba(26, 26, 26, 0.6);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(112, 112, 112, 0.15);
+      }
+      .light .glassmorphism {
+        background: rgba(249, 250, 251, 0.7);
+        border: 1px solid rgba(229, 231, 235, 0.5);
+      }
+
+      .central-divider {
+        position: relative; width: 2px;
+        background: linear-gradient(to bottom, transparent, var(--glow-color-cyan), transparent);
+        box-shadow: 0 0 10px var(--glow-color-cyan);
+      }
+
+      .uploader-drag-active {
+        border-color: var(--glow-color-cyan) !important;
+        background-color: rgba(0, 245, 212, 0.05);
+        background-image: repeating-linear-gradient(-45deg, rgba(0, 245, 212, 0.1), rgba(0, 245, 212, 0.1) 10px, transparent 10px, transparent 20px);
+        box-shadow: inset 0 0 20px rgba(0, 245, 212, 0.2);
+      }
+
+      .blueprint-grid {
+        background-image:
+          linear-gradient(rgba(0, 245, 212, 0.1) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(0, 245, 212, 0.1) 1px, transparent 1px);
+        background-size: 20px 20px;
+      }
+
+      .scanner-handle-line {
+          width: 2px;
+          background: var(--glow-color-cyan);
+          box-shadow: 0 0 10px var(--glow-color-cyan);
+      }
+      .scanner-handle-grip {
+        width: 40px; height: 30px;
+        border: 2px solid var(--glow-color-cyan);
+        background: rgba(16, 16, 16, 0.8);
+        border-radius: 8px;
+        box-shadow: 0 0 10px var(--glow-color-cyan);
+        backdrop-filter: blur(2px);
+      }
+      .scanner-handle-grip > div {
+        width: 80%; height: 2px;
+        background: var(--glow-color-cyan);
+        margin-top: 2px;
+      }
+
+      .input-glow-wrapper:focus-within {
+        border-color: var(--glow-color-cyan);
+        box-shadow: 0 0 10px -2px var(--glow-color-cyan);
+        transition: all 0.3s ease-in-out;
+      }
+
+      .user-bubble-gradient { background: linear-gradient(135deg, #00f5d4, #00c4a8); }
+      .assistant-bubble-gradient-dark { background: linear-gradient(135deg, #2a2a2a, #1a1a1a); }
+      .assistant-bubble-gradient-light { background: linear-gradient(135deg, #f3f4f6, #e5e7eb); }
+
+      @keyframes shimmer { 100% { transform: translateX(100%); } }
+      .shimmer-button { position: relative; overflow: hidden; }
+      .shimmer-button::after {
+        content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+        transform: translateX(-100%);
+        background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.05) 20%, rgba(255, 255, 255, 0.2) 60%, rgba(255, 255, 255, 0));
+        pointer-events: none;
+      }
+      .shimmer-button:hover::after { animation: shimmer 1.2s infinite; }
+
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.28.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react-dropzone": "https://aistudiocdn.com/react-dropzone@^14.3.8",
+    "jspdf-autotable": "https://aistudiocdn.com/jspdf-autotable@^5.0.2",
+    "jspdf": "https://aistudiocdn.com/jspdf@^3.0.3",
+    "three": "https://aistudiocdn.com/three@^0.166.1"
+  }
+}
+</script>
+</head>
+  <body class="font-sans">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

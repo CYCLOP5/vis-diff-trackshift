@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "model": "pcb-defect-detection-9ewqw/1",
+  "apiBase": "https://serverless.roboflow.com",
+  "coverage": 0.0,
+  "pixelsChanged": 0,
+  "regionCount": 0,
+  "regions": [],
+  "imageSize": {
+    "width": 3034,
+    "height": 1586
+  },
+  "confidence": 0.45,
+  "overlap": 0.2,
+  "rawResponse": {
+    "inference_id": "18baf767-9a9f-476c-b336-dfff0d700180",
+    "time": 0.08058213601179887,
+    "image": {
+      "width": 3034,
+      "height": 1586
+    },
+    "predictions": []
+  }
+}

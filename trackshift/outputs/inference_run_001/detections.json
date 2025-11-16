@@ -1,0 +1,64 @@
+{
+  "detections": [
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        363,
+        712,
+        830,
+        1844
+      ],
+      "score": 0.5940442681312561,
+      "mask_area": 383383
+    },
+    {
+      "class_id": 2,
+      "class_name": "scratch",
+      "bbox": [
+        460,
+        479,
+        906,
+        1663
+      ],
+      "score": 0.30759742856025696,
+      "mask_area": 6432
+    },
+    {
+      "class_id": 2,
+      "class_name": "scratch",
+      "bbox": [
+        259,
+        930,
+        773,
+        2000
+      ],
+      "score": 0.2924501597881317,
+      "mask_area": 17617
+    },
+    {
+      "class_id": 8,
+      "class_name": "paint_peel",
+      "bbox": [
+        0,
+        374,
+        526,
+        1529
+      ],
+      "score": 0.28531908988952637,
+      "mask_area": 229011
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        305,
+        368,
+        867,
+        1189
+      ],
+      "score": 0.2773664593696594,
+      "mask_area": 295821
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "detections": [
+    {
+      "class_id": 8,
+      "class_name": "paint_peel",
+      "legacy_class_name": "paint_peel",
+      "bbox": [
+        625,
+        366,
+        756,
+        546
+      ],
+      "score": 0.3376029431819916,
+      "mask_area": 9114,
+      "source_roi": {
+        "roi_index": 9,
+        "box": [
+          124,
+          574,
+          579,
+          736
+        ],
+        "class_name": "halo",
+        "confidence": 0.5681,
+        "changed": true
+      }
+    }
+  ]
+}

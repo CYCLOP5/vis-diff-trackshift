@@ -1,0 +1,124 @@
+{
+  "rois": [
+    {
+      "box": [
+        647,
+        240,
+        764,
+        379
+      ],
+      "class_name": "tire",
+      "confidence": 0.958,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        116,
+        338,
+        562,
+        401
+      ],
+      "class_name": "front-wing",
+      "confidence": 0.9537,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        499,
+        251,
+        609,
+        391
+      ],
+      "class_name": "tire",
+      "confidence": 0.9482,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        310,
+        244,
+        498,
+        361
+      ],
+      "class_name": "monocoque",
+      "confidence": 0.9281,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        125,
+        251,
+        235,
+        363
+      ],
+      "class_name": "tire",
+      "confidence": 0.9046,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        512,
+        160,
+        678,
+        238
+      ],
+      "class_name": "rear-wing",
+      "confidence": 0.8884,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        239,
+        269,
+        333,
+        309
+      ],
+      "class_name": "suspension",
+      "confidence": 0.8759,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        371,
+        193,
+        532,
+        246
+      ],
+      "class_name": "halo",
+      "confidence": 0.8361,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        231,
+        306,
+        322,
+        340
+      ],
+      "class_name": "suspension",
+      "confidence": 0.7998,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        284,
+        219,
+        319,
+        234
+      ],
+      "class_name": "mirrors",
+      "confidence": 0.7354,
+      "changed": true,
+      "source": "object_diff"
+    }
+  ]
+}

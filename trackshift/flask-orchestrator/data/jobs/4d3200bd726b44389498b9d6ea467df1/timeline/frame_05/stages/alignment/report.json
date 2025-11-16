@@ -1,0 +1,190 @@
+{
+  "alignment_method": "none",
+  "color_normalization": "histogram",
+  "ssim": 0.5073,
+  "roi_count": 20,
+  "rois": [
+    {
+      "bbox": [
+        0,
+        1346,
+        211,
+        119
+      ],
+      "area": 3561.5
+    },
+    {
+      "bbox": [
+        237,
+        1310,
+        54,
+        8
+      ],
+      "area": 242.5
+    },
+    {
+      "bbox": [
+        0,
+        1279,
+        48,
+        68
+      ],
+      "area": 1296.5
+    },
+    {
+      "bbox": [
+        0,
+        802,
+        69,
+        17
+      ],
+      "area": 914.0
+    },
+    {
+      "bbox": [
+        315,
+        795,
+        59,
+        19
+      ],
+      "area": 643.0
+    },
+    {
+      "bbox": [
+        1021,
+        741,
+        54,
+        22
+      ],
+      "area": 924.0
+    },
+    {
+      "bbox": [
+        1026,
+        701,
+        54,
+        27
+      ],
+      "area": 814.0
+    },
+    {
+      "bbox": [
+        0,
+        531,
+        347,
+        153
+      ],
+      "area": 4208.5
+    },
+    {
+      "bbox": [
+        292,
+        516,
+        54,
+        11
+      ],
+      "area": 442.5
+    },
+    {
+      "bbox": [
+        0,
+        511,
+        100,
+        39
+      ],
+      "area": 824.5
+    },
+    {
+      "bbox": [
+        0,
+        481,
+        1080,
+        1439
+      ],
+      "area": 1073945.5
+    },
+    {
+      "bbox": [
+        515,
+        466,
+        129,
+        5
+      ],
+      "area": 407.5
+    },
+    {
+      "bbox": [
+        1049,
+        270,
+        31,
+        25
+      ],
+      "area": 310.0
+    },
+    {
+      "bbox": [
+        327,
+        219,
+        30,
+        30
+      ],
+      "area": 311.0
+    },
+    {
+      "bbox": [
+        486,
+        180,
+        135,
+        9
+      ],
+      "area": 400.0
+    },
+    {
+      "bbox": [
+        0,
+        177,
+        117,
+        7
+      ],
+      "area": 271.5
+    },
+    {
+      "bbox": [
+        219,
+        93,
+        107,
+        14
+      ],
+      "area": 589.5
+    },
+    {
+      "bbox": [
+        659,
+        76,
+        261,
+        58
+      ],
+      "area": 2441.0
+    },
+    {
+      "bbox": [
+        135,
+        48,
+        39,
+        16
+      ],
+      "area": 214.0
+    },
+    {
+      "bbox": [
+        0,
+        0,
+        1080,
+        510
+      ],
+      "area": 256286.5
+    }
+  ],
+  "before": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/4d3200bd726b44389498b9d6ea467df1/inputs/frame_04.png",
+  "after": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/4d3200bd726b44389498b9d6ea467df1/inputs/frame_05.png"
+}

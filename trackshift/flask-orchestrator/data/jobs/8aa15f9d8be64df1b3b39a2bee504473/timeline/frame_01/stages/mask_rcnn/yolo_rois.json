@@ -1,0 +1,100 @@
+{
+  "rois": [
+    {
+      "box": [
+        38,
+        540,
+        1188,
+        725
+      ],
+      "class_name": "front-wing",
+      "confidence": 0.934,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        580,
+        200,
+        704,
+        262
+      ],
+      "class_name": "tire",
+      "confidence": 0.8917,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        842,
+        22,
+        1423,
+        255
+      ],
+      "class_name": "rear-wing",
+      "confidence": 0.8685,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        125,
+        298,
+        358,
+        605
+      ],
+      "class_name": "tire",
+      "confidence": 0.8517,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        363,
+        359,
+        623,
+        509
+      ],
+      "class_name": "suspension",
+      "confidence": 0.6702,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        748,
+        419,
+        1035,
+        533
+      ],
+      "class_name": "suspension",
+      "confidence": 0.6395,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        530,
+        397,
+        727,
+        638
+      ],
+      "class_name": "monocoque",
+      "confidence": 0.5984,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        836,
+        76,
+        971,
+        163
+      ],
+      "class_name": "engine-intake",
+      "confidence": 0.5289,
+      "changed": true,
+      "source": "object_diff"
+    }
+  ]
+}

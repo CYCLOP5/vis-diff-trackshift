@@ -1,0 +1,37 @@
+{
+  "alignment_method": "orb",
+  "color_normalization": "histogram",
+  "ssim": 0.2789,
+  "roi_count": 3,
+  "rois": [
+    {
+      "bbox": [
+        0,
+        3,
+        997,
+        234
+      ],
+      "area": 199079.0
+    },
+    {
+      "bbox": [
+        657,
+        0,
+        64,
+        12
+      ],
+      "area": 538.0
+    },
+    {
+      "bbox": [
+        452,
+        0,
+        50,
+        6
+      ],
+      "area": 221.5
+    }
+  ],
+  "before": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/a022a18cbab24788afaccacdc54903de/inputs/frame_00.png",
+  "after": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/a022a18cbab24788afaccacdc54903de/inputs/frame_01.jpg"
+}

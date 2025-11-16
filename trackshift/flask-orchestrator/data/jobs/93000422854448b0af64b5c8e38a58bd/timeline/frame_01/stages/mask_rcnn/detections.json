@@ -1,0 +1,56 @@
+{
+  "detections": [
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "legacy_class_name": "missing_part",
+      "bbox": [
+        526,
+        648,
+        853,
+        1531
+      ],
+      "score": 0.6171539425849915,
+      "mask_area": 209297
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "legacy_class_name": "missing_part",
+      "bbox": [
+        330,
+        250,
+        799,
+        1116
+      ],
+      "score": 0.4519348740577698,
+      "mask_area": 256303
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "legacy_class_name": "missing_part",
+      "bbox": [
+        696,
+        971,
+        889,
+        1511
+      ],
+      "score": 0.3856322467327118,
+      "mask_area": 62335
+    },
+    {
+      "class_id": 5,
+      "class_name": "lamp_broken",
+      "legacy_class_name": "lamp_broken",
+      "bbox": [
+        216,
+        326,
+        566,
+        901
+      ],
+      "score": 0.29029327630996704,
+      "mask_area": 79167
+    }
+  ]
+}

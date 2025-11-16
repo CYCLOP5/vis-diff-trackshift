@@ -1,0 +1,8 @@
+# Model checkpoints
+ChangeFormer/checkpoints/
+trackshift/damage-segmentation-maskrcnn/outputs/
+trackshift/damage-segmentation-maskrcnn/assets/weights/
+
+# Datasets
+trackshift/datasets/
+

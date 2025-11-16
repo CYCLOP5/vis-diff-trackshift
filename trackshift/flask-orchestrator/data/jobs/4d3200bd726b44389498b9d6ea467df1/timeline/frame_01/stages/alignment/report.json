@@ -1,0 +1,127 @@
+{
+  "alignment_method": "none",
+  "color_normalization": "lab-clahe",
+  "ssim": 0.5721,
+  "roi_count": 13,
+  "rois": [
+    {
+      "bbox": [
+        242,
+        1430,
+        64,
+        12
+      ],
+      "area": 231.5
+    },
+    {
+      "bbox": [
+        928,
+        677,
+        60,
+        17
+      ],
+      "area": 338.0
+    },
+    {
+      "bbox": [
+        148,
+        501,
+        126,
+        8
+      ],
+      "area": 242.5
+    },
+    {
+      "bbox": [
+        762,
+        429,
+        56,
+        7
+      ],
+      "area": 262.0
+    },
+    {
+      "bbox": [
+        475,
+        417,
+        72,
+        15
+      ],
+      "area": 304.5
+    },
+    {
+      "bbox": [
+        444,
+        335,
+        50,
+        43
+      ],
+      "area": 461.0
+    },
+    {
+      "bbox": [
+        29,
+        318,
+        125,
+        41
+      ],
+      "area": 2335.0
+    },
+    {
+      "bbox": [
+        155,
+        314,
+        226,
+        19
+      ],
+      "area": 2062.0
+    },
+    {
+      "bbox": [
+        668,
+        303,
+        412,
+        24
+      ],
+      "area": 3532.5
+    },
+    {
+      "bbox": [
+        0,
+        113,
+        133,
+        125
+      ],
+      "area": 4905.0
+    },
+    {
+      "bbox": [
+        883,
+        105,
+        197,
+        123
+      ],
+      "area": 11768.5
+    },
+    {
+      "bbox": [
+        872,
+        71,
+        208,
+        13
+      ],
+      "area": 862.5
+    },
+    {
+      "bbox": [
+        0,
+        5,
+        1080,
+        1316
+      ],
+      "area": 900859.0
+    }
+  ],
+  "before": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/4d3200bd726b44389498b9d6ea467df1/inputs/frame_00.png",
+  "after": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/4d3200bd726b44389498b9d6ea467df1/inputs/frame_01.png"
+}

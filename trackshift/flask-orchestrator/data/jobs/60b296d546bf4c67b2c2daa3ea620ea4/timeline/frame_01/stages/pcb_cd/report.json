@@ -1,0 +1,94 @@
+{
+  "status": "completed",
+  "model": "pcb-defect-detection-9ewqw/1",
+  "apiBase": "https://serverless.roboflow.com",
+  "coverage": 0.001879,
+  "pixelsChanged": 9040,
+  "regionCount": 2,
+  "regions": [
+    {
+      "id": "rf-region-1",
+      "label": "short",
+      "confidence": 0.508185,
+      "bbox": [
+        973,
+        1381,
+        1052,
+        1427
+      ],
+      "bboxNormalized": [
+        0.320699,
+        0.870744,
+        0.346737,
+        0.899748
+      ],
+      "areaRatio": 0.000755,
+      "source": "roboflow"
+    },
+    {
+      "id": "rf-region-2",
+      "label": "short",
+      "confidence": 0.489598,
+      "bbox": [
+        2539,
+        545,
+        2626,
+        604
+      ],
+      "bboxNormalized": [
+        0.836849,
+        0.343632,
+        0.865524,
+        0.380832
+      ],
+      "areaRatio": 0.001067,
+      "source": "roboflow"
+    }
+  ],
+  "imageSize": {
+    "width": 3034,
+    "height": 1586
+  },
+  "confidence": 0.45,
+  "overlap": 0.2,
+  "rawResponse": {
+    "inference_id": "eb0a508a-15cb-4214-b174-110fc2cfb767",
+    "time": 0.09258216500165872,
+    "image": {
+      "width": 3034,
+      "height": 1586
+    },
+    "predictions": [
+      {
+        "x": 1012.5,
+        "y": 1404.0,
+        "width": 79.0,
+        "height": 46.0,
+        "confidence": 0.5081849098205566,
+        "class": "short",
+        "class_id": 3,
+        "detection_id": "d9718d8c-87fd-4eaa-876f-4d59b5e1e08e"
+      },
+      {
+        "x": 2582.5,
+        "y": 574.5,
+        "width": 87.0,
+        "height": 59.0,
+        "confidence": 0.4895980954170227,
+        "class": "short",
+        "class_id": 3,
+        "detection_id": "501fc5cb-b2a6-4b0e-80fd-513091bb96ef"
+      },
+      {
+        "x": 1507.5,
+        "y": 1351.5,
+        "width": 93.0,
+        "height": 57.0,
+        "confidence": 0.44366610050201416,
+        "class": "short",
+        "class_id": 3,
+        "detection_id": "491b6f3f-a81e-4b2f-a04e-5a75f7c2ac14"
+      }
+    ]
+  }
+}

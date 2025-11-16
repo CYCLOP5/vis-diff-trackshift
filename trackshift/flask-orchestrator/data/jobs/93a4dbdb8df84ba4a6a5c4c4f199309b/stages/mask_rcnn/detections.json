@@ -1,0 +1,1804 @@
+{
+  "detections": [
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        442,
+        434,
+        456,
+        442
+      ],
+      "score": 0.9486621618270874,
+      "mask_area": 4
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        224,
+        409,
+        235,
+        421
+      ],
+      "score": 0.8274486064910889,
+      "mask_area": 105
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        447,
+        88,
+        462,
+        93
+      ],
+      "score": 0.8088619709014893,
+      "mask_area": 59
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        224,
+        416,
+        234,
+        428
+      ],
+      "score": 0.8055251240730286,
+      "mask_area": 105
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        366,
+        323,
+        381,
+        357
+      ],
+      "score": 0.7611072063446045,
+      "mask_area": 297
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        95,
+        399,
+        321,
+        576
+      ],
+      "score": 0.7604602575302124,
+      "mask_area": 124
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        298,
+        536,
+        498,
+        684
+      ],
+      "score": 0.758698582649231,
+      "mask_area": 666
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        36,
+        297,
+        122,
+        536
+      ],
+      "score": 0.7500395178794861,
+      "mask_area": 1160
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        353,
+        336,
+        379,
+        362
+      ],
+      "score": 0.7348083853721619,
+      "mask_area": 589
+    },
+    {
+      "class_id": 3,
+      "class_name": "crack",
+      "bbox": [
+        190,
+        518,
+        201,
+        561
+      ],
+      "score": 0.7342604398727417,
+      "mask_area": 443
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        202,
+        487,
+        228,
+        497
+      ],
+      "score": 0.7306573987007141,
+      "mask_area": 2
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        267,
+        79,
+        375,
+        183
+      ],
+      "score": 0.7185441255569458,
+      "mask_area": 10591
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        371,
+        156,
+        574,
+        341
+      ],
+      "score": 0.712444543838501,
+      "mask_area": 2708
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        51,
+        223,
+        398,
+        451
+      ],
+      "score": 0.709978461265564,
+      "mask_area": 62350
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        446,
+        781,
+        459,
+        785
+      ],
+      "score": 0.6986504197120667,
+      "mask_area": 37
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        111,
+        301,
+        349,
+        476
+      ],
+      "score": 0.6724175810813904,
+      "mask_area": 802
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        373,
+        351,
+        384,
+        367
+      ],
+      "score": 0.668316125869751,
+      "mask_area": 88
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        281,
+        525,
+        296,
+        537
+      ],
+      "score": 0.6537643074989319,
+      "mask_area": 114
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        221,
+        423,
+        233,
+        436
+      ],
+      "score": 0.6480227112770081,
+      "mask_area": 131
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        268,
+        462,
+        483,
+        598
+      ],
+      "score": 0.6420504450798035,
+      "mask_area": 210
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        108,
+        419,
+        131,
+        446
+      ],
+      "score": 0.6275917887687683,
+      "mask_area": 617
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        218,
+        559,
+        231,
+        566
+      ],
+      "score": 0.6227147579193115,
+      "mask_area": 51
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        194,
+        478,
+        214,
+        492
+      ],
+      "score": 0.6186240911483765,
+      "mask_area": 3
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        75,
+        385,
+        92,
+        398
+      ],
+      "score": 0.61767578125,
+      "mask_area": 26
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        179,
+        444,
+        220,
+        494
+      ],
+      "score": 0.6146662831306458,
+      "mask_area": 1849
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        417,
+        606,
+        425,
+        623
+      ],
+      "score": 0.6143014430999756,
+      "mask_area": 108
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        130,
+        484,
+        596,
+        724
+      ],
+      "score": 0.6101728081703186,
+      "mask_area": 32783
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        366,
+        514,
+        384,
+        554
+      ],
+      "score": 0.6088408827781677,
+      "mask_area": 463
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        0,
+        255,
+        358,
+        660
+      ],
+      "score": 0.6054055690765381,
+      "mask_area": 36966
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        345,
+        530,
+        387,
+        586
+      ],
+      "score": 0.6035325527191162,
+      "mask_area": 1930
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        311,
+        415,
+        517,
+        608
+      ],
+      "score": 0.6020957231521606,
+      "mask_area": 29690
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        450,
+        782,
+        462,
+        788
+      ],
+      "score": 0.6011438965797424,
+      "mask_area": 18
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        275,
+        542,
+        295,
+        548
+      ],
+      "score": 0.5990901589393616,
+      "mask_area": 72
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        245,
+        385,
+        448,
+        515
+      ],
+      "score": 0.5954151749610901,
+      "mask_area": 1372
+    },
+    {
+      "class_id": 3,
+      "class_name": "crack",
+      "bbox": [
+        381,
+        262,
+        396,
+        285
+      ],
+      "score": 0.593933641910553,
+      "mask_area": 330
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        219,
+        481,
+        229,
+        492
+      ],
+      "score": 0.5936450958251953,
+      "mask_area": 81
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        213,
+        486,
+        227,
+        494
+      ],
+      "score": 0.5908982753753662,
+      "mask_area": 55
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        456,
+        236,
+        477,
+        253
+      ],
+      "score": 0.5882216095924377,
+      "mask_area": 131
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        431,
+        671,
+        447,
+        721
+      ],
+      "score": 0.5871387720108032,
+      "mask_area": 608
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        208,
+        413,
+        233,
+        434
+      ],
+      "score": 0.579604983329773,
+      "mask_area": 235
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        356,
+        258,
+        388,
+        322
+      ],
+      "score": 0.5703911185264587,
+      "mask_area": 1281
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        408,
+        585,
+        424,
+        620
+      ],
+      "score": 0.5686999559402466,
+      "mask_area": 538
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        46,
+        490,
+        389,
+        732
+      ],
+      "score": 0.5685012936592102,
+      "mask_area": 71742
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        218,
+        567,
+        231,
+        572
+      ],
+      "score": 0.5669491291046143,
+      "mask_area": 50
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        53,
+        363,
+        412,
+        599
+      ],
+      "score": 0.566744863986969,
+      "mask_area": 68450
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        436,
+        628,
+        469,
+        637
+      ],
+      "score": 0.5617706179618835,
+      "mask_area": 6
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        69,
+        314,
+        98,
+        319
+      ],
+      "score": 0.5583598017692566,
+      "mask_area": 20
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        390,
+        645,
+        407,
+        670
+      ],
+      "score": 0.552797794342041,
+      "mask_area": 312
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        328,
+        378,
+        475,
+        484
+      ],
+      "score": 0.5473248958587646,
+      "mask_area": 10089
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        293,
+        246,
+        493,
+        362
+      ],
+      "score": 0.5444448590278625,
+      "mask_area": 352
+    },
+    {
+      "class_id": 3,
+      "class_name": "crack",
+      "bbox": [
+        372,
+        267,
+        390,
+        290
+      ],
+      "score": 0.5438048243522644,
+      "mask_area": 303
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        378,
+        354,
+        387,
+        370
+      ],
+      "score": 0.5432416796684265,
+      "mask_area": 30
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        363,
+        357,
+        387,
+        370
+      ],
+      "score": 0.5389314293861389,
+      "mask_area": 1
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        5,
+        801,
+        109,
+        884
+      ],
+      "score": 0.5302568674087524,
+      "mask_area": 6204
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        441,
+        782,
+        457,
+        788
+      ],
+      "score": 0.5299556255340576,
+      "mask_area": 79
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        434,
+        708,
+        447,
+        751
+      ],
+      "score": 0.527961015701294,
+      "mask_area": 403
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        353,
+        276,
+        372,
+        312
+      ],
+      "score": 0.5221643447875977,
+      "mask_area": 552
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        38,
+        449,
+        47,
+        454
+      ],
+      "score": 0.5217174291610718,
+      "mask_area": 33
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        365,
+        283,
+        479,
+        407
+      ],
+      "score": 0.5216940641403198,
+      "mask_area": 13463
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        203,
+        400,
+        232,
+        462
+      ],
+      "score": 0.5180000066757202,
+      "mask_area": 1146
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        273,
+        516,
+        297,
+        547
+      ],
+      "score": 0.5130218863487244,
+      "mask_area": 374
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        365,
+        352,
+        379,
+        366
+      ],
+      "score": 0.5118400454521179,
+      "mask_area": 122
+    },
+    {
+      "class_id": 3,
+      "class_name": "crack",
+      "bbox": [
+        214,
+        529,
+        238,
+        552
+      ],
+      "score": 0.5113019943237305,
+      "mask_area": 551
+    },
+    {
+      "class_id": 3,
+      "class_name": "crack",
+      "bbox": [
+        426,
+        261,
+        431,
+        275
+      ],
+      "score": 0.509087085723877,
+      "mask_area": 63
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        111,
+        154,
+        324,
+        372
+      ],
+      "score": 0.5082942247390747,
+      "mask_area": 118
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        38,
+        446,
+        46,
+        451
+      ],
+      "score": 0.5082064270973206,
+      "mask_area": 33
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        223,
+        487,
+        233,
+        494
+      ],
+      "score": 0.504826545715332,
+      "mask_area": 14
+    },
+    {
+      "class_id": 3,
+      "class_name": "crack",
+      "bbox": [
+        381,
+        606,
+        398,
+        626
+      ],
+      "score": 0.4840276539325714,
+      "mask_area": 324
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        372,
+        635,
+        417,
+        679
+      ],
+      "score": 0.4814714193344116,
+      "mask_area": 62
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        445,
+        234,
+        466,
+        248
+      ],
+      "score": 0.47932565212249756,
+      "mask_area": 0
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        212,
+        352,
+        228,
+        379
+      ],
+      "score": 0.47913241386413574,
+      "mask_area": 347
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        103,
+        363,
+        136,
+        428
+      ],
+      "score": 0.4760167896747589,
+      "mask_area": 1214
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        379,
+        192,
+        420,
+        225
+      ],
+      "score": 0.47561705112457275,
+      "mask_area": 114
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        215,
+        469,
+        228,
+        481
+      ],
+      "score": 0.4745757281780243,
+      "mask_area": 131
+    },
+    {
+      "class_id": 3,
+      "class_name": "crack",
+      "bbox": [
+        439,
+        271,
+        454,
+        303
+      ],
+      "score": 0.4743173122406006,
+      "mask_area": 444
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        521,
+        255,
+        575,
+        386
+      ],
+      "score": 0.463808536529541,
+      "mask_area": 5632
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        200,
+        201,
+        521,
+        522
+      ],
+      "score": 0.4626757800579071,
+      "mask_area": 49308
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        349,
+        602,
+        395,
+        648
+      ],
+      "score": 0.46031513810157776,
+      "mask_area": 1944
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        357,
+        572,
+        436,
+        630
+      ],
+      "score": 0.45439067482948303,
+      "mask_area": 481
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        362,
+        591,
+        390,
+        624
+      ],
+      "score": 0.45230066776275635,
+      "mask_area": 686
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        195,
+        403,
+        240,
+        434
+      ],
+      "score": 0.44906193017959595,
+      "mask_area": 218
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        418,
+        617,
+        427,
+        635
+      ],
+      "score": 0.4490210711956024,
+      "mask_area": 157
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        96,
+        521,
+        288,
+        680
+      ],
+      "score": 0.4488864243030548,
+      "mask_area": 124
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        427,
+        513,
+        480,
+        649
+      ],
+      "score": 0.448703795671463,
+      "mask_area": 5690
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        227,
+        589,
+        237,
+        602
+      ],
+      "score": 0.44630691409111023,
+      "mask_area": 45
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        375,
+        515,
+        384,
+        533
+      ],
+      "score": 0.44547268748283386,
+      "mask_area": 67
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        382,
+        473,
+        549,
+        850
+      ],
+      "score": 0.44371265172958374,
+      "mask_area": 5812
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        439,
+        681,
+        449,
+        696
+      ],
+      "score": 0.44022494554519653,
+      "mask_area": 133
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        512,
+        185,
+        534,
+        255
+      ],
+      "score": 0.43815770745277405,
+      "mask_area": 1122
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        276,
+        131,
+        388,
+        241
+      ],
+      "score": 0.43780818581581116,
+      "mask_area": 11947
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        247,
+        338,
+        428,
+        439
+      ],
+      "score": 0.4375501275062561,
+      "mask_area": 17514
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        475,
+        75,
+        590,
+        327
+      ],
+      "score": 0.4372568726539612,
+      "mask_area": 24373
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        217,
+        490,
+        231,
+        497
+      ],
+      "score": 0.43112656474113464,
+      "mask_area": 7
+    },
+    {
+      "class_id": 1,
+      "class_name": "dent",
+      "bbox": [
+        385,
+        581,
+        403,
+        621
+      ],
+      "score": 0.4301478862762451,
+      "mask_area": 655
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        107,
+        437,
+        136,
+        515
+      ],
+      "score": 0.4269779324531555,
+      "mask_area": 2060
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        333,
+        245,
+        367,
+        301
+      ],
+      "score": 0.4269501864910126,
+      "mask_area": 1791
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        197,
+        467,
+        235,
+        499
+      ],
+      "score": 0.4231559634208679,
+      "mask_area": 121
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        85,
+        820,
+        158,
+        884
+      ],
+      "score": 0.41939839720726013,
+      "mask_area": 2997
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        441,
+        610,
+        486,
+        739
+      ],
+      "score": 0.41827988624572754,
+      "mask_area": 357
+    },
+    {
+      "class_id": 3,
+      "class_name": "crack",
+      "bbox": [
+        110,
+        443,
+        142,
+        549
+      ],
+      "score": 0.41662877798080444,
+      "mask_area": 3215
+    },
+    {
+      "class_id": 3,
+      "class_name": "crack",
+      "bbox": [
+        427,
+        251,
+        432,
+        264
+      ],
+      "score": 0.41125836968421936,
+      "mask_area": 65
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        317,
+        328,
+        324,
+        342
+      ],
+      "score": 0.4108067452907562,
+      "mask_area": 27
+    },
+    {
+      "class_id": 3,
+      "class_name": "crack",
+      "bbox": [
+        109,
+        442,
+        139,
+        467
+      ],
+      "score": 0.4071207046508789,
+      "mask_area": 749
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        522,
+        526,
+        580,
+        670
+      ],
+      "score": 0.4058910012245178,
+      "mask_area": 7014
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        356,
+        294,
+        385,
+        365
+      ],
+      "score": 0.40453478693962097,
+      "mask_area": 1421
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        366,
+        177,
+        402,
+        238
+      ],
+      "score": 0.4038376212120056,
+      "mask_area": 0
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        79,
+        387,
+        126,
+        500
+      ],
+      "score": 0.4001305401325226,
+      "mask_area": 194
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        421,
+        233,
+        497,
+        376
+      ],
+      "score": 0.3989467918872833,
+      "mask_area": 9575
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        338,
+        510,
+        459,
+        638
+      ],
+      "score": 0.3949735164642334,
+      "mask_area": 14158
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        122,
+        231,
+        231,
+        352
+      ],
+      "score": 0.3911519944667816,
+      "mask_area": 12770
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        435,
+        107,
+        444,
+        121
+      ],
+      "score": 0.384740948677063,
+      "mask_area": 37
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        117,
+        425,
+        135,
+        459
+      ],
+      "score": 0.3838624060153961,
+      "mask_area": 542
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        239,
+        51,
+        415,
+        313
+      ],
+      "score": 0.3819025456905365,
+      "mask_area": 40837
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        204,
+        520,
+        306,
+        568
+      ],
+      "score": 0.3794037699699402,
+      "mask_area": 77
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        19,
+        722,
+        243,
+        884
+      ],
+      "score": 0.376294881105423,
+      "mask_area": 27952
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        448,
+        137,
+        476,
+        233
+      ],
+      "score": 0.37388119101524353,
+      "mask_area": 2330
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        343,
+        211,
+        463,
+        358
+      ],
+      "score": 0.37124159932136536,
+      "mask_area": 16713
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        410,
+        294,
+        530,
+        545
+      ],
+      "score": 0.3707124888896942,
+      "mask_area": 20312
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        432,
+        675,
+        455,
+        703
+      ],
+      "score": 0.3706730008125305,
+      "mask_area": 234
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        422,
+        263,
+        429,
+        278
+      ],
+      "score": 0.36270806193351746,
+      "mask_area": 82
+    },
+    {
+      "class_id": 3,
+      "class_name": "crack",
+      "bbox": [
+        458,
+        281,
+        474,
+        316
+      ],
+      "score": 0.35981011390686035,
+      "mask_area": 539
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        334,
+        409,
+        350,
+        447
+      ],
+      "score": 0.35232341289520264,
+      "mask_area": 411
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        444,
+        685,
+        452,
+        699
+      ],
+      "score": 0.346474826335907,
+      "mask_area": 38
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        205,
+        446,
+        234,
+        507
+      ],
+      "score": 0.3460078835487366,
+      "mask_area": 970
+    },
+    {
+      "class_id": 2,
+      "class_name": "scratch",
+      "bbox": [
+        450,
+        200,
+        483,
+        298
+      ],
+      "score": 0.3424600660800934,
+      "mask_area": 3234
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        337,
+        558,
+        382,
+        627
+      ],
+      "score": 0.340109646320343,
+      "mask_area": 2637
+    },
+    {
+      "class_id": 3,
+      "class_name": "crack",
+      "bbox": [
+        311,
+        333,
+        326,
+        370
+      ],
+      "score": 0.3395853340625763,
+      "mask_area": 555
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        491,
+        116,
+        550,
+        254
+      ],
+      "score": 0.3385593891143799,
+      "mask_area": 6678
+    },
+    {
+      "class_id": 3,
+      "class_name": "crack",
+      "bbox": [
+        318,
+        333,
+        326,
+        348
+      ],
+      "score": 0.3384499251842499,
+      "mask_area": 120
+    },
+    {
+      "class_id": 2,
+      "class_name": "scratch",
+      "bbox": [
+        458,
+        610,
+        465,
+        615
+      ],
+      "score": 0.33688032627105713,
+      "mask_area": 35
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        449,
+        686,
+        469,
+        735
+      ],
+      "score": 0.3323448896408081,
+      "mask_area": 87
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        498,
+        206,
+        521,
+        276
+      ],
+      "score": 0.33165284991264343,
+      "mask_area": 1004
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        481,
+        160,
+        503,
+        236
+      ],
+      "score": 0.327728807926178,
+      "mask_area": 1116
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        439,
+        684,
+        453,
+        724
+      ],
+      "score": 0.32715365290641785,
+      "mask_area": 304
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        464,
+        159,
+        488,
+        255
+      ],
+      "score": 0.32324811816215515,
+      "mask_area": 2027
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        341,
+        606,
+        429,
+        662
+      ],
+      "score": 0.3209121525287628,
+      "mask_area": 293
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        480,
+        614,
+        504,
+        704
+      ],
+      "score": 0.32031500339508057,
+      "mask_area": 1759
+    },
+    {
+      "class_id": 3,
+      "class_name": "crack",
+      "bbox": [
+        368,
+        580,
+        405,
+        619
+      ],
+      "score": 0.31900596618652344,
+      "mask_area": 1189
+    },
+    {
+      "class_id": 1,
+      "class_name": "dent",
+      "bbox": [
+        80,
+        296,
+        111,
+        419
+      ],
+      "score": 0.31782031059265137,
+      "mask_area": 3109
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        200,
+        480,
+        235,
+        547
+      ],
+      "score": 0.3111237585544586,
+      "mask_area": 2079
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        419,
+        291,
+        434,
+        305
+      ],
+      "score": 0.310998797416687,
+      "mask_area": 156
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        145,
+        519,
+        208,
+        633
+      ],
+      "score": 0.3109511137008667,
+      "mask_area": 6825
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        86,
+        485,
+        116,
+        557
+      ],
+      "score": 0.3082088232040405,
+      "mask_area": 1772
+    },
+    {
+      "class_id": 3,
+      "class_name": "crack",
+      "bbox": [
+        107,
+        511,
+        124,
+        579
+      ],
+      "score": 0.3069741725921631,
+      "mask_area": 1117
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        383,
+        254,
+        397,
+        291
+      ],
+      "score": 0.3059205710887909,
+      "mask_area": 410
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        427,
+        754,
+        437,
+        765
+      ],
+      "score": 0.30341124534606934,
+      "mask_area": 32
+    },
+    {
+      "class_id": 3,
+      "class_name": "crack",
+      "bbox": [
+        443,
+        144,
+        463,
+        201
+      ],
+      "score": 0.29833123087882996,
+      "mask_area": 1081
+    },
+    {
+      "class_id": 6,
+      "class_name": "tire_flat",
+      "bbox": [
+        361,
+        320,
+        410,
+        357
+      ],
+      "score": 0.2966587245464325,
+      "mask_area": 1241
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        177,
+        323,
+        237,
+        457
+      ],
+      "score": 0.2964981198310852,
+      "mask_area": 779
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        334,
+        103,
+        487,
+        274
+      ],
+      "score": 0.292774498462677,
+      "mask_area": 19
+    }
+  ]
+}

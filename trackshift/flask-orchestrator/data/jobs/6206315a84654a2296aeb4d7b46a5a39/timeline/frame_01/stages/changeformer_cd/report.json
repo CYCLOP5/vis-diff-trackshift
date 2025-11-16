@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "model": {
+    "net": "ChangeFormerV6",
+    "embedDim": 256,
+    "checkpoint": "/home/cyclops/Documents/hckthon/ChangeFormer/checkpoints/ChangeFormer_LEVIR/best_ckpt.pt"
+  },
+  "imageSize": {
+    "width": 256,
+    "height": 256
+  },
+  "inferenceSize": {
+    "width": 256,
+    "height": 256
+  },
+  "threshold": 0.35,
+  "minRegionPixels": 300,
+  "coverage": 0.000275,
+  "pixelsChanged": 18,
+  "regionCount": 0,
+  "regions": [],
+  "globalMeanProbability": 0.426648,
+  "globalMaxProbability": 0.563497,
+  "artifacts": {
+    "mask": "mask.png",
+    "overlay": "overlay.png",
+    "heatmap": "heatmap.png"
+  }
+}

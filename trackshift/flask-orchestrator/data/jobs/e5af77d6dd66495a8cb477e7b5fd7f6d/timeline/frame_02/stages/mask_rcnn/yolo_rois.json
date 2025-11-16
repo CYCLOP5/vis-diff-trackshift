@@ -1,0 +1,124 @@
+{
+  "rois": [
+    {
+      "box": [
+        87,
+        429,
+        798,
+        528
+      ],
+      "class_name": "front-wing",
+      "confidence": 0.9114,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        50,
+        268,
+        204,
+        540
+      ],
+      "class_name": "tire",
+      "confidence": 0.9027,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        684,
+        264,
+        834,
+        531
+      ],
+      "class_name": "tire",
+      "confidence": 0.9027,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        315,
+        59,
+        612,
+        146
+      ],
+      "class_name": "rear-wing",
+      "confidence": 0.8998,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        206,
+        317,
+        373,
+        410
+      ],
+      "class_name": "suspension",
+      "confidence": 0.8562,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        684,
+        233,
+        818,
+        277
+      ],
+      "class_name": "tire",
+      "confidence": 0.853,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        361,
+        253,
+        521,
+        493
+      ],
+      "class_name": "monocoque",
+      "confidence": 0.8455,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        513,
+        315,
+        676,
+        411
+      ],
+      "class_name": "suspension",
+      "confidence": 0.8319,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        108,
+        237,
+        243,
+        268
+      ],
+      "class_name": "tire",
+      "confidence": 0.8315,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        422,
+        102,
+        486,
+        153
+      ],
+      "class_name": "engine-intake",
+      "confidence": 0.7206,
+      "changed": true,
+      "source": "object_diff"
+    }
+  ]
+}

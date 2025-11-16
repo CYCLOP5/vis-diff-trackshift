@@ -1,0 +1,65 @@
+{
+  "status": "completed",
+  "model": "pcb-defect-detection-9ewqw/1",
+  "apiBase": "https://serverless.roboflow.com",
+  "coverage": 0.000405,
+  "pixelsChanged": 1950,
+  "regionCount": 1,
+  "regions": [
+    {
+      "id": "rf-region-1",
+      "label": "open_circuit",
+      "confidence": 0.450107,
+      "bbox": [
+        2137,
+        1152,
+        2201,
+        1181
+      ],
+      "bboxNormalized": [
+        0.704351,
+        0.726356,
+        0.725445,
+        0.744641
+      ],
+      "areaRatio": 0.000386,
+      "source": "roboflow"
+    }
+  ],
+  "imageSize": {
+    "width": 3034,
+    "height": 1586
+  },
+  "confidence": 0.45,
+  "overlap": 0.2,
+  "rawResponse": {
+    "inference_id": "95a54420-1320-4118-bc9c-d81a3889960d",
+    "time": 0.09321966499919654,
+    "image": {
+      "width": 3034,
+      "height": 1586
+    },
+    "predictions": [
+      {
+        "x": 2169.0,
+        "y": 1166.5,
+        "width": 64.0,
+        "height": 29.0,
+        "confidence": 0.45010727643966675,
+        "class": "open_circuit",
+        "class_id": 2,
+        "detection_id": "2aeb9ac9-d23e-4600-89c6-76b134c5cfe1"
+      },
+      {
+        "x": 2177.5,
+        "y": 307.0,
+        "width": 49.0,
+        "height": 24.0,
+        "confidence": 0.4309864044189453,
+        "class": "open_circuit",
+        "class_id": 2,
+        "detection_id": "fa6641ed-8ca2-490e-b7ed-6e154166d13e"
+      }
+    ]
+  }
+}

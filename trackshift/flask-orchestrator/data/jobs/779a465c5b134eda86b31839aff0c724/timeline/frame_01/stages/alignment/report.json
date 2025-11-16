@@ -1,0 +1,136 @@
+{
+  "alignment_method": "ecc",
+  "color_normalization": "histogram",
+  "ssim": 0.6401,
+  "roi_count": 14,
+  "rois": [
+    {
+      "bbox": [
+        724,
+        603,
+        300,
+        29
+      ],
+      "area": 5778.5
+    },
+    {
+      "bbox": [
+        697,
+        603,
+        23,
+        18
+      ],
+      "area": 306.5
+    },
+    {
+      "bbox": [
+        659,
+        600,
+        30,
+        20
+      ],
+      "area": 409.5
+    },
+    {
+      "bbox": [
+        629,
+        599,
+        28,
+        20
+      ],
+      "area": 409.5
+    },
+    {
+      "bbox": [
+        595,
+        597,
+        26,
+        20
+      ],
+      "area": 363.0
+    },
+    {
+      "bbox": [
+        562,
+        596,
+        25,
+        18
+      ],
+      "area": 324.0
+    },
+    {
+      "bbox": [
+        908,
+        571,
+        23,
+        19
+      ],
+      "area": 241.5
+    },
+    {
+      "bbox": [
+        617,
+        549,
+        21,
+        32
+      ],
+      "area": 372.0
+    },
+    {
+      "bbox": [
+        641,
+        547,
+        25,
+        30
+      ],
+      "area": 265.0
+    },
+    {
+      "bbox": [
+        687,
+        543,
+        35,
+        17
+      ],
+      "area": 370.5
+    },
+    {
+      "bbox": [
+        0,
+        536,
+        171,
+        14
+      ],
+      "area": 1144.5
+    },
+    {
+      "bbox": [
+        562,
+        499,
+        66,
+        39
+      ],
+      "area": 1012.5
+    },
+    {
+      "bbox": [
+        629,
+        480,
+        68,
+        65
+      ],
+      "area": 1739.5
+    },
+    {
+      "bbox": [
+        0,
+        76,
+        1024,
+        514
+      ],
+      "area": 314398.5
+    }
+  ],
+  "before": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/779a465c5b134eda86b31839aff0c724/inputs/frame_00.jpg",
+  "after": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/779a465c5b134eda86b31839aff0c724/inputs/frame_01.jpg"
+}

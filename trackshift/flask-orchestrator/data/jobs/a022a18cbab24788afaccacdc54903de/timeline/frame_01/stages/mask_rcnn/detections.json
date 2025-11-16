@@ -1,0 +1,40 @@
+{
+  "detections": [
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "bbox": [
+        0,
+        0,
+        452,
+        608
+      ],
+      "score": 0.5173535346984863,
+      "mask_area": 232607
+    },
+    {
+      "class_id": 7,
+      "class_name": "missing_part",
+      "bbox": [
+        306,
+        39,
+        413,
+        435
+      ],
+      "score": 0.3092939853668213,
+      "mask_area": 32115
+    },
+    {
+      "class_id": 5,
+      "class_name": "lamp_broken",
+      "bbox": [
+        297,
+        125,
+        415,
+        521
+      ],
+      "score": 0.3061234652996063,
+      "mask_area": 31215
+    }
+  ]
+}

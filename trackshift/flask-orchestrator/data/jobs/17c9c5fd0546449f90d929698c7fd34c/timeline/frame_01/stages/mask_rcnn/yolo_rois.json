@@ -1,0 +1,16 @@
+{
+  "rois": [
+    {
+      "box": [
+        175,
+        157,
+        671,
+        420
+      ],
+      "class_name": "rear-wing",
+      "confidence": 0.7674,
+      "changed": true,
+      "source": "object_diff"
+    }
+  ]
+}

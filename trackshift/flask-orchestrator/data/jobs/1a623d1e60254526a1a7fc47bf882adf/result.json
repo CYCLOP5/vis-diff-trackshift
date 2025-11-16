@@ -1,0 +1,36 @@
+{
+  "jobId": "1a623d1e60254526a1a7fc47bf882adf",
+  "status": "failed",
+  "startedAt": "2025-11-15T13:55:10.787302+00:00",
+  "completedAt": "2025-11-15T13:55:12.399095+00:00",
+  "durationMs": 1611,
+  "comparisonMode": "consecutive",
+  "baselineIndex": 0,
+  "frames": [
+    {
+      "index": 0,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/1a623d1e60254526a1a7fc47bf882adf/inputs/frame_00.jpg",
+      "originalName": "00000006.jpg"
+    },
+    {
+      "index": 1,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/1a623d1e60254526a1a7fc47bf882adf/inputs/frame_01.jpg",
+      "originalName": "00000027.jpg"
+    },
+    {
+      "index": 2,
+      "path": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/1a623d1e60254526a1a7fc47bf882adf/inputs/frame_02.jpg",
+      "originalName": "00000034.jpg"
+    }
+  ],
+  "timeline": [],
+  "metadata": {
+    "domain": "F1"
+  },
+  "error": {
+    "message": "Stage 'alignment' failed with exit code 1.",
+    "stage": "alignment",
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/cyclops/Documents/hckthon/trackshift/alignment-ssim-mvp/alignment_ssim.py\", line 203, in <module>\n    main()\n  File \"/home/cyclops/Documents/hckthon/trackshift/alignment-ssim-mvp/alignment_ssim.py\", line 171, in main\n    ssim_score, diff_gray = compute_ssim(ref_gray, aligned_gray)\n  File \"/home/cyclops/Documents/hckthon/trackshift/alignment-ssim-mvp/alignment_ssim.py\", line 114, in compute_ssim\n    score, diff = structural_similarity(reference_gray, target_gray, full=True)\n  File \"/home/cyclops/.conda/envs/vde-mvp/lib/python3.9/site-packages/skimage/metrics/_structural_similarity.py\", line 118, in structural_similarity\n    check_shape_equality(im1, im2)\n  File \"/home/cyclops/.conda/envs/vde-mvp/lib/python3.9/site-packages/skimage/_shared/utils.py\", line 620, in check_shape_equality\n    raise ValueError('Input images must have the same dimensions.')\nValueError: Input images must have the same dimensions.\n\nERROR conda.cli.main_run:execute(127): `conda run python /home/cyclops/Documents/hckthon/trackshift/alignment-ssim-mvp/alignment_ssim.py --before /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/1a623d1e60254526a1a7fc47bf882adf/inputs/frame_00.jpg --after /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/1a623d1e60254526a1a7fc47bf882adf/inputs/frame_01.jpg --output-dir /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/1a623d1e60254526a1a7fc47bf882adf/timeline/frame_01/stages/alignment --color-normalization auto` failed. (See above for error)"
+  }
+}

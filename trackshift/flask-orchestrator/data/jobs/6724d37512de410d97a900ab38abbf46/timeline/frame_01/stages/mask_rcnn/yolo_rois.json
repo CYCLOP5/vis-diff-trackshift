@@ -1,0 +1,16 @@
+{
+  "rois": [
+    {
+      "box": [
+        476,
+        334,
+        711,
+        461
+      ],
+      "class_name": "tire",
+      "confidence": 0.8634,
+      "changed": true,
+      "source": "object_diff"
+    }
+  ]
+}

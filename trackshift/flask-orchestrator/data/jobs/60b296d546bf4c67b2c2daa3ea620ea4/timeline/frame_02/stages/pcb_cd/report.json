@@ -1,0 +1,113 @@
+{
+  "status": "completed",
+  "model": "pcb-defect-detection-9ewqw/1",
+  "apiBase": "https://serverless.roboflow.com",
+  "coverage": 0.002357,
+  "pixelsChanged": 11344,
+  "regionCount": 3,
+  "regions": [
+    {
+      "id": "rf-region-1",
+      "label": "short",
+      "confidence": 0.519679,
+      "bbox": [
+        772,
+        1210,
+        854,
+        1252
+      ],
+      "bboxNormalized": [
+        0.25445,
+        0.762926,
+        0.281477,
+        0.789407
+      ],
+      "areaRatio": 0.000716,
+      "source": "roboflow"
+    },
+    {
+      "id": "rf-region-2",
+      "label": "short",
+      "confidence": 0.46972,
+      "bbox": [
+        1005,
+        1316,
+        1081,
+        1366
+      ],
+      "bboxNormalized": [
+        0.331246,
+        0.82976,
+        0.356295,
+        0.861286
+      ],
+      "areaRatio": 0.00079,
+      "source": "roboflow"
+    },
+    {
+      "id": "rf-region-3",
+      "label": "short",
+      "confidence": 0.456948,
+      "bbox": [
+        1315,
+        1266,
+        1388,
+        1317
+      ],
+      "bboxNormalized": [
+        0.433421,
+        0.798235,
+        0.457482,
+        0.830391
+      ],
+      "areaRatio": 0.000774,
+      "source": "roboflow"
+    }
+  ],
+  "imageSize": {
+    "width": 3034,
+    "height": 1586
+  },
+  "confidence": 0.45,
+  "overlap": 0.2,
+  "rawResponse": {
+    "inference_id": "b6911716-ddac-4519-9297-8a8ae6e8c012",
+    "time": 0.09189023499493487,
+    "image": {
+      "width": 3034,
+      "height": 1586
+    },
+    "predictions": [
+      {
+        "x": 813.0,
+        "y": 1231.0,
+        "width": 82.0,
+        "height": 42.0,
+        "confidence": 0.5196788311004639,
+        "class": "short",
+        "class_id": 3,
+        "detection_id": "176e68cd-b4ed-4aa2-ba10-5a32c3f19a2a"
+      },
+      {
+        "x": 1043.0,
+        "y": 1341.0,
+        "width": 76.0,
+        "height": 50.0,
+        "confidence": 0.4697204828262329,
+        "class": "short",
+        "class_id": 3,
+        "detection_id": "3ff66e41-f7a8-412b-a40f-3db4b67db6c1"
+      },
+      {
+        "x": 1351.5,
+        "y": 1291.5,
+        "width": 73.0,
+        "height": 51.0,
+        "confidence": 0.4569476246833801,
+        "class": "short",
+        "class_id": 3,
+        "detection_id": "46c529c6-f668-4f2c-91a0-795dc4e0607e"
+      }
+    ]
+  }
+}

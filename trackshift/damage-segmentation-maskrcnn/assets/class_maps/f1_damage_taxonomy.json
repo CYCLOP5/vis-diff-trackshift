@@ -1,0 +1,12 @@
+{
+  "background": 0,
+  "dent": 1,
+  "scratch": 2,
+  "crack": 3,
+  "glass_shatter": 4,
+  "lamp_broken": 5,
+  "tire_flat": 6,
+  "missing_part": 7,
+  "paint_peel": 8,
+  "puncture": 9
+}

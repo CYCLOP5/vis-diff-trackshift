@@ -1,0 +1,15 @@
+{
+  "legacy_map": {
+    "background": "background",
+    "dent": "front_wing_damage",
+    "scratch": "floor_scuff",
+    "crack": "suspension_failure",
+    "glass_shatter": "halo_scuff",
+    "lamp_broken": "rear_wing_damage",
+    "tire_flat": "tire_puncture",
+    "missing_part": "mirror_missing",
+    "paint_peel": "sidepod_breach",
+    "puncture": "wheel_rim_bent"
+  },
+  "fallback": "debris_field"
+}

@@ -1,0 +1,497 @@
+{
+  "jobId": "92166cca60a34e2eaf35e71edb4817b8",
+  "status": "failed",
+  "startedAt": "2025-11-15T09:18:12.637356+00:00",
+  "completedAt": "2025-11-15T09:18:23.693920+00:00",
+  "durationMs": 11056,
+  "pipeline": {
+    "alignment": {
+      "summary": {
+        "alignment_method": "ecc",
+        "color_normalization": "histogram",
+        "ssim": 0.5584,
+        "roi_count": 25,
+        "rois": [
+          {
+            "bbox": [
+              697,
+              740,
+              73,
+              24
+            ],
+            "area": 238.0
+          },
+          {
+            "bbox": [
+              0,
+              694,
+              303,
+              106
+            ],
+            "area": 7529.5
+          },
+          {
+            "bbox": [
+              1122,
+              666,
+              78,
+              35
+            ],
+            "area": 311.0
+          },
+          {
+            "bbox": [
+              353,
+              648,
+              73,
+              21
+            ],
+            "area": 229.0
+          },
+          {
+            "bbox": [
+              419,
+              641,
+              202,
+              54
+            ],
+            "area": 1432.0
+          },
+          {
+            "bbox": [
+              359,
+              626,
+              52,
+              19
+            ],
+            "area": 235.5
+          },
+          {
+            "bbox": [
+              193,
+              597,
+              38,
+              28
+            ],
+            "area": 360.5
+          },
+          {
+            "bbox": [
+              246,
+              572,
+              60,
+              44
+            ],
+            "area": 596.0
+          },
+          {
+            "bbox": [
+              136,
+              506,
+              38,
+              22
+            ],
+            "area": 310.5
+          },
+          {
+            "bbox": [
+              142,
+              483,
+              130,
+              102
+            ],
+            "area": 2906.5
+          },
+          {
+            "bbox": [
+              27,
+              477,
+              66,
+              29
+            ],
+            "area": 315.0
+          },
+          {
+            "bbox": [
+              1086,
+              453,
+              23,
+              14
+            ],
+            "area": 202.0
+          },
+          {
+            "bbox": [
+              1108,
+              425,
+              68,
+              23
+            ],
+            "area": 269.5
+          },
+          {
+            "bbox": [
+              1059,
+              394,
+              46,
+              20
+            ],
+            "area": 218.5
+          },
+          {
+            "bbox": [
+              1108,
+              392,
+              92,
+              35
+            ],
+            "area": 1236.0
+          },
+          {
+            "bbox": [
+              1049,
+              375,
+              57,
+              22
+            ],
+            "area": 472.5
+          },
+          {
+            "bbox": [
+              1130,
+              374,
+              39,
+              26
+            ],
+            "area": 399.5
+          },
+          {
+            "bbox": [
+              839,
+              204,
+              361,
+              50
+            ],
+            "area": 2268.5
+          },
+          {
+            "bbox": [
+              763,
+              195,
+              72,
+              17
+            ],
+            "area": 432.5
+          },
+          {
+            "bbox": [
+              457,
+              159,
+              293,
+              43
+            ],
+            "area": 1958.0
+          },
+          {
+            "bbox": [
+              353,
+              147,
+              100,
+              20
+            ],
+            "area": 488.5
+          },
+          {
+            "bbox": [
+              0,
+              121,
+              1200,
+              641
+            ],
+            "area": 313932.5
+          },
+          {
+            "bbox": [
+              1058,
+              71,
+              142,
+              36
+            ],
+            "area": 1254.0
+          },
+          {
+            "bbox": [
+              781,
+              19,
+              281,
+              61
+            ],
+            "area": 2636.0
+          },
+          {
+            "bbox": [
+              301,
+              0,
+              899,
+              158
+            ],
+            "area": 27193.5
+          }
+        ],
+        "before": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/92166cca60a34e2eaf35e71edb4817b8/inputs/before.jpg",
+        "after": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/92166cca60a34e2eaf35e71edb4817b8/inputs/after.jpg"
+      },
+      "report": {
+        "alignment_method": "ecc",
+        "color_normalization": "histogram",
+        "ssim": 0.5584,
+        "roi_count": 25,
+        "rois": [
+          {
+            "bbox": [
+              697,
+              740,
+              73,
+              24
+            ],
+            "area": 238.0
+          },
+          {
+            "bbox": [
+              0,
+              694,
+              303,
+              106
+            ],
+            "area": 7529.5
+          },
+          {
+            "bbox": [
+              1122,
+              666,
+              78,
+              35
+            ],
+            "area": 311.0
+          },
+          {
+            "bbox": [
+              353,
+              648,
+              73,
+              21
+            ],
+            "area": 229.0
+          },
+          {
+            "bbox": [
+              419,
+              641,
+              202,
+              54
+            ],
+            "area": 1432.0
+          },
+          {
+            "bbox": [
+              359,
+              626,
+              52,
+              19
+            ],
+            "area": 235.5
+          },
+          {
+            "bbox": [
+              193,
+              597,
+              38,
+              28
+            ],
+            "area": 360.5
+          },
+          {
+            "bbox": [
+              246,
+              572,
+              60,
+              44
+            ],
+            "area": 596.0
+          },
+          {
+            "bbox": [
+              136,
+              506,
+              38,
+              22
+            ],
+            "area": 310.5
+          },
+          {
+            "bbox": [
+              142,
+              483,
+              130,
+              102
+            ],
+            "area": 2906.5
+          },
+          {
+            "bbox": [
+              27,
+              477,
+              66,
+              29
+            ],
+            "area": 315.0
+          },
+          {
+            "bbox": [
+              1086,
+              453,
+              23,
+              14
+            ],
+            "area": 202.0
+          },
+          {
+            "bbox": [
+              1108,
+              425,
+              68,
+              23
+            ],
+            "area": 269.5
+          },
+          {
+            "bbox": [
+              1059,
+              394,
+              46,
+              20
+            ],
+            "area": 218.5
+          },
+          {
+            "bbox": [
+              1108,
+              392,
+              92,
+              35
+            ],
+            "area": 1236.0
+          },
+          {
+            "bbox": [
+              1049,
+              375,
+              57,
+              22
+            ],
+            "area": 472.5
+          },
+          {
+            "bbox": [
+              1130,
+              374,
+              39,
+              26
+            ],
+            "area": 399.5
+          },
+          {
+            "bbox": [
+              839,
+              204,
+              361,
+              50
+            ],
+            "area": 2268.5
+          },
+          {
+            "bbox": [
+              763,
+              195,
+              72,
+              17
+            ],
+            "area": 432.5
+          },
+          {
+            "bbox": [
+              457,
+              159,
+              293,
+              43
+            ],
+            "area": 1958.0
+          },
+          {
+            "bbox": [
+              353,
+              147,
+              100,
+              20
+            ],
+            "area": 488.5
+          },
+          {
+            "bbox": [
+              0,
+              121,
+              1200,
+              641
+            ],
+            "area": 313932.5
+          },
+          {
+            "bbox": [
+              1058,
+              71,
+              142,
+              36
+            ],
+            "area": 1254.0
+          },
+          {
+            "bbox": [
+              781,
+              19,
+              281,
+              61
+            ],
+            "area": 2636.0
+          },
+          {
+            "bbox": [
+              301,
+              0,
+              899,
+              158
+            ],
+            "area": 27193.5
+          }
+        ],
+        "before": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/92166cca60a34e2eaf35e71edb4817b8/inputs/before.jpg",
+        "after": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/92166cca60a34e2eaf35e71edb4817b8/inputs/after.jpg"
+      },
+      "artifacts": {
+        "aligned": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/92166cca60a34e2eaf35e71edb4817b8/stages/alignment/aligned.png",
+        "diff": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/92166cca60a34e2eaf35e71edb4817b8/stages/alignment/diff_gray.png",
+        "mask": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/92166cca60a34e2eaf35e71edb4817b8/stages/alignment/mask.png",
+        "overlay": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/92166cca60a34e2eaf35e71edb4817b8/stages/alignment/overlay.png",
+        "heatmap": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/92166cca60a34e2eaf35e71edb4817b8/stages/alignment/heatmap.png"
+      }
+    }
+  },
+  "metadata": {
+    "domain": "F1"
+  },
+  "error": {
+    "message": "Stage 'object_diff' failed with exit code 1.",
+    "stage": "object_diff",
+    "stdout": "",
+    "stderr": "/home/cyclops/.conda/envs/vde-win/lib/python3.10/site-packages/google/api_core/_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.\n  warnings.warn(message, FutureWarning)\nTraceback (most recent call last):\n  File \"/home/cyclops/Documents/hckthon/trackshift/object-diff-yolo/object_diff.py\", line 501, in <module>\n    main()\n  File \"/home/cyclops/Documents/hckthon/trackshift/object-diff-yolo/object_diff.py\", line 387, in main\n    raw_response = call_gemini(\n  File \"/home/cyclops/Documents/hckthon/trackshift/object-diff-yolo/object_diff.py\", line 330, in call_gemini\n    response = model.generate_content(\n  File \"/home/cyclops/.conda/envs/vde-win/lib/python3.10/site-packages/google/generativeai/generative_models.py\", line 331, in generate_content\n    response = self._client.generate_content(\n  File \"/home/cyclops/.conda/envs/vde-win/lib/python3.10/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py\", line 835, in generate_content\n    response = rpc(\n  File \"/home/cyclops/.conda/envs/vde-win/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py\", line 131, in __call__\n    return wrapped_func(*args, **kwargs)\n  File \"/home/cyclops/.conda/envs/vde-win/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py\", line 294, in retry_wrapped_func\n    return retry_target(\n  File \"/home/cyclops/.conda/envs/vde-win/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py\", line 156, in retry_target\n    next_sleep = _retry_error_helper(\n  File \"/home/cyclops/.conda/envs/vde-win/lib/python3.10/site-packages/google/api_core/retry/retry_base.py\", line 214, in _retry_error_helper\n    raise final_exc from source_exc\n  File \"/home/cyclops/.conda/envs/vde-win/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py\", line 147, in retry_target\n    result = target()\n  File \"/home/cyclops/.conda/envs/vde-win/lib/python3.10/site-packages/google/api_core/timeout.py\", line 130, in func_with_timeout\n    return func(*args, **kwargs)\n  File \"/home/cyclops/.conda/envs/vde-win/lib/python3.10/site-packages/google/api_core/grpc_helpers.py\", line 77, in error_remapped_callable\n    raise exceptions.from_grpc_error(exc) from exc\ngoogle.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash-8b is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n\nERROR conda.cli.main_run:execute(127): `conda run python /home/cyclops/Documents/hckthon/trackshift/object-diff-yolo/object_diff.py --before /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/92166cca60a34e2eaf35e71edb4817b8/inputs/before.jpg --after /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/92166cca60a34e2eaf35e71edb4817b8/inputs/after.jpg --output /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/92166cca60a34e2eaf35e71edb4817b8/stages/object_diff/component_report.json --artifacts-dir /home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/92166cca60a34e2eaf35e71edb4817b8/stages/object_diff/artifacts --save-overlay` failed. (See above for error)"
+  }
+}

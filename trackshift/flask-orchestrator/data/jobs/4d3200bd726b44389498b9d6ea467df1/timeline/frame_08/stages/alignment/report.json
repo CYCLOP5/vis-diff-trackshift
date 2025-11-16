@@ -1,0 +1,163 @@
+{
+  "alignment_method": "ecc",
+  "color_normalization": "none",
+  "ssim": 0.5838,
+  "roi_count": 17,
+  "rois": [
+    {
+      "bbox": [
+        1036,
+        1876,
+        44,
+        33
+      ],
+      "area": 922.5
+    },
+    {
+      "bbox": [
+        890,
+        1313,
+        190,
+        30
+      ],
+      "area": 2511.5
+    },
+    {
+      "bbox": [
+        405,
+        1286,
+        113,
+        24
+      ],
+      "area": 1074.0
+    },
+    {
+      "bbox": [
+        559,
+        1251,
+        132,
+        19
+      ],
+      "area": 1453.5
+    },
+    {
+      "bbox": [
+        809,
+        1231,
+        177,
+        24
+      ],
+      "area": 2125.5
+    },
+    {
+      "bbox": [
+        906,
+        1176,
+        174,
+        45
+      ],
+      "area": 2658.0
+    },
+    {
+      "bbox": [
+        741,
+        1153,
+        165,
+        36
+      ],
+      "area": 2075.5
+    },
+    {
+      "bbox": [
+        922,
+        1132,
+        106,
+        27
+      ],
+      "area": 1129.5
+    },
+    {
+      "bbox": [
+        690,
+        1114,
+        43,
+        20
+      ],
+      "area": 513.5
+    },
+    {
+      "bbox": [
+        775,
+        1061,
+        79,
+        12
+      ],
+      "area": 515.0
+    },
+    {
+      "bbox": [
+        861,
+        878,
+        141,
+        22
+      ],
+      "area": 1156.5
+    },
+    {
+      "bbox": [
+        667,
+        846,
+        115,
+        25
+      ],
+      "area": 989.5
+    },
+    {
+      "bbox": [
+        317,
+        798,
+        105,
+        21
+      ],
+      "area": 524.5
+    },
+    {
+      "bbox": [
+        1001,
+        781,
+        37,
+        18
+      ],
+      "area": 209.5
+    },
+    {
+      "bbox": [
+        327,
+        746,
+        77,
+        20
+      ],
+      "area": 632.0
+    },
+    {
+      "bbox": [
+        217,
+        746,
+        47,
+        12
+      ],
+      "area": 292.0
+    },
+    {
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "area": 1348501.5
+    }
+  ],
+  "before": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/4d3200bd726b44389498b9d6ea467df1/inputs/frame_07.png",
+  "after": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/4d3200bd726b44389498b9d6ea467df1/inputs/frame_08.png"
+}

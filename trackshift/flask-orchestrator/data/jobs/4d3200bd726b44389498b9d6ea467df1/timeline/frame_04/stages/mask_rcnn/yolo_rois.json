@@ -1,0 +1,28 @@
+{
+  "rois": [
+    {
+      "box": [
+        2,
+        1532,
+        235,
+        1908
+      ],
+      "class_name": "rear-wing",
+      "confidence": 0.6354,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        3,
+        878,
+        1064,
+        1517
+      ],
+      "class_name": "monocoque",
+      "confidence": 0.6117,
+      "changed": true,
+      "source": "object_diff"
+    }
+  ]
+}

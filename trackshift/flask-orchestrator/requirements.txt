@@ -1,0 +1,5 @@
+Flask==3.0.3
+python-dotenv==1.0.1
+Pillow==11.0.0
+inference-sdk==0.9.13
+requests==2.32.3

@@ -1,0 +1,40 @@
+{
+  "rois": [
+    {
+      "box": [
+        0,
+        1016,
+        1073,
+        1462
+      ],
+      "class_name": "monocoque",
+      "confidence": 0.8503,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        504,
+        932,
+        731,
+        1064
+      ],
+      "class_name": "halo",
+      "confidence": 0.6531,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        114,
+        963,
+        296,
+        1076
+      ],
+      "class_name": "halo",
+      "confidence": 0.4129,
+      "changed": true,
+      "source": "object_diff"
+    }
+  ]
+}

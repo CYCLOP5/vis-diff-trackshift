@@ -1,0 +1,19 @@
+{
+  "alignment_method": "ecc",
+  "color_normalization": "histogram",
+  "ssim": 0.3217,
+  "roi_count": 1,
+  "rois": [
+    {
+      "bbox": [
+        0,
+        0,
+        1024,
+        644
+      ],
+      "area": 608781.5
+    }
+  ],
+  "before": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/36f301a421884f86bf750052bad87139/inputs/before.jpg",
+  "after": "/home/cyclops/Documents/hckthon/trackshift/flask-orchestrator/data/jobs/36f301a421884f86bf750052bad87139/inputs/after.jpg"
+}

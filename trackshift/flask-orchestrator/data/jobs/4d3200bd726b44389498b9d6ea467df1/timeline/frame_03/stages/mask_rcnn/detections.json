@@ -1,0 +1,104 @@
+{
+  "detections": [
+    {
+      "class_id": 8,
+      "class_name": "paint_peel",
+      "legacy_class_name": "paint_peel",
+      "bbox": [
+        1280,
+        497,
+        1317,
+        674
+      ],
+      "score": 0.4454852342605591,
+      "mask_area": 4907,
+      "source_roi": {
+        "roi_index": 0,
+        "box": [
+          0,
+          1016,
+          1073,
+          1462
+        ],
+        "class_name": "monocoque",
+        "confidence": 0.8503,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        1155,
+        632,
+        1464,
+        996
+      ],
+      "score": 0.3524959087371826,
+      "mask_area": 64355,
+      "source_roi": {
+        "roi_index": 0,
+        "box": [
+          0,
+          1016,
+          1073,
+          1462
+        ],
+        "class_name": "monocoque",
+        "confidence": 0.8503,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 8,
+      "class_name": "paint_peel",
+      "legacy_class_name": "paint_peel",
+      "bbox": [
+        996,
+        33,
+        1427,
+        789
+      ],
+      "score": 0.2828555703163147,
+      "mask_area": 149868,
+      "source_roi": {
+        "roi_index": 0,
+        "box": [
+          0,
+          1016,
+          1073,
+          1462
+        ],
+        "class_name": "monocoque",
+        "confidence": 0.8503,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        996,
+        46,
+        1462,
+        569
+      ],
+      "score": 0.27866920828819275,
+      "mask_area": 176216,
+      "source_roi": {
+        "roi_index": 0,
+        "box": [
+          0,
+          1016,
+          1073,
+          1462
+        ],
+        "class_name": "monocoque",
+        "confidence": 0.8503,
+        "changed": true
+      }
+    }
+  ]
+}

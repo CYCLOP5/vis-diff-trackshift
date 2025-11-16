@@ -1,0 +1,124 @@
+{
+  "rois": [
+    {
+      "box": [
+        301,
+        386,
+        607,
+        761
+      ],
+      "class_name": "tire",
+      "confidence": 0.953,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        1,
+        353,
+        291,
+        724
+      ],
+      "class_name": "tire",
+      "confidence": 0.9528,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        460,
+        228,
+        1106,
+        622
+      ],
+      "class_name": "monocoque",
+      "confidence": 0.9499,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        157,
+        61,
+        626,
+        325
+      ],
+      "class_name": "rear-wing",
+      "confidence": 0.9087,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        600,
+        399,
+        867,
+        572
+      ],
+      "class_name": "suspension",
+      "confidence": 0.8942,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        1004,
+        361,
+        1308,
+        551
+      ],
+      "class_name": "suspension",
+      "confidence": 0.809,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        452,
+        469,
+        1591,
+        740
+      ],
+      "class_name": "front-wing",
+      "confidence": 0.7514,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        991,
+        308,
+        1215,
+        375
+      ],
+      "class_name": "suspension",
+      "confidence": 0.5817,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        574,
+        10,
+        769,
+        93
+      ],
+      "class_name": "rear-wing",
+      "confidence": 0.5795,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        521,
+        155,
+        914,
+        283
+      ],
+      "class_name": "halo",
+      "confidence": 0.4535,
+      "changed": true,
+      "source": "object_diff"
+    }
+  ]
+}

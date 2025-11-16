@@ -1,0 +1,79 @@
+{
+  "detections": [
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        136,
+        186,
+        440,
+        655
+      ],
+      "score": 0.492609441280365,
+      "mask_area": 86197,
+      "source_roi": {
+        "roi_index": 0,
+        "box": [
+          175,
+          156,
+          671,
+          420
+        ],
+        "class_name": "rear-wing",
+        "confidence": 0.7682,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 8,
+      "class_name": "paint_peel",
+      "legacy_class_name": "paint_peel",
+      "bbox": [
+        279,
+        522,
+        434,
+        691
+      ],
+      "score": 0.36026236414909363,
+      "mask_area": 11249,
+      "source_roi": {
+        "roi_index": 0,
+        "box": [
+          175,
+          156,
+          671,
+          420
+        ],
+        "class_name": "rear-wing",
+        "confidence": 0.7682,
+        "changed": true
+      }
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        271,
+        202,
+        431,
+        461
+      ],
+      "score": 0.3281261622905731,
+      "mask_area": 27809,
+      "source_roi": {
+        "roi_index": 0,
+        "box": [
+          175,
+          156,
+          671,
+          420
+        ],
+        "class_name": "rear-wing",
+        "confidence": 0.7682,
+        "changed": true
+      }
+    }
+  ]
+}

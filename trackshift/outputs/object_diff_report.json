@@ -1,0 +1,26 @@
+{
+  "model": "yolov8n.pt",
+  "alignment_method": "ecc",
+  "color_normalization": "none",
+  "ssim_threshold": 0.9,
+  "min_iou": 0.3,
+  "confidence": 0.25,
+  "focus_classes": null,
+  "counts": {
+    "paired": 0,
+    "changed": 0,
+    "stable": 0,
+    "new": 0,
+    "missing": 0
+  },
+  "components": {},
+  "paired": [],
+  "new_objects": [],
+  "missing_objects": [],
+  "artifacts": {
+    "overlay": "/home/cyclops/Documents/trackshift/outputs/object_diff_overlay.png",
+    "roi_dir": "/home/cyclops/Documents/trackshift/outputs/paired_rois"
+  },
+  "before": "/home/cyclops/Documents/trackshift/object-diff-yolo/af.png",
+  "after": "/home/cyclops/Documents/trackshift/object-diff-yolo/vf.png"
+}

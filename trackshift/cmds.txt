@@ -1,0 +1,11 @@
+conda install -n base -c conda-forge mamba -y
+
+
+
+
+conda env create -f conda-envs/vde-mvp.yml
+conda env create -f conda-envs/vde-win.yml
+conda env create -f conda-envs/vde-pro.yml   
+conda env create -f conda-envs/vde-orchestrator.yml
+
+

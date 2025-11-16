@@ -1,0 +1,40 @@
+{
+  "rois": [
+    {
+      "box": [
+        186,
+        474,
+        404,
+        860
+      ],
+      "class_name": "tire",
+      "confidence": 0.9507,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        615,
+        394,
+        1267,
+        782
+      ],
+      "class_name": "monocoque",
+      "confidence": 0.898,
+      "changed": true,
+      "source": "object_diff"
+    },
+    {
+      "box": [
+        476,
+        334,
+        711,
+        461
+      ],
+      "class_name": "tire",
+      "confidence": 0.8634,
+      "changed": true,
+      "source": "object_diff"
+    }
+  ]
+}

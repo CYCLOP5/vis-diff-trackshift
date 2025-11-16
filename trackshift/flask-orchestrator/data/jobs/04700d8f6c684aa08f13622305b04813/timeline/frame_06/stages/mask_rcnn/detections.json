@@ -1,0 +1,82 @@
+{
+  "detections": [
+    {
+      "class_id": 8,
+      "class_name": "paint_peel",
+      "legacy_class_name": "paint_peel",
+      "bbox": [
+        605,
+        473,
+        685,
+        567
+      ],
+      "score": 0.5897589325904846,
+      "mask_area": 4063
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        44,
+        0,
+        1539,
+        2077
+      ],
+      "score": 0.5683858394622803,
+      "mask_area": 2866024
+    },
+    {
+      "class_id": 4,
+      "class_name": "glass_shatter",
+      "legacy_class_name": "glass_shatter",
+      "bbox": [
+        216,
+        1402,
+        1586,
+        2922
+      ],
+      "score": 0.5476850867271423,
+      "mask_area": 1941757
+    },
+    {
+      "class_id": 8,
+      "class_name": "paint_peel",
+      "legacy_class_name": "paint_peel",
+      "bbox": [
+        286,
+        271,
+        364,
+        367
+      ],
+      "score": 0.532527506351471,
+      "mask_area": 3775
+    },
+    {
+      "class_id": 8,
+      "class_name": "paint_peel",
+      "legacy_class_name": "paint_peel",
+      "bbox": [
+        931,
+        373,
+        986,
+        462
+      ],
+      "score": 0.5110657215118408,
+      "mask_area": 2815
+    },
+    {
+      "class_id": 8,
+      "class_name": "paint_peel",
+      "legacy_class_name": "paint_peel",
+      "bbox": [
+        1378,
+        58,
+        1497,
+        187
+      ],
+      "score": 0.31129366159439087,
+      "mask_area": 9666
+    }
+  ]
+}
